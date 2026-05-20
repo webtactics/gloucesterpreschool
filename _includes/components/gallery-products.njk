@@ -1,0 +1,8 @@
+<div class="photo-gallery grid-5-columns">
+{% for image in galleryimages %}
+<div class="img">
+<a class="group" href="https://ik.imagekit.io/webtactics/changs/img/products/{{ image.url }}" alt="{{ title }}-{{ image.alt }}" title="{{ image.alt }}" data-title="{{ image.alt }}" data-lightbox="{{ title }}">
+<img src="https://ik.imagekit.io/webtactics/changs/img/products/{{ image.url }}?tr=w-300,h-300,q-70,pr-true" alt="{{ title }}-{{ image.alt }}" title="{{ title }}-{{ image.alt }}"></a>
+</div>
+{% endfor %}
+</div>

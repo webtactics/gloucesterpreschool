@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-products.njk",
+    "permalink": "products/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+     "Cooked & Chilled"
+    ]
+  }
+  

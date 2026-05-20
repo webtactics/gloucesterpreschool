@@ -1,0 +1,11 @@
+
+
+<article class="clients">
+	{% for post in postslist %}	
+<div class="client fade-in">
+    <a href="{{ post.data.website }}" class="loaded" target="_blank"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" title="{{ post.data.title }}"></a>
+</div> 
+{% endfor %}
+</article>
+		
+

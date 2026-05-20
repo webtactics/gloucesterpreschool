@@ -1,0 +1,27 @@
+<section class="grid-2-columns resultssum" >
+	{% for post in postslist %}
+<summary class="grid-1x4 resultssummarysmall">
+			
+
+<div class="resultssumroundimage">
+		{% if post.data.sumimage %}
+<a href="{{ post.url | url }}" target="_blank"><img src="{{ post.data.sumimage }}/tr:w-100,h-150" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="100px" height="150px" class="postlistimg"></a>
+	{% else %}
+<a href="{{ post.url | url }}" target="_blank"><img src="{{ post.data.image }}/tr:w-100,h-150" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="100px" height="150px" class="postlistimg"></a>
+	{% endif %}
+</div>
+
+<div class="resultssumsmallcontent">
+<div class="postsumtitle">
+<h4><a href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >{{ post.data.title }}</a></h4>
+</div>
+<div class="postsumdatesmall">
+<p>{{ post.data.eventdate.day }} {{ post.data.eventdate.month }}, {{ post.data.eventdate.year }}</p>
+</div>
+<a class="resultspdfsmall" href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >More info &gt;</a>
+</div>	
+
+</summary>
+		
+	{% endfor %}
+</section>

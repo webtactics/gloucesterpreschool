@@ -1,0 +1,36 @@
+---
+layout: layouts/grid-default.njk
+section: post
+---
+
+<article class="clients-detail">
+    <h2>{{ title }}</h2>
+		
+<div class="client fade-in">
+    <a href="{{ website }}" class="loaded" target="_blank"><img src="{{ image }}" alt="{{ title }}" title="{{ title }}"></a>
+</div> 
+
+
+		
+
+
+
+{% if tags %}
+  <div class="tag"><h4>Tags</h4>
+  <ul>
+{% for tag in tags %}
+  {%- if tag != "post" -%}
+    {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
+   <li><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></li>
+  {%- endif -%}
+{% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
+   
+
+</article>
+
+

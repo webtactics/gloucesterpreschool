@@ -1,0 +1,44 @@
+ <div class="accordion contactpage">
+	{% for post in postslist  %}
+
+
+
+ <div class="accordion-item">
+    <input id="accordion-trigger-{{ post.data.order }}" class="accordion-trigger-input" type="checkbox"></input>
+      <label class="accordion-trigger" for="accordion-trigger-{{ post.data.order }}">{{ post.data.title }}</label>
+        <section class="accordion-animation-wrapper">
+          <div class="accordion-animation">
+            <div class="accordion-transform-wrapper">
+              <div class="accordion-content">
+                
+<div class="grid-1x3-maps">
+    <div class="content-left">
+                <div class="description tel">Tel:<span class="contacttext"><a href="tel:{{ post.data.Tel }}">{{ post.data.Tel }}</a></span></div>
+                <div class="description address">Address:<span class="contacttext">{{ post.data.Address }}</span></div>
+                  <div class="description map">Map Shortcode:<br><span class="contacttext"><a href="{{ post.data.mapshortcode }}" target="_blank">{{ post.data.mapshortcode }}</a></span></div>
+
+           </div>
+           <div class="content-right">
+                 {% if post.data.mapnsw %}
+<div class="map">{% include "components/contact-maps/nsw.html" %}</div>
+                 {% elif post.data.mapqld %}
+<div class="map">{% include "components/contact-maps/qld.html" %}</div>
+                 {% elif post.data.mapvic %}
+<div class="map">{% include "components/contact-maps/vic.html" %}</div>
+                 {% elif post.data.mapwa %}
+<div class="map">{% include "components/contact-maps/wa.html" %}</div>
+                    {% endif %}
+    
+            </div>
+            </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+  </div>
+
+
+
+	{% endfor %}
+</div>

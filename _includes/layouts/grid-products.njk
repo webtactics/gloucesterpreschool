@@ -1,0 +1,220 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+
+
+
+{% block bodyclass %}<body class="products {{ class }}" >{% endblock %}
+
+
+
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+
+<div class="grid-2-products">
+
+	<div class="content-left">
+
+		<div class="text">
+    		<div class="titlebox fade-in"><h2 class="heading-text">{{ subtitle }}</h2></div>
+      			<div class="indent">
+					{{ content | safe }}
+				</div>
+		</div>
+
+	</div>
+
+	<div class="content-right">
+ 		<div class="right-image slide-in from-right">
+			<img src="{% if rightimage %}{{ rightimage }}{% else %}https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/our-suppliers-bg-1920x953_HtBteOzpb8.jpg{% endif %}/tr:w-700,h-348" alt="{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}" title="{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}" width="700px" height="348px">
+		</div>
+	</div>          
+
+</div>
+
+
+{% if products %}
+<!-- section 1 -->
+<div class="pad8rem"></div>
+<div class="grid-3x2">
+
+	<div class="content-left">
+		<div class="left-image slide-in from-left">
+			<a href="/products/cooked-chilled/" title="Cooked Chilled" alt="Cooked Chilled"><img class="slide-in-image" src="https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Cooked-Chilled-1920x953_wCfz1c7gzq.jpg/tr:w-700,h-348" alt="Cooked Chilled." title="Cooked Chilled." width="700px" height="348px"></a>
+		</div>
+	</div>
+
+	<div class="content-right">
+
+		<div class="text">
+			<div class="titlebox fade-in">
+				<h2 class="heading-text"><a href="/products/cooked-chilled/" title="Cooked Chilled" alt="Cooked Chilled">Cooked Chilled</a></h2>
+			</div>
+
+			<div class="indent">
+				<p>We supply daily, freshly prepared and dressed salads ready to go from the deli counter at your local supermarket.</p>
+				<div class="linkwrapper"><a class="resultspdf" href="/products/cooked-chilled/" title="Cooked Chilled" alt="Cooked Chilled">Learn more &gt;</a></div>
+			</div>
+		</div>
+
+	</div>          
+
+</div>
+<!-- end section 1 -->
+<!-- section 2 -->
+<div class="pad8rem"></div>
+
+<div class="grid-2x3">
+
+	<div class="content-left">
+
+		<div class="text">
+    		<div class="titlebox fade-in"><h2 class="heading-text"><a href="/products/freshly-prepared-vegetables/" title="Freshly Prepared Vegetables" alt="Freshly Prepared Vegetables">Freshly Prepared Vegetables</a></h2></div>
+      			<div class="indent">
+					<p>We do the prepping so you can do the serving. Cut down on time and resources by letting us do the cutting, slicing and chopping!</p>
+					<div class="linkwrapper"><a class="resultspdf" href="/products/freshly-prepared-vegetables/" title="Freshly Prepared Vegetables" alt="Freshly Prepared Vegetables">Learn more &gt;</a></div>
+				</div>
+		</div>
+
+	</div>
+
+	<div class="content-right">
+ 		<div class="right-image slide-in from-right">
+			<a href="/products/freshly-prepared-vegetables/" title="Freshly Prepared Vegetables" alt="Freshly Prepared Vegetables"><img class="slide-in-image" src="https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Cut-Vegetables-1920x953_CLx5gp-eG.jpg/tr:w-700,h-348" alt="Freshly Prepared Vegetables" title="{Freshly Prepared Vegetables" width="700px" height="348px"></a>
+		</div>
+	</div>          
+
+</div>
+<!-- end section 2 -->
+<!-- section 3 -->
+<div class="pad8rem"></div>
+<div class="grid-3x2">
+
+	<div class="content-left">
+		<div class="left-image slide-in from-left">
+			<a href="/products/leafy-salads/" title="Leafy Salads" alt="Leafy Salads"><img class="slide-in-image" src="https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/our-products-banner-salads-1920x953_IRpCU2SFs.jpg/tr:w-700,h-348" alt="Leafy Salads." title="Leafy Salads." width="700px" height="348px"></a>
+		</div>
+	</div>
+
+	<div class="content-right">
+
+		<div class="text">
+			<div class="titlebox fade-in">
+				<h2 class="heading-text"><a href="/products/leafy-salads/" title="Leafy Salads" alt="Leafy Salads">Leafy Salads</a></h2>
+			</div>
+
+			<div class="indent">
+				<p>We supply daily, freshly prepared and dressed salads ready to go from the deli counter at your local supermarket.</p>
+				<div class="linkwrapper"><a class="resultspdf" href="/products/leafy-salads/" title="Leafy Salads" alt="Leafy Salads">Learn more &gt;</a></div>
+			</div>
+		</div>
+
+	</div>          
+
+</div>
+<!-- end section 3 -->
+<!-- section 4 -->
+<div class="pad8rem"></div>
+
+<div class="grid-2x3">
+
+	<div class="content-left">
+
+		<div class="text">
+    		<div class="titlebox fade-in"><h2 class="heading-text"><a href="/products/recipes/" title="Fresh Thinking Recipes" alt="Fresh Thinking Recipes">Fresh Thinking Recipes</a></h2></div>
+      			<div class="indent">
+					<p>Discover delicious recipes crafted to make the most of our freshly prepared PMFresh vegetables and salads.</p>
+					<div class="linkwrapper"><a class="resultspdf" href="/products/recipes/" title="Fresh Thinking Recipes" alt="Fresh Thinking Recipes">See more &gt;</a></div>
+				</div>
+		</div>
+
+	</div>
+
+	<div class="content-right">
+ 		<div class="right-image slide-in from-right">
+			<a href="/products/recipes/" title="FFresh Thinking Recipes" alt="Fresh Thinking Recipes"><img class="slide-in-image" src="https://ik.imagekit.io/webtactics/pmfresh/img/recipes/spinach-ricotta-and-lemon-pasta-shells_bhOGsERNdm.jpg/tr:w-700,h-348" alt="Fresh Thinking Recipes" title="Fresh Thinking Recipes" width="700px" height="348px"></a>
+		</div>
+	</div>          
+
+</div>
+<!-- end section 4 -->
+
+
+{% elif whatsinseason %}
+<div class="productcatagory content">
+<div class="pad8rem"></div>
+<h3>In Season</h3>
+{% set postslist = collections['In Season'] | reverse  %} 
+{% include "components/postslist-products-3-wide-no-link.njk" %}
+</div>
+<div class="productcatagory content">
+	<div class="pad8rem"></div>
+<h3>Recipes</h3>
+{% set postslist = collections['Recipes']  %} 
+{% include "components/postslist-recipes-4-wide.njk" %}
+</div>
+
+{% elif cookedchilled %}
+<div class="pad8rem"></div>
+<div class="productcatagory content">
+<h3>Cooked & Chilled</h3>
+{% set postslist = collections['Cooked & Chilled'] | reverse  %} 
+{% include "components/postslist-products-3-wide-no-link.njk" %}
+</div>
+
+
+{% elif freshlypreparedvegetables %}
+<div class="pad8rem"></div>
+<div class="productcatagory content">
+<h3>Freshly Prepared Vegetables</h3>
+{% set postslist = collections['Freshly Prepared Vegetables'] | reverse  %} 
+{% include "components/postslist-products-3-wide-no-link.njk" %}
+</div>
+
+
+
+{% elif leafysalads %}
+<div class="pad8rem"></div>
+<div class="productcatagory content">
+<h3>Leafy Salads</h3>
+{% set postslist = collections['Leafy Salads'] | reverse  %} 
+{% include "components/postslist-products-3-wide-no-link.njk" %}
+</div>
+
+{% elif recipespage %}
+<div class="pad4rem"></div>
+<div class="productcatagory content">
+<h3>PMFresh Recipes</h3>
+{% set postslist = collections['Recipes']  %} 
+{% include "components/postslist-recipes-3-wide.njk" %}
+</div>
+
+
+
+{% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+	</main>
+</div>
+
+
+
+{% endblock %}
+
+
+
+

@@ -1,0 +1,25 @@
+
+
+<!-- Start list Template -->
+<h3>Services:</h3>
+<div class="detailpagesummaryborder"></div>
+<!-- items -->
+{% for post in postslist  %}
+
+<div class="grid-detailpage-sidebar-summary">
+<div class="sidebarsumpic">
+<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-250,h-250" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" ></a>
+</div>
+
+<div class="detailpage-sidebar-summary-content-wrapper">
+<div class="pricelistsum">
+<h4><a href="{{ post.url | url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h4>
+</div>
+
+</div>
+</div>
+
+{% endfor %}
+<!-- end items -->
+
+

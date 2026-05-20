@@ -1,0 +1,104 @@
+{% extends "layouts/grid-default.njk" %}
+
+{% block bodyclass %}<body class="home {{ class }} " >
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>{% endblock %}
+
+
+{% block hero %}
+{% include "components/grid-home-hero.njk" %}
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+<div class="grid-2x1">
+
+<div class="twothirds">
+
+	{{ content | safe }}
+</div>
+
+<div class="onethird">
+	<div class="fbswrapper">
+		<div class="fb-page" data-href="https://www.facebook.com/GloucesterThunderboltsSwimmingClub" data-tabs="timeline" data-width="500px" data-height="500px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+			<blockquote cite="https://www.facebook.com/GloucesterThunderboltsSwimmingClub" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GloucesterThunderboltsSwimmingClub">Gloucester Thunderbolts Swimming Club</a>
+			</blockquote>
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+<div class="resultswrapper top">
+<h2 class="heading-text">Latest Events, Results, & News</h2>
+{% include "components/home3boxes.njk" %}
+</div>
+<div class="eightypercentborder3rem"></div>
+
+
+
+
+{# Upcoming 2024-25 Season Events #}
+<div class="resultswrapper top">
+<h2 class="heading-text">Upcoming Events</h2>
+{% set postslist = collections['Featured'] | limit (6) %} 
+	{% include "components/postslist-events.njk" %}
+
+	<div class="linkwrapper"><a class="resultspdf" href="/events/" title="All Events" alt="All Events" >For all Event Listings &gt;</a></div>
+</div>
+
+{# end Upcoming 2024-25 Season Events #}
+
+<div class="eightypercentborder3rem"></div>
+
+
+{# Upcoming 2024-25 Season Events #}
+<div class="resultswrapper top">
+<h2 class="heading-text">Upcoming 2025 Winter</h2>
+{% set postslist = collections['2025-Winter'] | limit (6) %} 
+	{% include "components/postslist-events.njk" %}
+
+	<div class="linkwrapper"><a class="resultspdf" href="/events/" title="All Events" alt="All Events" >For all Event Listings &gt;</a></div>
+</div>
+
+{# end Upcoming 2024-25 Season Events #}
+
+<div class="eightypercentborder3rem"></div>
+
+{# 2024-25 Season  Results #}
+<div class="resultswrapper">
+   <h2 class="heading-text">2024-25 Season Results</h2>
+	{% set postslist = collections['2024-25-Results']  %} 
+	{% include "components/postslist-results-4-columns.njk" %}
+
+	<div class="linkwrapper"><a class="resultspdf" href="/events/results/" title="2024-25 Season  Results" alt="2024-25 Season  Results">For all Results &gt;</a></div>
+</div>
+
+{# end 2024-25 Season Results #}
+
+<div class="eightypercentborder3rem"></div>
+
+{# News #}
+
+<div class="resultswrapper">
+  		 <h2 class="heading-text">GTSC & Other Swimming News</h2>
+			{% set postslist = collections['News'] | reverse | limit (3) %} 
+			{% include "components/postslist-news.njk" %}
+
+		<div class="linkwrapper"><a class="resultspdf" href="/news/" title="GTSC News" alt="GTSC News" >For all News Items &gt;</a></div>		
+	</div>
+
+	{# end News #}
+
+
+
+
+
+
+	</main>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+permalink: /tagged/{{ tag }}/
+layout: layouts/grid-tagged.njk
+class: tagpage
+eleventyComputed:
+  title: "Articles & Posts Tagged “{{ tag }}”"
+  metaDescription: "All Products, Recipes and News tagged with “{{ tag }}”"
+  description: "All Products, Recipes and News tagged with “{{ tag }}”"
+---
+
+
+
+{% set postslist = collections[tag] | reverse %}
+{% include "components/postslist-tagged.njk" %}
+
+

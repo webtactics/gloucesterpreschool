@@ -1,0 +1,35 @@
+<section class="grid-3-columns" >
+	{% for post in postslist | reverse %}
+	<summary class="NewsSummary">
+			
+	
+
+<div class="Postimagehover">
+<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-450,h-270" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="450px" height="270px" class="postlistimg">
+<span class="image-overlay">
+<span class="overlay-icon"><img src="https://ik.imagekit.io/webtactics/jamestaylorsolicitor/img/jamestaylorsolicitor-logo-icon-215x215.jpg" alt="{{ post.data.title }}" title="{{ post.data.title }}"/></span></span></a>
+</div>
+
+
+<div class="postsumtitle">
+<h3><a href="{{ post.url | url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h3>
+</div>
+
+				
+
+
+
+<div class="postsumhomewrapper">
+{% if post.data.description %}<p class="postsumhome">{{ post.data.description }}</p>{% endif %}
+</div>
+
+<div class="right newssumbutton">
+<a class="button success" role="button" title="{{ post.data.title }}" href="{{ post.url | url }}">Read more &gt;</a>
+</div>
+
+
+
+		</summary>
+		
+	{% endfor %}
+</section>

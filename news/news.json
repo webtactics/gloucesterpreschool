@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-news.njk",
+    "permalink": "news/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+      "News"
+    ]
+  }
+  

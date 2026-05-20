@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-clients.njk",
+    "permalink": "who-we-serve/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+     "Retail"
+    ]
+  }
+  

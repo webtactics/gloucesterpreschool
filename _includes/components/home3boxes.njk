@@ -1,0 +1,22 @@
+<section class="grid-auto-fill-3" >
+
+<div class="box3wrapper">
+{% set postslist = collections['Featured'] | limit(1) %} 
+{% include "components/postslist-homebox-events.njk" %}
+<div class="linkwrapper"><a class="resultspdf" href="/events/" title="All Events" alt="All Events" >For all Event Listings &gt;</a></div>
+</div>
+
+
+<div class="box3wrapper">
+{% set postslist = collections['2024-25-Results'] | reverse | limit(1) %} 
+{% include "components/postslist-homebox-results.njk" %}
+	<div class="linkwrapper"><a class="resultspdf" href="/events/results/" title="2024-25 Season  Results" alt="2024-25 Season  Results">For all Results &gt;</a></div>
+</div>
+
+<div class="box3wrapper">
+	{% set postslist = collections['News'] | reverse | limit(1) %} 
+			{% include "components/postslist-news.njk" %}
+	<div class="linkwrapper"><a class="resultspdf" href="/news/" title="GTSC News" alt="GTSC News" >For all News Items &gt;</a></div>
+</div>
+
+</section>

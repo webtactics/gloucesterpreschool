@@ -1,0 +1,12 @@
+<nav class="footlist">
+{% set navPages = collections.all | eleventyNavigation %}
+{% macro renderNavListItem(entry) -%}
+<li{% if entry.url == page.url %} class="active-class"{% endif %}>
+  <a href="{{ entry.url }}">{{ entry.title }}</a>
+</li>
+{%- endmacro %}
+
+<ul class="footer-menu">
+{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+</ul>
+</nav>

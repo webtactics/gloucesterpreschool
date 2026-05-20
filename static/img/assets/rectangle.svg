@@ -1,0 +1,16 @@
+<svg width="90" height="8" viewBox="0 0 90 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Rectangle 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-22179 23745)">
+<g id="Rectangle 2">
+<use xlink:href="#path0_fill" transform="translate(22179 -23745)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(64.6123 -0.965445 11.2992 5.52072 16.5683 5.46334)">
+<stop offset="0" stop-color="#73B72B"/>
+<stop offset="1" stop-color="#00B2C2"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 89.0253 0L 89.0253 7.60666L 44.1721 7.60666L 0 7.60666L 0 0Z"/>
+</defs>
+</svg>

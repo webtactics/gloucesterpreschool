@@ -1,0 +1,14 @@
+{% if tags %}
+  <div class="tagged">
+  <div class="tag">
+  <ul>
+{% for tag in tags %}
+  {%- if tag != "post" -%}
+    {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
+   <li class="taggs"><a href="{{ tagUrl | url }}" rel="tag" title="{{ tag }}" alt="{{ tag }}">{{ tag }}</a></li>
+  {%- endif -%}
+{% endfor %}
+  </ul>
+</div>
+</div>
+{% endif %}

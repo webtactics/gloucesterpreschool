@@ -1,0 +1,29 @@
+
+
+{% for post in postslist %}
+
+<div class="pad4rem"></div>
+<h3>Related Products:</h3>
+
+<section class="grid-4-columns newssum" >
+
+<summary class="newssummary fade-in">
+
+
+<div class="bordertopsumimage">
+<img src="{{ post.data.image }}/tr:w-400,h-300" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="400px" height="auto" class="postlistimg">
+</div>
+
+
+<div class="sumnewstitle">
+<h3 class="news-title-no-link">{{ post.data.title }}</h3>
+
+</div>
+
+
+</summary>
+</section>
+
+{% endfor %}
+
+

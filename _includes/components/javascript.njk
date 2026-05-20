@@ -1,0 +1,22 @@
+{% set js %}
+{% include "assets/js/combined.js" %}
+{% include "assets/js/script.js" %}
+{% endset %}
+<script>{{ js | jsmin | safe }}</script>
+
+
+<script>
+$('.home-slide').slick({
+  autoplay: true,
+  infinite: true,
+  pauseOnHover: false,
+  swipeToSlide: true,
+  autoplaySpeed: 1000,
+  speed: 6000,
+  arrows: false,
+  dots: false,
+  fade: true,
+  cssEase: 'ease'
+    
+  });
+  </script>

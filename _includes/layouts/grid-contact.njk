@@ -1,0 +1,49 @@
+{% extends "layouts/grid-default.njk" %}
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+
+<div class="grid-2-products">
+
+	<div class="content-left">
+
+		<div class="text">
+    		<div class="titlebox fade-in"><h2 class="heading-text">{{ subtitle }}</h2></div>
+      			<div class="indent">
+					{{ content | safe }}
+				</div>
+		</div>
+
+	</div>
+
+	<div class="content-right">
+ 		<div class="right-image slide-in from-right">
+			<img src="{% if rightimage %}{{ rightimage }}{% else %}https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/about-us-1920x953_kULfkrgVH.jpg{% endif %}/tr:w-700,h-348" alt="{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}" title="{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}" width="700px" height="348px">
+		</div>
+	</div>          
+
+</div>
+
+{% if contactpage %}
+<div class="content contact">
+<div class="content who-we-serve"><div class="indent has-title"><h3>Locations</h3></div></div>
+{% set postslist = collections['Locations']  %} 
+{% include "components/postslist-contact-accordion.njk" %}
+
+
+<div class="clear"><!-- --></div>
+
+
+</div>
+
+{% endif %}
+
+
+	</main>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+{% include "components/head.njk" %}
+
+	
+{% block bodyclass %}<body class="internal {{ class }} " >{% endblock %}
+  
+{% include "components/header.njk" %}
+  {% include "components/off-canvas.njk" %}
+  {% block hero %}
+  {% include "components/hero-home.njk" %}
+  {% endblock %}
+
+<div class="container">
+   
+{% block content %}
+
+<main class="content">  
+{{ layoutContent | safe }}
+</main>
+{% endblock %}
+
+
+
+
+<footer class="footernavwrapper"> 
+<div class="footernav">  
+{% include "components/nav-footer.njk" %}
+</div>
+</footer>
+
+{% include "components/footer.njk" %}
+</div>
+{% include "components/javascript.njk" %}
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+---
+layout: layouts/grid-detail.njk
+section: post
+---
+
+
+
+<div class="detailwrapper news">
+  <article>
+    <div class="grid-2-news">
+
+      <div class="item postdetail">
+
+        <div class="detailcontent">
+
+          <div class="postdetaildate">
+            <p>{{ newsdate.day }} {{ newsdate.month }}, {{ newsdate.year }}</p>
+          </div>
+            {{ content | safe }}
+        </div>
+      </div>
+        
+        <div class="sidebarwrapper">
+          <div class="postnewsimage">
+            <img src="{{ image }}/tr:w-600,h-400" alt="{{ title }}" title="{{ title }}" width="600px" height="auto" class="postlistimg">
+          </div>
+        </div>
+
+    </div>
+
+  </article>
+</div>
+
+
+{% include "components/global/tagged.html" %}

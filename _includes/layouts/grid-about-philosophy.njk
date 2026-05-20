@@ -1,0 +1,49 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+
+
+
+{% block bodyclass %}<body class="about {{ class }}" >{% endblock %}
+
+
+
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+
+<div class="grid-2-products">
+
+	<div class="content-left">
+
+		<div class="text">
+    			<div class="titlebox fade-in"><h2 class="heading-text">{{ subtitle }}</h2></div>
+
+      		<div class="indent">
+
+			{{ content | safe }}
+
+      		</div>
+    
+		</div>
+
+	</div>
+
+	<div class="content-right">
+		
+ 		<div class="content-image-right">
+  			<img src="/static/img/pages/about/our-philosophy-image.png" alt="{{ subtitle }}" title="{{ subtitle }}">
+        </div>
+	          
+	</div>  
+</div>
+
+
+	</main>
+</div>
+
+
+{% endblock %}

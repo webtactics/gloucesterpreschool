@@ -1,0 +1,28 @@
+<section class="grid-2-columns resultssum" >
+	{% for post in postslist | reverse %}
+<summary class="grid-1x4 resultssummarysmall">
+			
+<div class="recordsimage">
+<a href="{{ post.data.records }}" target="_blank"><img src="{{ post.data.image }}/tr:w-400,h-600" alt="{{ post.data.title }}" title="{{ post.data.title }}"  class="postlistimg"></a>
+</div>
+
+<div class="resultssumsmallcontent">
+
+	<div class="postsumtitle">
+		<h3><a href="{{ post.data.records }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"target="_blank">{{ post.data.title }}</a></h3>
+	</div>
+
+	<a class="recordspdfsmall" href="{{ post.data.records }}" title="{{ post.data.title }}" alt="{{ post.data.title }}" target="_blank">{{ post.data.subtitle }} Pdf &gt;</a>
+
+{% if post.data.updated %}
+	<div class="postsumupdate">
+		<p>Last updated:</br>{{ post.data.updated }}</p>
+	</div>
+{% endif %}
+
+</div>				
+
+</summary>
+		
+	{% endfor %}
+</section>

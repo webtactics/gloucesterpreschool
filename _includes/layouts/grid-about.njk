@@ -1,0 +1,76 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+
+
+
+{% block bodyclass %}<body class="about {{ class }}" >{% endblock %}
+
+
+
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+
+<div class="grid-2-products">
+
+	<div class="content-left">
+
+		<div class="text">
+    		<div class="titlebox fade-in"><h2 class="heading-text">{{ subtitle }}</h2></div>
+      			<div class="indent">
+					{{ content | safe }}
+				</div>
+		</div>
+
+	</div>
+
+	<div class="content-right">
+ 		<div class="right-image slide-in from-right">
+				<img src="{% if rightimage %}{{ rightimage }}{% else %}https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/salad-green-leaves-1920x953_a3O8dDt0j.jpg{% endif %}/tr:w-700,h-348" alt="{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}" title="{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}" width="700px" height="348px">
+		</div>
+	</div>                
+
+</div>
+<div class="pad8rem"></div>
+<div class="grid-2-products">
+
+	<div class="content-left">
+		<div class="left-image slide-in from-left">
+			<img src="{% if leftimage %}{{ leftimage }}{% else %}https://ik.imagekit.io/webtactics/pmfresh/img/pages/about/about-us-left-1-900x600_OWoL5rA4x-.jpg{% endif %}/tr:w-700,h-348" alt="{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}" title="{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}" width="700px" height="348px">
+		</div>
+	</div>
+
+	<div class="content-right">
+
+		<div class="text">
+			<div class="titlebox fade-in">
+				<h2 class="heading-text">Message from our CEO.</h2>
+			</div>
+
+			<div class="indent">
+				<p>Our people, customers and suppliers are key in our success as we continually strive to be Australia’s #1 Fresh Salad manufacturer. We are focused on delivering consistent growth in today’s fast-paced, ever-changing market environment.</p>
+				<p>To achieve our vision, we must meet the demands from our customers that best serve theirs.</p>
+				<p>We continually focus our strengths to deliver high quality, efficient service with safe food that meets the taste and convenience demanded by today’s consumers whilst leading in product development and innovation.</p>
+				<p><strong>Mike Fielden</strong>, PMFresh CEO</p>
+			</div>
+		</div>
+
+	</div>          
+
+</div>
+
+
+	</main>
+</div>
+
+
+
+{% endblock %}
+
+
+
+

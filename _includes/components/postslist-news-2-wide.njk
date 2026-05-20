@@ -1,0 +1,24 @@
+<section class="grid-2-columns newssum" >
+	{% for post in postslist %}
+<summary class="newssummary fade-in">
+
+
+<div class="bordertopsumimage">
+<a href="{{ post.url | url }}" ><img src="{{ post.data.image }}/tr:w-800,h-600" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="800px" height="auto" class="postlistimg"></a>
+</div>
+
+
+<div class="sumnewstitle">
+<h3 class="news-title"><a class="eventtitle" href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >{{ post.data.title }}</a></h3>
+
+</div>
+<div class="postsumdate">
+<p>{{ post.data.newsdate.day }} {{ post.data.newsdate.month }}, {{ post.data.newsdate.year }}</p>
+</div>
+<h4 class="sum-title"><a  href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >More Info &gt;</a></h4>
+			
+
+</summary>
+		
+	{% endfor %}
+</section>

@@ -1,0 +1,50 @@
+<section class="grid-3-columns" >
+	{% for post in postslist %}
+	<div class="NewsSummaryHome">
+		<article{% if post.url == url %} data-current="current item"{% endif %} class="NewsSummaryHome">
+			
+	
+
+<div class="CGBlogSummaryField">
+<a href="{{ post.url }}"><img src="{{ post.data.image }}/tr:w-450,h-270" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" class="snippet__image"></a>
+<span class="image-overlay">
+<span class="overlay-icon"><img src="https://www.gtmassage.com.au/uploads/images/assets/summicon.png" /></span></span></a>
+</div>
+
+
+<div class="NewsSummaryLinkHome">
+<h2><a href="{{ post.url | url }}">{% if post.data.title %}</a></h2>
+</div>
+
+<div class="NewsSummaryPrice">  
+{% if post.data.time30 %}30 min:{{ post.data.time30 }} | {% endif %}{% if post.data.time45 %}45 min:{{ post.data.time45 }} | {% endif %}<br>
+{% if post.data.time60 %}60 min:{{ post.data.time60 }} | {% endif %}{% if post.data.time90 %}90 min:{{ post.data.time90 }} | {% endif %}
+</div>					
+
+
+
+<div class="NewsSummarySummaryHome">
+{% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
+</div>
+
+<div class="right newssumbutton">
+<a class="button right" title="{{ post.data.title }}" href="{{ post.url | url }}">Read more &gt;</a>
+</div>
+
+{% if tags %}
+<p>
+{% for tag in tags %}
+  {%- if tag != "post" -%}
+    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+    <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+  {%- endif -%}
+{% endfor %}
+</p>
+{% endif %}
+
+		</article>
+		</div>
+	{% endfor %}
+</section>
+
+

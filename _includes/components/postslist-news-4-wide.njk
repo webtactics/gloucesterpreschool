@@ -1,0 +1,28 @@
+<section class="grid-auto-fill-4" >
+	{% for post in postslist %}
+<summary class="eventsummary">
+
+{% if post.data.clubimage %}
+<div class="bordertopsumimage">
+<a href="{{ post.url | url }}" ><img src="{{ post.data.clubimage }}/tr:w-400,h-267" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="400px" height="auto" class="postlistimg"></a>
+</div>
+{% else %}
+<div class="bordertopsumimage">
+<a href="{{ post.url | url }}" ><img src="{{ post.data.image }}/tr:w-400,h-267" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="400px" height="auto" class="postlistimg"></a>
+</div>
+{% endif %}
+
+<div class="sumnewstitle">
+<h3 class="news-title"><a class="eventtitle" href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >{{ post.data.title }}</a></h3>
+
+</div>
+<div class="postsumdate">
+<p>{{ post.data.eventdate.day }} {{ post.data.eventdate.month }}, {{ post.data.eventdate.year }}</p>
+</div>
+<h4 class="sum-title"><a  href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >More Info &gt;</a></h4>
+			
+
+</summary>
+		
+	{% endfor %}
+</section>

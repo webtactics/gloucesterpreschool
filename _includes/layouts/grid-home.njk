@@ -1,0 +1,66 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+{% block bodyclass %}<body class=" {{ class }}" >{% endblock %}
+
+
+
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+
+	<div class="content-left-news">
+
+		<div class="text">
+    		<div class="titlebox fade-in"><h2 class="heading-text">{{ subtitle }}</h2></div>
+      			{{ content | safe }}
+		</div>
+
+	</div>
+
+        
+<div class="eightypercentborder"></div>
+
+<div class="two-colum-wrapper">	
+
+<div class="content who-we-serve"><div class="indent has-title"><h2 class="heading-text"><a href="/products/whats-in-season/" title="What's in Season." alt="What's in Season.">What's in Season.</a></h2></div></div>
+
+
+
+
+    <div class="newswrapper fade-in">
+	    {%- set postslist = collections['In Season'] | reverse | limit(4) -%} 
+	    {% include "components/postslist-products-4-wide-no-link.njk" %}
+    </div>
+	<div class="linkwrapper"><a class="resultspdf" href="/products/" title="All Products" alt="All Products">All Products &gt;</a></div>
+</div>
+
+
+<div class="two-colum-wrapper">	
+  <div class="content who-we-serve"><div class="indent has-title"><h2 class="heading-text"><a href="/about/news/" title="Latest News." alt="Latest News.">Fresh Thinking Recipes.</a></h2></div></div>
+
+    <div class="newswrapper fade-in">
+	    {%- set postslist = collections['Recipes'] | limit(3) -%} 
+	    {% include "components/postslist-recipes-3-wide.njk" %}
+    </div>
+	<div class="linkwrapper"><a class="resultspdf" href="/products/recipes/" title="Fresh Thinking Recipes." alt="Fresh Thinking Recipes.">Recipes &gt;</a></div>
+</div>
+
+
+
+
+
+
+	</main>
+</div>
+
+
+
+{% endblock %}
+
+
+
+

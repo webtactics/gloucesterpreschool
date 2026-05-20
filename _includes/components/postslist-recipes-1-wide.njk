@@ -1,0 +1,22 @@
+<section class="grid-1-columns newssum recipes" >
+	{% for post in postslist %}
+<summary class="newssummary fade-in">
+
+
+<div class="bordertopsumimage">
+<a href="{{ post.url | url }}" ><img src="{{ post.data.image }}/tr:w-400,h-300" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="400px" height="auto" class="postlistimg"></a>
+</div>
+
+
+<div class="sumnewstitle">
+<h3 class="news-title"><a class="eventtitle" href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >{{ post.data.title }}</a></h3>
+
+</div>
+
+<h4 class="sum-title"><a  href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}" >Recipe &gt;</a></h4>
+			
+
+</summary>
+		
+	{% endfor %}
+</section>

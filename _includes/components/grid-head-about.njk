@@ -1,0 +1,161 @@
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="{{ eleventy.generator }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="view-transition" content="same-origin">
+
+
+<link rel="icon" type="image/png" sizes="96x96" href="/static/assets/favicon-96x96.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/static/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/assets/favicon-16x16.png">
+<link rel="icon" type="image/svg+xml" href="/static/assets/favicon.svg" />
+<link rel="shortcut icon" href="/static/assets/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/static/assets/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="PMFresh" />
+<link rel="manifest" href="/static/assets/site.webmanifest" />
+
+<link rel="canonical" href="{{site.url}}{{page.url}}">
+<link rel="canonical" href="{{metadata.url}}{{page.url}}">
+<title>{{ title or metadata.title }} | {{ metadata.title }}</title>
+<link rel="canonical" href="https://www.pmfresh.com.au/{{ page.url or post.url or permalink }}" />
+<meta name="description" content="{{ description or metadata.description or eleventyComputed.description }}" />
+<meta property="og:title" content="{{ title or metadata.title }}" />
+<meta property="og:description" content="{{ description or metadata.description or eleventyComputed.description }}" />
+<meta property="og:image" content="{{ image or metadata.image or eleventyComputed.image }}" />
+<meta property="og:url" content="https://www.pmfresh.com.au/{{ page.url or post.url or permalink }}" />
+
+
+{% set css %}
+    {% include "assets/css/pmfresh-grid.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+
+   <style>
+.fade-in {transform: translateY(50px);opacity: 0;transition-property: transform, opacity;transition-duration: 1s;transition-timing-function: linear;}.fade-in.appear {transform: none;opacity: 1;}.from-left {-webkit-transform: translateX(-40%);transform: translateX(-40%);}.from-right {-webkit-transform: translateX(40%);transform: translateX(40%);}.from-left,.from-right {transition: opacity 250ms ease-in, -webkit-transform 800ms ease-in;transition: opacity 250ms ease-in, transform 800ms ease-in;transition: opacity 250ms ease-in, transform 800ms ease-in,-webkit-transform 800ms ease-in;opacity: 0;}.from-left.appear,.from-right.appear {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}
+</style>
+
+  <style>
+.navwrapper {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  grid-template-areas:
+"logo navrightside";
+  grid-template-rows: var(--headerheight);
+  margin: 0 auto;
+  z-index: 2;
+  width: calc(100vw - 1.25rem);
+  max-width: 1440px;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.scrolled .navwrapper {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  grid-template-areas:
+"logo navrightside";
+  grid-template-rows: var(--navbottomheight);
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.logo {
+  display: flex;
+  height: var(--headerheight);
+  justify-content: flex-start;
+  align-items: center;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.scrolled .logo {
+  display: flex;
+  height: var(--navbottomheight);
+  justify-content: flex-start;
+  align-items: center;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.logo img {
+  max-width: 260px;
+  aspect-ratio: 260 / 69;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+  height: auto;
+}
+
+.scrolled .logo img {
+  max-width: 220px;
+  aspect-ratio: 220 / 59;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+  height: auto;
+}
+
+.navrightside {
+  display: flex;
+  height: var(--headerheight);
+  flex-direction: column;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.scrolled .navrightside {
+  display: flex;
+  height: var(--navbottomheight);
+  flex-direction: column;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+ul.infobox {
+  list-style: none;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+}
+
+ul.infobox li {
+  float: right;
+}
+
+.infobox > li > a.social-icon {
+  display: flex;
+  height: var(--navtopheight);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 0 0 2rem;
+}
+</style>
+
+</head>

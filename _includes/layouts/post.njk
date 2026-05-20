@@ -1,0 +1,22 @@
+---
+layout: layouts/detail.njk
+section: post
+---
+
+
+
+
+<article{% if post.url == url %} data-current="current item"{% endif %} >
+<div class="item postdetail">
+
+
+
+
+
+<div class="postdetailcontent">     
+{{ layoutContent | safe }}
+</div>
+
+    
+</div>
+</article>

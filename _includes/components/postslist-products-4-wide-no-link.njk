@@ -1,0 +1,22 @@
+<section class="grid-4-columns newssum" >
+	{% for post in postslist %}
+<summary class="newssummary fade-in">
+
+
+<div class="bordertopsumimage">
+<img src="{{ post.data.image }}/tr:w-800,h-600" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="800px" height="auto" class="postlistimg">
+</div>
+
+
+<div class="sumnewstitle">
+<h3 class="news-title-no-link">{{ post.data.title }}</h3>
+
+</div>
+
+
+			
+
+</summary>
+		
+	{% endfor %}
+</section>
