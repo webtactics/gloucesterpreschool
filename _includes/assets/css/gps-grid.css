@@ -1417,6 +1417,15 @@ svg:hover {
   padding: 1rem 0;
 }
 
+.footerrightbottomline p {
+  color: var(--primary);
+  text-align: right;
+  padding: 0 1rem 1rem 0;
+  font-size: .9rem;
+}
+
+
+
 .footer-nav {
   display: block;
   float: left;
