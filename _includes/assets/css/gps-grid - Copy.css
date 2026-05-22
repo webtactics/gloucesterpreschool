@@ -107,13 +107,8 @@
     navigation: auto;
   }
 
-  ::view-transition-old(root),
-  ::view-transition-new(root) {
-    mix-blend-mode: normal;
-  }
 
-
-
+  
   @keyframes slide-out {
     0% {
       transform: translateX(0%);
