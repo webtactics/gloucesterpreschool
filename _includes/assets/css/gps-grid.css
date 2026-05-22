@@ -835,7 +835,7 @@ background-color: var(--white);
 
   
   }
-.scrolled .logo img {max-width:140px;
+.scrolled .logo img {max-width:100px;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
