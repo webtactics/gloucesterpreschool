@@ -1424,41 +1424,57 @@ svg:hover {
    } 
 
 
-
-.footer-nav {
-  display: block;
-  float: left;
-  clear: left;
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  background-color: var(--mattblack);
+  padding: 1rem 0;
 }
 
-.footer-menu {
+ul.footer-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+ul.footer-menu li {
   list-style: none;
-  padding-left: 75px;
-  position: relative;
+  display: inline-block;
+  padding: 0;
 }
 
-.footer-menu::before {
-  content: "";
-  display: block;
-  width: 66px;
-  height: 5px;
-  background-color: var(--white);
-  position: absolute;
-  left: 0;
-  top: 9px;
-}
-.footer-menu li a {
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 22px;
-}
-
- .footer-menu li a:hover, .footer-menu li.current-menu-item a, .footer-menu li.current-menu-parent a {
-  color: var(--text);
+.footer-menu > li > a {
+  padding: 0 2rem;
+  height: 36px;
+  line-height: 36px;
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  -ms-transition: all .6s;
+  -o-transition: all .6s;
+  transition: all .6s;
+  color: var(--white);
   background-color: transparent;
+  border: none;
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
 }
+
+.footer-menu > li > a:hover {
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  -ms-transition: all .6s;
+  -o-transition: all .6s;
+  transition: all .6s;
+  color: var(--white);
+  background-color: var(--primary);
+  border: none;
+  width: 100%;
+}
+
 
 .loaded *, .loaded {
   -moz-transition: all 0.2s ease-in;
