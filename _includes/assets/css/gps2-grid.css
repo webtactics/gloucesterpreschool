@@ -2588,6 +2588,14 @@ padding:0 2rem;
   min-height:300px;
 }
 
+.grid-2-7x5-columns {
+grid-template-columns: 7fr 5fr;
+gap: 5rem;
+}
+
+
+
+
 .grid-2-products-categories {
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
@@ -2754,7 +2762,7 @@ padding:0 2rem;
 
 
 
-  .grid-4-columns.resultssum { 
+  .grid-4-columns.resultssum  { 
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   
@@ -2772,7 +2780,7 @@ padding:0 2rem;
 
 
 
-  .grid-7x4, .grid-2, .grid-2-mobilenav, .grid-2-detail-default, .grid-2-thanks, .grid-2-news,  .grid-2-sponsor, .grid-2x1, .grid-2x3, .grid-3x2, .grid-2-products, .grid-2-products-categories, .grid-3x2-products, .grid-2-news, .grid-1x3-maps { 
+  .grid-7x4, .grid-2, .grid-2-mobilenav, .grid-2-detail-default, .grid-2-thanks, .grid-2-news,  .grid-2-sponsor, .grid-2x1, .grid-2x3, .grid-3x2, .grid-2-products, .grid-2-products-categories, .grid-3x2-products, .grid-2-news, .grid-1x3-maps, .grid-2-7x5-columns { 
     grid-template-columns: repeat(1, 1fr); 
     gap: 1rem;
   }
