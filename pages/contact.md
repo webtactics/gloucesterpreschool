@@ -1,36 +1,31 @@
 ---
-layout: layouts/grid-contact.njk
-title: Contact PMFresh Pty. Ltd.
-subtitle: Say Hello
+title: "Contact Gloucester Pre School"
+slug: contact
+content_alias: contact
+type: content
+parent: root
+menu_text: Contact
+show_in_menu: true
+active: true
+create_date: 2022-03-23
+modified_date: 2022-08-02
+header_image: GPS-back.jpg
 
-class: contact
-description: How to contact Primo Moraitis Fresh
-image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Dressed-Salads-1920x953_NQLl-PwTy9.jpg
-
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/salad-green-leaves-1920x953_a3O8dDt0j.jpg
-
-ctatitle: Our Philosophy.
-ctatext: We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.
-ctalink: /about/our-philosophy/
-ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/about-us-cta-banner-1920x953_ztYJNIMRb.jpg
-
-
-contactpage: contactpage
-
-section: contact
-date: 2024-10-31
-metadata:
-  title: Contact PMFresh Pty. Ltd.
 permalink: /contact/
 eleventyNavigation:
   key: Contact
   order: 5
+
+
+
 ---
 
+<p><strong>Gloucester Pre School &amp; Early Years Learning Centre</strong><br />52 Hume Street Gloucester NSW 2422<br />Phone: <a title="Call Gloucester Pre-School" href="tel:+61265581643">02 6558 1643</a><br />Email: <a title="admin@gloucesterpreschool.com.au" href="mailto:admin@gloucesterpreschool.com.au">admin@gloucesterpreschool.com.au</a></p>
 
-<p>For information about our products, services or stockists;</p>
-<p>Call us on <strong><a href="tel:1800725237">1800 725 237</a></strong></p>
-<p>Email <strong><a href="mailto:feedback@pmfresh.com.au">feedback@pmfresh.com.au</a></strong></p>
+---
 
+### Second Content
 
-
+<h4>Hours of Operation</h4>
+<p><strong>Pre School:</strong><br />Monday-Friday 8:15am-3:45pm.</p>
+<p><strong>Long Day Care<br /></strong>Monday-Friday 8am-5:15pm.<strong><br /></strong></p>
