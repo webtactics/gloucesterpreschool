@@ -823,7 +823,7 @@ background-color: var(--white);
  }
 
 
-  .logo img {max-width:150px;aspect-ratio: 407 / 404;
+  .logo img {max-width:150px;aspect-ratio: 1 / 1;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
     -ms-transition: all var( --transitionquick);
@@ -831,6 +831,8 @@ background-color: var(--white);
     transition: all var( --transitionquick);
     height:auto;
       animation-timing-function: ease-out; 
+      box-shadow: rgba(0,0,0,.15) 1.95px 1.95px 2.6px;
+
   
   }
 .scrolled .logo img {max-width:100px;
@@ -888,7 +890,7 @@ a.logolink:hover {background-color: transparent;}
     width : 100%;
     max-width:100px;
     max-height:100px;
-    aspect-ratio: 407 / 404;
+    aspect-ratio: 1 / 1;
     -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -ms-transition: all 1s;
