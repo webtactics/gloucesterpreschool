@@ -131,13 +131,7 @@
 </ul>
 
 <div class="sidebarnav">
-  {% if entry.children.length %}
-      <ul class="second">
-        {% for child in entry.children %}
-          {{ renderNavListItem(child) }}
-        {% endfor %}
-      </ul>
-    {% endif %}
+  {% include "components/grid-nav-sidebar.njk" %}
 </div>
 
 

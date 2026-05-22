@@ -2,9 +2,7 @@
   {% macro renderNavListItem(entry) -%}
   <li{% if entry.url == page.url %} class="menuactive"{% endif %}>
     <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
- {% if entry.url == "/contact/thank-you/" %}
-<li class="hide"><a href="/contact/thank-you/" title="" alt=""></a></li>
-{% endif %}
+
     {% if entry.children.length %}
       <ul class="second">
         {% for child in entry.children %}
@@ -16,13 +14,10 @@
 </li>
   {%- endmacro %}
 
-<ul class="off-canvas-list">
-<li><a href="/" title="Home" alt="Home">Home</a></li>
+    <ul class="second">
 {% if not entry.hide %}
-{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+{%- for entry.children in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 {% endif %}
 </ul>
 
-<div class="tradeloginexternal">
-<a class="tradeloginmobile" href="https://pmfresh-live.prontoavenue.biz/login" title="Trade Customer Login" target="_blank">Trade Customer Login > </a>
-</div>
+
