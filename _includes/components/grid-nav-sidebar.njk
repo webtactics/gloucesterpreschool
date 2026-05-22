@@ -14,10 +14,9 @@
 </li>
   {%- endmacro %}
 
-    <ul class="second">
+<ul class="sidebarnav">
 {% if not entry.hide %}
-{%- for entry.children in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+{%- for entry in navPages %}{{ renderNavListItem(child) }}{%- endfor -%}
 {% endif %}
 </ul>
-
 
