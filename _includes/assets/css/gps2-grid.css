@@ -1515,6 +1515,9 @@ color : var(--white);
 
   @media (max-width: 1025px) {
 
+.footer {
+    width: 100%;
+  }
 
   ul.footer-menu {
     display: grid;
