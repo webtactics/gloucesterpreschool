@@ -1514,30 +1514,25 @@ color : var(--white);
      }
 
 
-  @media (max-width: 1050px) {
+  @media (max-width: 1025px) {
 
-    .footer {
-      display: block;
-      justify-content: center;
-      align-items: center;
-    width:100%;
-    
+
+  ul.footer-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
-.footerright {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-      flex-direction: column; /* This stacks the items vertically */
+ .footer-menu > li > a, .footer-menu > li > a:hover {
+    border-bottom: 1px solid var(--lightgrey);
+    width: 100%;
+  }
+
+
 }
   
-     .footerrightbottomline p {
-      color: var(--white);
-      text-align: right;
-      padding:0 0 0 2rem;
-      font-size: 0.9rem;
-     }
-  }
 
   @media (max-width: 700px) {
  .footernav {
