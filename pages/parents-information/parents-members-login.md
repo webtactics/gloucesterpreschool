@@ -14,7 +14,7 @@ imageone: images/Gallery/PS_Ropes.jpg
 imagetwo: images/Gallery/GPS-side.jpg
 
 
-permalink: /learning-environments/parents-members-login/
+permalink: /parents-information/parents-members-login/
 eleventyNavigation:
   parent: Parents Information
   key: Members Login
