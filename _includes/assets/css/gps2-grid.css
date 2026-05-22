@@ -830,7 +830,8 @@ background-color: var(--white);
     -o-transition: all var( --transitionquick);
     transition: all var( --transitionquick);
     height:auto;
-      animation-timing-function: ease-out; 
+    animation-timing-function: ease-out; 
+    box-shadow: rgba(0,0,0,.15) 1.95px 1.95px 2.6px;
   
   }
 .scrolled .logo img {max-width:140px;
@@ -856,7 +857,7 @@ a.logolink:hover {background-color: transparent;}
     justify-content: flex-end;
     align-items: center;
     height: var(--mobilenavheight);
-    width:221px;
+    width:200px;
   text-align: right;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
@@ -870,7 +871,7 @@ a.logolink:hover {background-color: transparent;}
     justify-content: flex-end;
     align-items: center;
     height: var(--mobilenavheight);
-    width:221px;
+    width:200px;
   text-align: right;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
@@ -882,13 +883,12 @@ a.logolink:hover {background-color: transparent;}
   .logo img, .scrolled .logo img  {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     align-content: end;
   height: 100%;
     width : 100%;
-    max-width:164px;
-    max-height:60px;
-    aspect-ratio: 486 / 178;
+    max-width:100px;
+    max-height:100px;
     -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -ms-transition: all 1s;
