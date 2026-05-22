@@ -851,7 +851,7 @@ a.logolink:hover {background-color: transparent;}
 
 @media screen and (max-width: 1024px) {
 
-  .logo {
+  .logo,  .scrolled .logo {
     
     display: flex;
     justify-content: flex-end;
@@ -866,19 +866,7 @@ a.logolink:hover {background-color: transparent;}
     transition: all var( --transitionquick);
   }
   
-   .scrolled .logo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: var(--mobilenavheight);
-    width:200px;
-  text-align: right;
-    -webkit-transition: all var( --transitionquick);
-    -moz-transition: all var( --transitionquick);
-    -ms-transition: all var( --transitionquick);
-    -o-transition: all var( --transitionquick);
-    transition: all var( --transitionquick);
-   }
+
 
   .logo img, .scrolled .logo img  {
     display: flex;
@@ -1424,7 +1412,6 @@ svg:hover {
   margin:0;
      background-color: var(--mattblack);
   }
-
 
 
  .footernav {
