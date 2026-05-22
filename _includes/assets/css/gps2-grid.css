@@ -855,7 +855,7 @@ a.logolink:hover {background-color: transparent;}
     
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: top;
     height: var(--mobilenavheight);
     width:100%;
   text-align: right;
