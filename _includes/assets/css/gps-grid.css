@@ -2522,7 +2522,7 @@ padding:0 2rem;
 
 .grid-2-7x5-columns {
 grid-template-columns: 7fr 5fr;
-gap: 4rem;
+gap: 5rem;
 }
 
 .grid-2-products-categories {
