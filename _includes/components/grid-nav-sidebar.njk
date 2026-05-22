@@ -1,22 +1,13 @@
 {% set navPages = collections.all | eleventyNavigation %}
-  {% macro renderNavListItem(entry) -%}
-  <li{% if entry.url == page.url %} class="menuactive"{% endif %}>
-    <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
-
-    {% if entry.children.length %}
-      <ul class="second">
-        {% for child in entry.children %}
-          {{ renderNavListItem(child) }}
-        {% endfor %}
-      </ul>
-    {% endif %}
-
-</li>
-  {%- endmacro %}
 
 <ul class="sidebarnav">
-{% if not entry.hide %}
-{%- for entry in navPages %}{{ renderNavListItem(child) }}{%- endfor -%}
-{% endif %}
+  {% for entry in navPages %}
+    {% if entry.children.length and (entry.url == page.url or page.url.startsWith(entry.url)) %}
+      {% for child in entry.children %}
+        <li{% if child.url == page.url %} class="menuactive"{% endif %}>
+          <a href="{{ child.url }}" title="{{ child.title }}" alt="{{ child.title }}">{{ child.title }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
 </ul>
-
