@@ -1,7 +1,11 @@
 <nav class="childlist">
 {% set navPages = collections.all | eleventyNavigation %}
 {% macro renderNavListItem(entry) -%}
-<li{% if entry.url == page.url %} class="active-class"{% endif %}>
+{% set hasActiveChild = false %}
+{% for child in entry.children %}
+  {% if child.url == page.url %}{% set hasActiveChild = true %}{% endif %}
+{% endfor %}
+<li{% if entry.url == page.url %} class="active-class"{% elif hasActiveChild %} class="menuactive"{% endif %}>
 <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a>
 
 
