@@ -57,14 +57,14 @@
   --grid-auto-fill-3-min-col-size: 300px;
   --grid-auto-fill-4-min-col-size: 250px;
 
---animation-duration: 0.4s;
+  --animation-duration: 0.4s;
 
---animation-delay: 0.6s;
---animation-delay-fast: 0.3s;
+  --animation-delay: 0.6s;
+  --animation-delay-fast: 0.3s;
 
---nav-height:54px;
+  --nav-height:54px;
 
---nav-height-scrolled:44px;
+  --nav-height-scrolled:44px;
 }
   
   
@@ -1428,33 +1428,14 @@ svg:hover {
 
  .footernav {
   display: grid;
-  grid-template-columns:1fr  1fr;
+  grid-template-columns:1fr;
     margin: 0 auto;
     width: calc(100vw - 4rem);
     max-width: 1440px;
   padding: 40px 0 53px 0;
    } 
 
-.footerleft {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-      flex-direction: column; /* This stacks the items vertically */
-}
 
-#get-in-touch-button {
- text-align: left;
-  text-decoration: none;
-  color: var(--white);
-  font-size: 1.375rem;
-  line-height: 1.875rem;
-  font-weight: 700;
-}
-
-#get-in-touch-button:hover {
-  color: var(--text);
-  background-color: transparent;
-}
 
 .footer-nav {
   display: block;
