@@ -645,7 +645,7 @@ background-color: var(--white);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--headerheight);
-
+  border-bottom: 1px solid var(--white);
 
 
   }
@@ -659,6 +659,7 @@ background-color: var(--white);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--navbottomheight); 
+  border-bottom: 1px solid var(--lightgrey);
 
  
   }
