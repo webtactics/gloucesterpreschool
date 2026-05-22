@@ -27,7 +27,7 @@
   --black40: hsla(0,0%,0%,0.4);
   --black60: hsla(0,0%,0%,0.6);
   --black80: hsla(0,0%,0%,0.8);
-  --mattblack: hsla(214,12%,11%,0.95);
+  --mattblack: hsla(214,12%,11%,1);
   --green: hsla(144, 80%, 22%, 1);
   --lightgreen: hsla(89, 62%, 44%,0.4);
   --gold: hsl(43, 74.4%, 49%);
@@ -1420,20 +1420,21 @@ svg:hover {
 /* footer layout */
 
 .footernavwrapper {
-  padding: 1rem;
-  margin:0;
-  }
+  background-color: var(--mattblack);
+  padding: 0;
+}
 
 
 
- .footernav {
+.footernav {
   display: grid;
-  grid-template-columns:1fr  1fr;
-    margin: 0 auto;
-    width: calc(100vw - 4rem);
-    max-width: 1440px;
-  padding: 40px 0 53px 0;
-   } 
+  grid-template-columns: 280px 1fr;
+  grid-template-areas:
+"footerleft footerright";
+  margin: 0 auto;
+  width: calc(100vw - 1rem);
+  max-width: 1440px;
+}
 
 .footerleft {
     display: flex;
@@ -1442,18 +1443,12 @@ svg:hover {
       flex-direction: column; /* This stacks the items vertically */
 }
 
-#get-in-touch-button {
- text-align: left;
-  text-decoration: none;
-  color: var(--white);
-  font-size: 1.375rem;
-  line-height: 1.875rem;
-  font-weight: 700;
-}
-
-#get-in-touch-button:hover {
-  color: var(--text);
-  background-color: transparent;
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  background-color: var(--mattblack);
+  padding: 1rem 0;
 }
 
 .footer-nav {
@@ -1462,35 +1457,47 @@ svg:hover {
   clear: left;
 }
 
-.footer-menu {
+ul.footer-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+ul.footer-menu li {
   list-style: none;
-  padding-left: 75px;
-  position: relative;
+  display: inline-block;
+  padding: 0;
 }
-
-.footer-menu::before {
-  content: "";
-  display: block;
-  width: 66px;
-  height: 5px;
-  background-color: var(--white);
-  position: absolute;
-  left: 0;
-  top: 9px;
-}
-.footer-menu li a {
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 22px;
-}
-
- .footer-menu li a:hover, .footer-menu li.current-menu-item a, .footer-menu li.current-menu-parent a {
-  color: var(--text);
+.footer-menu > li > a {
+  padding: 0 2rem;
+  height: 36px;
+  line-height: 36px;
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  -ms-transition: all .6s;
+  -o-transition: all .6s;
+  transition: all .6s;
+  color: var(--white);
   background-color: transparent;
+  border: none;
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
 }
 
+.footer-menu > li > a:hover {
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  -ms-transition: all .6s;
+  -o-transition: all .6s;
+  transition: all .6s;
+  color: var(--white);
+  background-color: var(--primary);
+  border: none;
+  width: 100%;
+}
 .loaded *, .loaded {
   -moz-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
