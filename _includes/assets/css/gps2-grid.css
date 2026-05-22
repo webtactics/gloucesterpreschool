@@ -823,7 +823,7 @@ background-color: var(--white);
  }
 
 
-  .logo img {max-width:273px;aspect-ratio: 486 / 178;
+  .logo img {max-width:200px;aspect-ratio: 1 / 1;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
     -ms-transition: all var( --transitionquick);
@@ -833,7 +833,7 @@ background-color: var(--white);
       animation-timing-function: ease-out; 
   
   }
-.scrolled .logo img {max-width:160px;aspect-ratio: 486 / 178;
+.scrolled .logo img {max-width:140px;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
