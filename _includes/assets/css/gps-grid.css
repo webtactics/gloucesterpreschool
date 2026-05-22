@@ -3425,3 +3425,43 @@ font-family: ProximaNova,sans-serif;
     display: none;
     }
   }
+
+
+  .sidebarnav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  text-align: left;
+}
+
+.sidebarnav li {
+  font-size: 0.8rem;
+  color: hsl(179, 56%, 42%);
+  padding: 0;
+  display: block;
+  transition: background-color 300ms ease-out;
+}
+
+.sidebarnav li a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  padding: 0.125rem 0.125rem 0.125rem 0.25rem;
+  margin: 0 0 1px 0;
+  line-height: 1.875rem;
+  white-space: nowrap;
+  display: block;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid rgba(99,100,102,0.2);
+  transition: background-color 300ms ease-out;
+}
+
+
+.sidebarnav a.menuactive {
+  background: hsl(179, 56%, 42%);
+  color: hsl(0, 0%, 100%);
+}
+
+.sidebarnav li a:hover {
+  background: hsl(179, 56%, 60%);
+  color: hsl(0, 0%, 100%);
+}
