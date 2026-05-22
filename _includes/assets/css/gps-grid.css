@@ -1,5 +1,5 @@
 :root {
-  --primary: #73b72b;
+  --primary: hsl(179, 56%, 42%);
   --primaryright: #00b2c2;
   --primarylight: hsla(211,50%,53%,0.6);
   --primarydark: #00b2c2;
@@ -68,7 +68,25 @@
 }
   
   
-/* open-sans-regular - latin */
+/* montserrat-regular - latin */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		 url('[[$font]]/montserrat-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		 url('[[$font]]/montserrat-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-600 - latin */
+  @font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	src: local(''),
+		 url('[[$font]]/montserrat-v25-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		 url('[[$font]]/montserrat-v25-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
 /* open-sans-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -82,58 +100,6 @@
 
 
 
-
-@font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'ProximaNova';
-    font-weight: 300;
-    src: url('/static/fonts/proxima_nova_light_0-webfont.eot');
-    src: url('/static/fonts/proxima_nova_light_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/proxima_nova_light_0-webfont.woff2') format('woff2'),
-         url('/static/fonts/proxima_nova_light_0-webfont.woff') format('woff'),
-         url('/static/fonts/proxima_nova_light_0-webfont.ttf') format('truetype'),
-         url('/static/fonts/proxima_nova_light_0-webfont.svg#proxima_novalight') format('svg');
-    font-style: normal;
-}
-
-@font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'ProximaNova';
-    font-weight: 400;
-    src: url('/static/fonts/proxima_nova_reg_0-webfont.eot');
-    src: url('/static/fonts/proxima_nova_reg_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/proxima_nova_reg_0-webfont.woff2') format('woff2'),
-         url('/static/fonts/proxima_nova_reg_0-webfont.woff') format('woff'),
-         url('/static/fonts/proxima_nova_reg_0-webfont.ttf') format('truetype'),
-         url('/static/fonts/proxima_nova_reg_0-webfont.svg#proxima_nova_rgregular') format('svg');
-    font-style: normal;
-}
-
-@font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'ProximaNova';
-    font-weight: 600;    
-    src: url('/static/fonts/proxima_nova_sbold-webfont.eot');
-    src: url('/static/fonts/proxima_nova_sbold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/proxima_nova_sbold-webfont.woff2') format('woff2'),
-         url('/static/fonts/proxima_nova_sbold-webfont.woff') format('woff'),
-         url('/static/fonts/proxima_nova_sbold-webfont.ttf') format('truetype'),
-         url('/static/fonts/proxima_nova_sbold-webfont.svg#proxima_novasemibold') format('svg');
-    font-style: normal;
-}
-
-@font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'ProximaNova';
-    font-weight: 700;
-    src: url('/static/fonts/proxima_nova_bold_0-webfont.eot');
-    src: url('/static/fonts/proxima_nova_bold_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/proxima_nova_bold_0-webfont.woff2') format('woff2'),
-         url('/static/fonts/proxima_nova_bold_0-webfont.woff') format('woff'),
-         url('/static/fonts/proxima_nova_bold_0-webfont.ttf') format('truetype'),
-         url('/static/fonts/proxima_nova_bold_0-webfont.svg#proxima_nova_rgbold') format('svg');
-    font-style: normal;
-}
 
 
 
@@ -419,15 +385,12 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-  font-family: ProximaNova, sans-serif;
+ font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   scroll-padding-top: var(--navbottomheight); 
   background: var(--primary);
-  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
-  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
-  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
+
 }
 
 
@@ -457,7 +420,7 @@ background: var(--white);
 
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
-  font-family: 'ProximaNova', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: var(--text);
@@ -573,7 +536,7 @@ color: var(--primary);
 
 
 p {
-  font-family: 'ProximaNova', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 300;
 color: var(--text);
@@ -1211,7 +1174,7 @@ ul.off-canvas-list > li.parent > a:hover {
 /* Top-level */
 .navbar ul.navbar-menu  li  a {
     display: inline-block;
-    font-family: 'ProximaNova', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
     font-style: normal;
