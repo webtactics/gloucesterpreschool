@@ -1422,6 +1422,7 @@ svg:hover {
 .footernavwrapper {
   padding: 1rem;
   margin:0;
+     background-color: var(--mattblack);
   }
 
 
