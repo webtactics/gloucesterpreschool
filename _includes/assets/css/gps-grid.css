@@ -823,7 +823,7 @@ background-color: var(--white);
  }
 
 
-  .logo img {max-width:150px;aspect-ratio: 1 / 1;
+  .logo img {max-width:200px;aspect-ratio: 1 / 1;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
     -ms-transition: all var( --transitionquick);
@@ -835,7 +835,7 @@ background-color: var(--white);
 
   
   }
-.scrolled .logo img {max-width:100px;
+.scrolled .logo img {max-width:140px;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
