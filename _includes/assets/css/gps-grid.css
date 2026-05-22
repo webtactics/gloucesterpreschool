@@ -3456,12 +3456,8 @@ font-family: ProximaNova,sans-serif;
 }
 
 
-.sidebarnav a.menuactive {
-  background: hsl(179, 56%, 42%);
-  color: hsl(0, 0%, 100%);
-}
 
-.sidebarnav li a:hover {
+.sidebarnav li a:hover, .sidebarnav li.menuactive a {
   background: hsl(179, 56%, 60%);
   color: hsl(0, 0%, 100%);
 }
