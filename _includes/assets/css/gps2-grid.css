@@ -1,5 +1,5 @@
 :root {
-  --primary: #73b72b;
+  --primary: #5fd2d0;
   --primaryright: #00b2c2;
   --primarylight: hsla(211,50%,53%,0.6);
   --primarydark: #00b2c2;
@@ -3511,21 +3511,21 @@ font-family: ProximaNova,sans-serif;
 
 .sidebarnav li {
   font-size: 0.8rem;
-  color: hsl(179, 56%, 42%);
+  color: var(--primary);
   padding: 0;
   display: block;
   transition: background-color 300ms ease-out;
 }
 
 .sidebarnav li a {
-  color: hsl(0, 0%, 0%);
+  color: var(--black);
   text-decoration: none;
   padding: 0.125rem 0.125rem 0.125rem 0.25rem;
   margin: 0 0 1px 0;
   line-height: 1.875rem;
   white-space: nowrap;
   display: block;
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   border: 1px solid rgba(99,100,102,0.2);
   transition: background-color 300ms ease-out;
 }
@@ -3533,6 +3533,6 @@ font-family: ProximaNova,sans-serif;
 
 
 .sidebarnav li a:hover, .sidebarnav li.menuactive a {
-  background: hsl(179, 56%, 60%);
-  color: hsl(0, 0%, 100%);
+  background: var(--primary);
+  color: var(--white);
 }
