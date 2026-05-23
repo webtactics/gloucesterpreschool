@@ -1530,7 +1530,7 @@ color : var(--white);
 .container {
   margin: 0 auto;
   background-color: var(--white);
-  padding: 4rem 0;
+  padding: 6rem 0;
  white-space: pre-wrap; /* CSS3 */    
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
     white-space: -pre-wrap; /* Opera 4-6 */    
@@ -1546,7 +1546,7 @@ color : var(--white);
 
 .content {
   margin: 0 auto;
-  padding: 0;
+  padding: 4rem 0;
   width: calc(100vw - 10rem);
   max-width: 1440px;
   background-color: var(--white);
