@@ -509,7 +509,7 @@ h2.heading-text  {
   color: var(--white);
   background: var(--primary);
   padding: 1rem;
-  margin: 0;
+  margin: 0 0 4rem 0;
   border-radius: 8px;
 }
 
@@ -1546,7 +1546,7 @@ color : var(--white);
 
 .content {
   margin: 0 auto;
-  padding: 4rem 0;
+  padding: 0;
   width: calc(100vw - 10rem);
   max-width: 1440px;
   background-color: var(--white);
