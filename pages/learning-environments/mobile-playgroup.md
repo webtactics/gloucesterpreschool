@@ -14,9 +14,11 @@ eleventyNavigation:
   key: Mobile Supported Playgroup
   order: 5
 
+subtitle: "Mobile Supported Playgroup is organised and facilitated by staff from Gloucester Pre School."
+
 ---
 
-<h2>Mobile Supported Playgroup is organised and facilitated by staff from Gloucester Pre School.</h2>
+
 <h4>Playgroups are held fortnightly at Booral and Gloucester CWA Hall.</h4>
 <p>Trained and experienced staff from Gloucester Pre School organize fun play sessions in the local community halls.</p> <p>Parents and carers have the opportunity to meet and interact with other families while supervising and playing with their children.</p>
 

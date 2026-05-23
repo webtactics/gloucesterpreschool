@@ -18,7 +18,10 @@ eleventyNavigation:
   key: Learning Environments
   order: 3
 
+
+subtitle: "Our learning environments are designed to support children's learning and social connections."
+
 ---
 
-<p>Learning environments are designed to support children's learning and social connections. We have four classrooms and two large outdoor learning areas.</p>
+<p>We have four classrooms and two large outdoor learning areas.</p>
 <p>The service has a strong sustainability vision and we support a low carbon footprint and teach children to play in a landscape that support biodiversity.</p>

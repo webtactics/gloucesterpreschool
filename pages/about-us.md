@@ -18,12 +18,12 @@ eleventyNavigation:
   key: About Us
   order: 1
 
-
+subtitle: "Gloucester Pre School and Early Years Learning Centre is a non-profit community-based organisation, established in 1972."
 
 
 ---
 
-<h2>Gloucester Pre School and Early Years Learning Centre is a non-profit community-based organisation, established in 1972.</h2>
+
 <p>We operate the following services:</p>
 <ul>
 <li>Pre School for children 3 to 5 years of age</li>

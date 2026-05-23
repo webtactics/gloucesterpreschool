@@ -17,9 +17,11 @@ eleventyNavigation:
   parent: Learning Environments
   key: Long Day Care
   order: 2
+
+subtitle: "Long Day Care is open 8am to 5.15pm and operates 50 weeks per year."
 ---
 
-<h2>Long Day Care is open 8am to 5.15pm and operates 50 weeks per year.</h2> 
+
 
 <p>Enrolments are open to children 0 to 5 years of age.</p> 
 <p>Families will need to apply for the Child Care Subsidy (CCS) through your MyGov account</p> 
