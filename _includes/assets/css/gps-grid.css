@@ -1530,7 +1530,7 @@ color : var(--white);
 .container {
   margin: 0 auto;
   background-color: var(--white);
-  padding: 2rem 0;
+  padding: 4rem 0;
  white-space: pre-wrap; /* CSS3 */    
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
     white-space: -pre-wrap; /* Opera 4-6 */    
@@ -1542,12 +1542,7 @@ color : var(--white);
 
 
 
-@media (max-width: 1024px) {
-.container {margin: 0 auto;  background-color: var(--white);}
-.headerspace {height:0;}
 
-
-}
 
 .content {
   margin: 0 auto;
@@ -3421,4 +3416,9 @@ font-family: ProximaNova,sans-serif;
 .headerspace {
   height: var(--headerheight);
    background: var(--white);
+}
+
+@media (max-width: 1024px) {
+.headerspace {height:0;}
+
 }
