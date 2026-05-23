@@ -488,15 +488,17 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
 .content h2 {
   font-size: 3rem;
   line-height: 3rem;
-  font-weight: 700;
-  color: var(--black);
-  padding: 0 0 1.5rem 0;
+  font-weight: 400;
+  color: var(--white);
+  background: var(--primary);
+  padding: 1rem;
+  margin: 0;
 }
 
 .content h2 a {
   font-size: 3rem;
   line-height: 3rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--black);
   padding: 0 0 1.5rem 0;
 
@@ -531,14 +533,14 @@ text-decoration: none;
 
 .content h3 {
   line-height: 3rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--black);
   padding: 0 0 1rem 0;
 }
 
 .content.contact .content h3 {
   line-height: 3rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--black);
   padding: 0;
   margin: 0;
