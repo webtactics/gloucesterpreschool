@@ -1,25 +1,21 @@
-<section class="sliderbox">
- 
-<div class="hero hide-for-print">     
+<section class="sliderbox hide-for-print">
 
-<picture>
-    <!-- Mobile Image -->
-    <source media="(max-width: 600px)" srcset="{% if image %}{{ image }}?tr=w-600,h-400{% else %}https://ik.imagekit.io/webtactics/gloucesterpreschool/hero/GPS-back-play.jpg/tr:w-600,h-400{% endif %}">
-    <!-- Desktop Image -->
-    <source media="(min-width: 601px)" srcset="{% if image %}{{ image }}?tr=w-1920,h-950{% else %}https://ik.imagekit.io/webtactics/gloucesterpreschool/hero/GPS-back-play.jpg/tr:w-1920,h-950{% endif %}">
-    <!-- Fallback Image -->
-    <img aria-hidden="true" loading="lazy" decoding="async" fetchpriority="high" rel="preload" src="{% if image %}{{ image }}?tr=w-1920,h-950{% else %}https://ik.imagekit.io/webtactics/gloucesterpreschool/hero/GPS-back-play.jpg/tr:w-1920,h-950{% endif %}" alt="{{ title }}" title="{{ title }}" width="1920px" height="950px">
-</picture>
+<div class="home-slide hide-for-print">
 
-<div class="Slide-in-left">
-    <img src="https://ik.imagekit.io/webtactics/pmfresh/assets/triangle-1955x1385_smpK4h6N9.png" alt="Green triangle design element only" title="Green triangle design element only" fetchpriority="high" rel="preload">
-        <div class="herotitlebox">
-            <h2>{{ title }}</h2>  
-        </div>  
+<div>
+<div class="internalhero three"></div>
+</div>
+
+
+<div>
+<div class="internalhero four"></div>
 </div>
 
 
 </div>
 
+<div class="flex-caption">
+    <h1>{{ title }}</h1>
+    </div>
 
 </section>
