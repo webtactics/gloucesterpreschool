@@ -17,7 +17,12 @@
 	<div class="content-left-news">
 
 		<div class="text">
-    		<div class="titlebox fade-in"><h2 class="heading-text">{{ subtitle }}</h2></div>
+    		<div class="titlebox fade-in">
+				
+			<h2 class="heading-text">{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}</h2>
+				
+				
+				</div>
       			{{ content | safe }}
 		</div>
 

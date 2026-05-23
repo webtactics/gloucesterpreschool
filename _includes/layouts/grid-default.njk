@@ -114,7 +114,7 @@
 		<div class="text">
     		<div class="titlebox fade-in">
 				
-				<h2 class="heading-text">{{ subtitle }}</h2>
+			<h2 class="heading-text">{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}</h2>
 				
 			</div>
 

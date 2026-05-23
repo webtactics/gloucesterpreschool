@@ -487,12 +487,10 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
 
 .content h2 {
   font-size: 3rem;
-  line-height: 3rem;
+  line-height: 4rem;
   font-weight: 400;
-  color: var(--white);
-  background: var(--primary);
-  padding: 1rem;
-  margin: 0;
+  color: var(--primary);
+
 }
 
 .content h2 a {
@@ -507,15 +505,15 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
 .content-left-news .content h2 {padding: 0;margin:0;}
 
 
-
-
-
-h2.heading-text a:hover {
-  text-decoration: none;
-  color: #7ed321;
-background: var(--primary);
-
+h2.heading-text  {
+  color: var(--white);
+  background: var(--primary);
+  padding: 1rem;
+  margin: 0;
 }
+
+
+
 
 
 
