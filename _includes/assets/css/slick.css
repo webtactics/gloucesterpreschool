@@ -142,18 +142,17 @@ height:70svh;
     position: absolute;
     background: rgba(255,255,255,0.75);
     color: #000000;
-    font-size: 14px;
-  left: 25vw;
-    right: auto;
+    font-size: 16px;
+  left: auto;
+    right: 20vw;
     top: auto;
     line-height: 18px;
     padding: 1rem;
-
-    text-align: left;
+    text-align: right;
     width: auto;
+    max-width: 60vw;
     margin: 0;
-    border-radius: 0;
-    min-height: 218px;
+    border-radius: 8px;;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
      -ms-animation: fadein 2s; /* Internet Explorer */
