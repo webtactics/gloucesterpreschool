@@ -1,4 +1,5 @@
 ---
+layout: layouts/grid-home.njk
 title: "Gloucester Pre School & Early Years Learning Centre"
 slug: home
 content_alias: home
