@@ -1527,7 +1527,10 @@ color : var(--white);
 /* content layout */
 
 
-.container {margin: 0 auto;  background-color: var(--white);
+.container {
+  margin: 0 auto;
+  background-color: var(--white);
+  padding: 2rem 0;
  white-space: pre-wrap; /* CSS3 */    
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
     white-space: -pre-wrap; /* Opera 4-6 */    
@@ -2379,48 +2382,11 @@ h4.sum-title a:hover {
 
 /* Who we serve
 ------------------------------------------------- */
-.content-who-we-serve {
-  padding: 0 0 12rem 0;
-  background-color: var(--white);
-}
-
-.clients .client {
-  float: left;
-  width: 33.3333%;
-  background-color: #f2f2f2;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.clients .client:nth-child(2n) {
-  background-color: #d8d8d8;
-}
-.clients .client img {
-margin:0 auto;
-}
-
-@media (min-width: 1921px) { 
-.clients .client {
-  width: 20%;
-}
-}
 
 
 
-.content.who-we-serve {
-  padding: 2rem 0;
-  min-height: auto;
-}
 
-.content.contact {
-  padding: 6rem 0 0 0;
-  min-height: auto;
-}
 
-.container .content .indent.has-title::before {
-  top: 18px;
-}
 
 
 
