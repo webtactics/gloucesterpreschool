@@ -144,13 +144,13 @@ height:80svh;
     color: #000000;
     font-size: 16px;
   left: auto;
-    right: 20vw;
-    top: 30vh;
+    right: 10vw;
+    top: 50vh;
     line-height: 18px;
     padding: 1rem;
     text-align: right;
     width: auto;
-    max-width: 60vw;
+    max-width: 80vw;
     margin: 0;
     border-radius: 8px;;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
