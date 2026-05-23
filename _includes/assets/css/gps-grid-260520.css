@@ -1,5 +1,5 @@
 :root {
-  --primary: #73b72b;
+  --primary: hsl(179, 56%, 42%);
   --primaryright: #00b2c2;
   --primarylight: hsla(211,50%,53%,0.6);
   --primarydark: #00b2c2;
@@ -27,7 +27,7 @@
   --black40: hsla(0,0%,0%,0.4);
   --black60: hsla(0,0%,0%,0.6);
   --black80: hsla(0,0%,0%,0.8);
-  --mattblack: hsla(214,12%,11%,0.95);
+  --mattblack: hsla(214,12%,11%,1);
   --green: hsla(144, 80%, 22%, 1);
   --lightgreen: hsla(89, 62%, 44%,0.4);
   --gold: hsl(43, 74.4%, 49%);
@@ -57,18 +57,36 @@
   --grid-auto-fill-3-min-col-size: 300px;
   --grid-auto-fill-4-min-col-size: 250px;
 
-  --animation-duration: 0.4s;
+--animation-duration: 0.4s;
 
-  --animation-delay: 0.6s;
-  --animation-delay-fast: 0.3s;
+--animation-delay: 0.6s;
+--animation-delay-fast: 0.3s;
 
-  --nav-height:54px;
+--nav-height:54px;
 
-  --nav-height-scrolled:44px;
+--nav-height-scrolled:44px;
 }
   
   
-/* open-sans-regular - latin */
+/* montserrat-regular - latin */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		 url('[[$font]]/montserrat-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		 url('[[$font]]/montserrat-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-600 - latin */
+  @font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	src: local(''),
+		 url('[[$font]]/montserrat-v25-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		 url('[[$font]]/montserrat-v25-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
 /* open-sans-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -83,58 +101,6 @@
 
 
 
-@font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'ProximaNova';
-    font-weight: 300;
-    src: url('/static/fonts/proxima_nova_light_0-webfont.eot');
-    src: url('/static/fonts/proxima_nova_light_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/proxima_nova_light_0-webfont.woff2') format('woff2'),
-         url('/static/fonts/proxima_nova_light_0-webfont.woff') format('woff'),
-         url('/static/fonts/proxima_nova_light_0-webfont.ttf') format('truetype'),
-         url('/static/fonts/proxima_nova_light_0-webfont.svg#proxima_novalight') format('svg');
-    font-style: normal;
-}
-
-@font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'ProximaNova';
-    font-weight: 400;
-    src: url('/static/fonts/proxima_nova_reg_0-webfont.eot');
-    src: url('/static/fonts/proxima_nova_reg_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/proxima_nova_reg_0-webfont.woff2') format('woff2'),
-         url('/static/fonts/proxima_nova_reg_0-webfont.woff') format('woff'),
-         url('/static/fonts/proxima_nova_reg_0-webfont.ttf') format('truetype'),
-         url('/static/fonts/proxima_nova_reg_0-webfont.svg#proxima_nova_rgregular') format('svg');
-    font-style: normal;
-}
-
-@font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'ProximaNova';
-    font-weight: 600;    
-    src: url('/static/fonts/proxima_nova_sbold-webfont.eot');
-    src: url('/static/fonts/proxima_nova_sbold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/proxima_nova_sbold-webfont.woff2') format('woff2'),
-         url('/static/fonts/proxima_nova_sbold-webfont.woff') format('woff'),
-         url('/static/fonts/proxima_nova_sbold-webfont.ttf') format('truetype'),
-         url('/static/fonts/proxima_nova_sbold-webfont.svg#proxima_novasemibold') format('svg');
-    font-style: normal;
-}
-
-@font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'ProximaNova';
-    font-weight: 700;
-    src: url('/static/fonts/proxima_nova_bold_0-webfont.eot');
-    src: url('/static/fonts/proxima_nova_bold_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/static/fonts/proxima_nova_bold_0-webfont.woff2') format('woff2'),
-         url('/static/fonts/proxima_nova_bold_0-webfont.woff') format('woff'),
-         url('/static/fonts/proxima_nova_bold_0-webfont.ttf') format('truetype'),
-         url('/static/fonts/proxima_nova_bold_0-webfont.svg#proxima_nova_rgbold') format('svg');
-    font-style: normal;
-}
-
 
 
   @view-transition {
@@ -142,7 +108,7 @@
   }
 
 
-  
+
   @keyframes slide-out {
     0% {
       transform: translateX(0%);
@@ -419,7 +385,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-  font-family: ProximaNova, sans-serif;
+ font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   scroll-padding-top: var(--navbottomheight); 
@@ -454,7 +420,7 @@ background: var(--white);
 
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
-  font-family: 'ProximaNova', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: var(--text);
@@ -511,7 +477,13 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
 h2.heading-text a:hover {
   text-decoration: none;
   color: #7ed321;
-background: var(--primary);
+  background: -webkit-linear-gradient(left, #73B72B , #00B2C2);
+  background: -o-linear-gradient(right, #73B72B, #00B2C2);
+  background: -moz-linear-gradient(right, #73B72B, #00B2C2);
+  background: linear-gradient(to right, #73B72B , #00B2C2);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 
@@ -564,7 +536,7 @@ color: var(--primary);
 
 
 p {
-  font-family: 'ProximaNova', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 300;
 color: var(--text);
@@ -673,7 +645,7 @@ background-color: var(--white);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--headerheight);
-
+  border-bottom: 1px solid var(--white);
 
 
   }
@@ -687,6 +659,7 @@ background-color: var(--white);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--navbottomheight); 
+  border-bottom: 1px solid var(--lightgrey);
 
  
   }
@@ -821,11 +794,12 @@ background-color: var(--white);
     -o-transition: all var( --transitionquick);
     transition: all var( --transitionquick);
     height:auto;
-    animation-timing-function: ease-out; 
-    box-shadow: rgba(0,0,0,.15) 1.95px 1.95px 2.6px;
+      animation-timing-function: ease-out; 
+      box-shadow: rgba(0,0,0,.15) 1.95px 1.95px 2.6px;
+
   
   }
-.scrolled .logo img {max-width:140px;
+.scrolled .logo img {max-width:100px;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
@@ -842,13 +816,13 @@ a.logolink:hover {background-color: transparent;}
 
 @media screen and (max-width: 1024px) {
 
-  .logo,  .scrolled .logo {
+  .logo {
     
     display: flex;
     justify-content: flex-end;
-    align-items: top;
+    align-items: center;
     height: var(--mobilenavheight);
-    width:100%;
+    width:221px;
   text-align: right;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
@@ -857,17 +831,30 @@ a.logolink:hover {background-color: transparent;}
     transition: all var( --transitionquick);
   }
   
-
+   .scrolled .logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: var(--mobilenavheight);
+    width:221px;
+  text-align: right;
+    -webkit-transition: all var( --transitionquick);
+    -moz-transition: all var( --transitionquick);
+    -ms-transition: all var( --transitionquick);
+    -o-transition: all var( --transitionquick);
+    transition: all var( --transitionquick);
+   }
 
   .logo img, .scrolled .logo img  {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     align-content: end;
   height: 100%;
     width : 100%;
     max-width:100px;
     max-height:100px;
+    aspect-ratio: 1 / 1;
     -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -ms-transition: all 1s;
@@ -1085,20 +1072,24 @@ ul.off-canvas-list li a {
 
 
 ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {
-   background: var(--primary);
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
   text-decoration: none;
 }
 
 ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.menuactive > a {
-   background: var(--primary);
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
   text-decoration: none;
 }
 
 
   ul.off-canvas-list > li.menuparent.menuactive > a.menuparent.menuactive {
-    background: var(--primary);
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -1106,13 +1097,17 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.menuactive > a {
 }
 
   ul.off-canvas-list > li.parent > a {
-   background: var(--primary);
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
   text-decoration: none;
 }
 
 ul.off-canvas-list > li.parent > a:hover {
-   background: var(--primary);
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
   text-decoration: none;
 }
@@ -1131,7 +1126,9 @@ ul.off-canvas-list > li.parent > a:hover {
 
   ul.off-canvas-list li ul.second li a:hover {
     display: block;
-   background: var(--primary);
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
    padding: 0.4rem 1.5rem;
    border-bottom: 1px solid var(--primarylight);
     transition: background 300ms ease;
@@ -1141,7 +1138,9 @@ ul.off-canvas-list > li.parent > a:hover {
 
   ul.off-canvas-list li ul.second li.menuactive a {
     display: block;
-   background: var(--primary);
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
    padding: 0.4rem 1.5rem;
    border-bottom: 1px solid var(--lightgrey);
     transition: background 300ms ease;
@@ -1176,8 +1175,8 @@ ul.off-canvas-list > li.parent > a:hover {
 /* Top-level */
 .navbar ul.navbar-menu  li  a {
     display: inline-block;
-    font-family: 'ProximaNova', sans-serif;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 1.4rem;
     font-style: normal;
     letter-spacing: -1px;
@@ -1329,13 +1328,16 @@ ul.navbar-menu li ul.second-level li a {
   background: var(--white);
 }
 
-  .navbar ul.navbar-menu li.active-class  a ul.second-level li a:hover,  .navbar ul.navbar-menu li  a ul.second-level li.active-class a, .navbar ul.navbar-menu li  a ul.second-level li.active-class a:hover {
+  .navbar ul.navbar-menu li.active-class  a ul.second-level li a:hover,  
+  .navbar ul.navbar-menu li  a ul.second-level li.active-class a, 
+  .navbar ul.navbar-menu li  a ul.second-level li.active-class a:hover {
  color: var(--primary);
   background: var(--white);
 }
 
 
-  .navbar ul.navbar-menu li  ul.second-level li.active-class a, .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
+  .navbar ul.navbar-menu li  ul.second-level li.active-class a, 
+  .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -1387,27 +1389,50 @@ svg:hover {
 /* footer layout */
 
 .footernavwrapper {
-  padding: 1rem;
-  margin:0;
-     background-color: var(--mattblack);
-  }
+  background-color: var(--mattblack);
+  padding: 0;
+}
 
 
- .footernav {
+
+.footernav {
   display: grid;
-  grid-template-columns:1fr;
-    margin: 0 auto;
-    width: calc(100vw - 4rem);
-    max-width: 1440px;
-  padding: 40px 0 53px 0;
-   } 
+  grid-template-columns: 280px 1fr;
+  grid-template-areas:
+"footerleft footerright";
+  margin: 0 auto;
+  width: calc(100vw - 1rem);
+  max-width: 1440px;
+}
 
+.footerleft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+      flex-direction: column; /* This stacks the items vertically */
+}
 
 .footer {
   display: flex;
   justify-content: flex-end;
   align-items: start;
+  background-color: var(--mattblack);
   padding: 1rem 0;
+}
+
+.footerrightbottomline p {
+  color: var(--primary);
+  text-align: right;
+  padding: 0 1rem 1rem 0;
+  font-size: .9rem;
+}
+
+
+
+.footer-nav {
+  display: block;
+  float: left;
+  clear: left;
 }
 
 ul.footer-menu {
@@ -1423,7 +1448,6 @@ ul.footer-menu li {
   display: inline-block;
   padding: 0;
 }
-
 .footer-menu > li > a {
   padding: 0 2rem;
   height: 36px;
@@ -1452,8 +1476,6 @@ ul.footer-menu li {
   border: none;
   width: 100%;
 }
-
-
 .loaded *, .loaded {
   -moz-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -1484,36 +1506,30 @@ color : var(--white);
 }
 
 
-  .footerrightbottomline p {
-      color: var(--primary);
+  @media (max-width: 1050px) {
+
+    .footer {
+      display: block;
+      justify-content: center;
+      align-items: center;
+    width:100%;
+    
+  }
+
+.footerright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+      flex-direction: column; /* This stacks the items vertically */
+}
+  
+     .footerrightbottomline p {
+      color: var(--white);
       text-align: right;
       padding:0 0 0 2rem;
       font-size: 0.9rem;
      }
-
-
-  @media (max-width: 1025px) {
-
-.footer {
-    width: 100%;
   }
-
-  ul.footer-menu {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
- .footer-menu > li > a, .footer-menu > li > a:hover {
-    border-bottom: 1px solid var(--lightgrey);
-    width: 100%;
-  }
-
-
-}
-  
 
   @media (max-width: 700px) {
  .footernav {
@@ -1938,77 +1954,20 @@ min-height: 10px;
 }
  }
 
-.content-image-right, .content-image-right img {
-  display: flex;
-  align-items:center;
-  justify-content: center;
-}
-.content-image-right {
-padding-top:4rem;
-  height: 600px;  
-}
-
-
-
-.left-image, .right-image {
-
-}
 
 
 
 
-.left-image img, .right-image img {
 
-aspect-ratio: 1920/953;
-width: 100%;
-height: auto;
 
-}
 
-.content .indent {
-  position: relative;
-  padding-left: 7rem;
-}
-
-.content .indent::before {
-  content: "";
-  width: 5.5rem;
-  height: 0.5rem;
-  display: block;
-  background: transparent url(https://ik.imagekit.io/webtactics/pmfresh/assets/rectangle_IuEasM-q3.svg?updatedAt=1763079970435) no-repeat left top;
-    background-size: auto;
-  background-size: 5.5rem 0.5rem;
-  position: absolute;
-  left: 0;
-  top: 0.4rem;
-}
 
 .content.ctabgcontainer .right-cta.fade-in .indent p {
   font-weight: 400;
   color:var(--black);
 }
 
-@media (max-width: 1024px) { 
 
-.content .indent {
-  position: relative;
-  padding-left: 3.5rem;
-}
-
-.content .indent::before {
-  content: "";
-  width: 3rem;
-  height: 0.5rem;
-  display: block;
-  background: transparent url(https://ik.imagekit.io/webtactics/pmfresh/assets/rectangle_IuEasM-q3.svg?updatedAt=1763079970435) no-repeat left top;
-    background-size: auto;
-  background-size: 3rem 0.5rem;
-  position: absolute;
-  left: 0;
-  top: 0.4rem;
-}
-
-}
 
 
 
@@ -2018,6 +1977,9 @@ height: auto;
 
 @media (max-width: 1024px) { 
   
+  .contentwrapper {
+
+padding: 3rem 1rem;}
 
 .content2 {text-align:left ;}
   }
@@ -2255,7 +2217,13 @@ h3.emailboxh3 {
   padding: 0 0 0 4rem;
   text-decoration: none;
   color: var(--primary);
-background: var(--primary);
+  background: -webkit-linear-gradient(left, #73B72B , #00B2C2);
+  background: -o-linear-gradient(right, #73B72B, #00B2C2);
+  background: -moz-linear-gradient(right, #73B72B, #00B2C2);
+  background: linear-gradient(to right, #73B72B , #00B2C2);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   z-index: 2;
 
 }
@@ -2551,13 +2519,11 @@ padding:0 2rem;
   min-height:300px;
 }
 
+
 .grid-2-7x5-columns {
 grid-template-columns: 7fr 5fr;
 gap: 5rem;
 }
-
-
-
 
 .grid-2-products-categories {
   grid-template-columns: 1fr 1fr;
@@ -2725,7 +2691,7 @@ gap: 5rem;
 
 
 
-  .grid-4-columns.resultssum  { 
+  .grid-4-columns.resultssum { 
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   
@@ -2743,7 +2709,7 @@ gap: 5rem;
 
 
 
-  .grid-7x4, .grid-2, .grid-2-mobilenav, .grid-2-detail-default, .grid-2-thanks, .grid-2-news,  .grid-2-sponsor, .grid-2x1, .grid-2x3, .grid-3x2, .grid-2-products, .grid-2-products-categories, .grid-3x2-products, .grid-2-news, .grid-1x3-maps, .grid-2-7x5-columns { 
+  .grid-7x4, .grid-2, .grid-2-mobilenav, .grid-2-detail-default, .grid-2-thanks, .grid-2-news,  .grid-2-sponsor, .grid-2x1, .grid-2x3, .grid-3x2, .grid-2-products, .grid-2-products-categories, .grid-3x2-products, .grid-2-news, .grid-1x3-maps { 
     grid-template-columns: repeat(1, 1fr); 
     gap: 1rem;
   }
@@ -3186,7 +3152,11 @@ border-bottom: 1px solid var(--primary);
     color: var(--white);
     font-weight:600;
     text-indent: 4rem;
-background: var(--primary);
+     background: var(--primary);
+  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
+  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
+  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
 
 }
 
@@ -3200,8 +3170,14 @@ background: var(--primary);
     transition: all 0.6s;
 
 text-decoration: none;
-  color: var(--black);
-background: var(--primary);
+  color: #7ed321;
+  background: -webkit-linear-gradient(left, #73B72B , #00B2C2);
+  background: -o-linear-gradient(right, #73B72B, #00B2C2);
+  background: -moz-linear-gradient(right, #73B72B, #00B2C2);
+  background: linear-gradient(to right, #73B72B , #00B2C2);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .accordion-trigger-input:focus-visible ~ .accordion-trigger {
@@ -3454,7 +3430,6 @@ font-family: ProximaNova,sans-serif;
   }
 
 
-  
   .sidebarnav ul {
   list-style: none;
   margin: 0;
@@ -3464,21 +3439,21 @@ font-family: ProximaNova,sans-serif;
 
 .sidebarnav li {
   font-size: 0.8rem;
-  color: var(--primary);
+  color: hsl(179, 56%, 42%);
   padding: 0;
   display: block;
   transition: background-color 300ms ease-out;
 }
 
 .sidebarnav li a {
-  color: var(--black);
+  color: hsl(0, 0%, 0%);
   text-decoration: none;
   padding: 0.125rem 0.125rem 0.125rem 0.25rem;
   margin: 0 0 1px 0;
   line-height: 1.875rem;
   white-space: nowrap;
   display: block;
-  background-color: var(--white);
+  background-color: hsl(0, 0%, 100%);
   border: 1px solid rgba(99,100,102,0.2);
   transition: background-color 300ms ease-out;
 }
@@ -3486,6 +3461,6 @@ font-family: ProximaNova,sans-serif;
 
 
 .sidebarnav li a:hover, .sidebarnav li.menuactive a {
-  background: var(--primary);
-  color: var(--white);
+  background: hsl(179, 56%, 60%);
+  color: hsl(0, 0%, 100%);
 }
