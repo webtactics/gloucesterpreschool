@@ -1,6 +1,6 @@
 /* Slider */
 
-.internalhero .one {
+.internalhero.one {
 background: url(https://ik.imagekit.io/webtactics/gloucesterpreschool/hero/GPS-back-play.jpg/tr:w-1900,h-760) no-repeat center center;
 width:100%; 
 background-size:cover;
@@ -8,7 +8,7 @@ height:100vh;
 height:100svh;
 }
 
-.internalhero .two {
+.internalhero.two {
 background: url(https://ik.imagekit.io/webtactics/gloucesterpreschool/hero/GPS-early-learning.jpg/tr:w-1900,h-760) no-repeat center center;
 width:100%; 
 background-size:cover;
