@@ -139,14 +139,16 @@ height:70svh;
 
 
 .flex-caption {
+    position: absolute;
     background: rgba(255,255,255,0.75);
     color: #000000;
     font-size: 14px;
-    bottom: 15vh;
-    left: 0px;
+  left: 25vw;
+    right: auto;
+    top: auto;
     line-height: 18px;
     padding: 1rem;
-    position: absolute;
+
     text-align: left;
     width: auto;
     margin: 0;
@@ -190,22 +192,4 @@ height:70svh;
 
 
 
-  .flex-caption.left {
-    left: 25vw;
-    right: auto;
-    top: auto;
-  }
-  .flex-caption.centre {
-    left: 40vw;
-    right: auto;
-    top: auto;
 
-
-  }
-  .flex-caption.right {
-    left: auto;
-    right: 25vw;
-    top: auto;
-   
-
-  }
