@@ -17,11 +17,9 @@ page_images:
 
 permalink: /
 
-
+subtitle: "At Gloucester Pre School & Early Years Learning Centre we aim to foster your child's physical, intellectual, personal, social, emotional and creative development."
 
 ---
-
-<h2>At Gloucester Pre School &amp; Early Years Learning Centre we aim to foster your child's physical, intellectual, personal, social, emotional and creative development.</h2>
 <h3>Children are encouraged to become involved in a wide range of individual and group learning experiences, under the care of our qualified and caring educators.</h3>
 
 ## Our Vision
