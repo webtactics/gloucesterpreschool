@@ -510,6 +510,7 @@ h2.heading-text  {
   background: var(--primary);
   padding: 1rem;
   margin: 0;
+  border-radius: 8px;
 }
 
 
@@ -873,17 +874,8 @@ a.logolink:hover {background-color: transparent;}
 -ms-transition: all 1s;
 -o-transition: all 1s;
 transition: all 1s;}
-
-
-
-
-
 }
   
-
-
-
-
 
 .navrightside {
   display: flex;
@@ -1556,7 +1548,7 @@ color : var(--white);
 
 .content {
   margin: 0 auto;
-  padding: 8rem 0;
+  padding: 0;
   width: calc(100vw - 10rem);
   max-width: 1440px;
   background-color: var(--white);
@@ -1565,36 +1557,6 @@ color : var(--white);
 
 
 
-.productcatagory.content {
-  padding: 0;
-}
-
-@media (max-width: 1500px) {
-  .content {
-      width: calc(100vw - 6rem);
-    padding: 6rem 0;
-  }
-}
-
-
-
-
-
-@media (max-width: 1025px) {
-  .content {
-    width: calc(100vw - 2rem);
-    padding: 2rem 0;
-  }
-}
-
-
-
-
-
-.content.home {
-  padding: 4rem 0;
-
-}
 .content.home h3 {
   font-size: 3rem;
  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
