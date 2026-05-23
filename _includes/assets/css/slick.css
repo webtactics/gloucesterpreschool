@@ -190,5 +190,7 @@ height:70svh;
 }
 
 
-
+.flex-caption h1 {
+margin: 0;
+}
 
