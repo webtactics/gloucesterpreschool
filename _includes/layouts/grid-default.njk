@@ -106,17 +106,20 @@
 <div class="container">
 	<main class="content">
 
+		<div class="titlebox fade-in">
+				
+			<h2 class="heading-text">{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}</h2>
+				
+		</div>
+
+
 
 <div class="grid-2-7x5-columns">
 
 	<div class="content-left">
 
 		<div class="text">
-    		<div class="titlebox fade-in">
-				
-			<h2 class="heading-text">{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}</h2>
-				
-			</div>
+    		
 
       			<div class="contentwrapper fade-in">
 					{{ content | safe }}
@@ -128,21 +131,15 @@
 
 	<div class="content-right">
 
-
-
-<div class="sidebarnav">
-  {% include "components/grid-nav-sidebar.njk" %}
-</div>
-
-
-
+		<div class="sidebarnav">
+  			{% include "components/grid-nav-sidebar.njk" %}
+		</div>
 
 
 	</div>
 	   
 
 </div>
-
 
 
 	</main>
