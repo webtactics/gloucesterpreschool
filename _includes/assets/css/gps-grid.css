@@ -3492,4 +3492,5 @@ font-family: ProximaNova,sans-serif;
 
 .headerspace {
   height: var(--headerheight);
+   background: var(--white);
 }
