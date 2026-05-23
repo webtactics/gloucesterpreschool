@@ -3489,3 +3489,7 @@ font-family: ProximaNova,sans-serif;
   background: var(--primary);
   color: var(--white);
 }
+
+.headerspace {
+  height: var(--headerheight);
+}
