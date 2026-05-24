@@ -12,18 +12,13 @@
          
 
 	{% for post in postslist  %}
-     <div class="accordion-content">
-
+<div class="accordion-content">
 <div class="gridteamwrapper">
 <div class="gridteamimage">{% if post.data.image %}<div class="gridteamimg"><img src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-200,h-200,q-60/static/img/pages/about/team/{{ post.data.image }}" loading="lazy" alt="{{ post.data.title }}" title="{{ post.data.title }}"/></div>{% else %}<div class="gridteamimg"><img src="https://ik.imagekit.io/webtactics/gloucester-pre-school/uploads/images/assets/person-icon-circle.png/tr:w-200,h-200,q-60" alt="{{ post.data.title }}" title="{{ post.data.title }}" ></div>{% endif %} </div>
 <div class="gridteamtext"><p><strong>{{ post.data.title }}</strong></p>{% if post.content %}{{ post.content | safe }}{% endif %}</div>
 </div>
-
-
-
-    </div>
-
-	{% endfor %}
+</div>
+{% endfor %}
 
 
                 
