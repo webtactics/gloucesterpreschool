@@ -27,6 +27,3 @@ tags:
 <p><strong>Treasurer:</strong> Clare MacGregor</p>
 <p><strong>Secretary:</strong> Emma Maleklou</p>
 <p><strong>Ordinary Committee Members:</strong> Christian Watts, Sue Ray, Jocelyn Elliot & Olivia Harris</p>
-
-<!-- Caption: <p>L to R -</p> -->
-
