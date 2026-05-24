@@ -25,6 +25,4 @@ tags:
 - centremanager
 
 ---
-
 <p>Director and Diploma in Childhood Education and Care, currently studying Early Childhood Teaching.</p>
-
