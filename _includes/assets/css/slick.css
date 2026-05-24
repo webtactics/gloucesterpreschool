@@ -63,11 +63,15 @@ height:50svh;
 }
 
 
+@media (min-width: 1025px) { 
 
-
-
-
-
+.flex-caption {
+left: 1rem;
+right: auto;
+top: 30vh;
+max-width: 100%;
+}
+}
 
 .slick-slider
 {

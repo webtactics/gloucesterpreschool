@@ -584,6 +584,70 @@ color: var(--black);
 }
 
 
+/* content layout */
+
+
+.container {
+  margin: 0 auto;
+  background-color: var(--white);
+  padding: 6rem 0;
+ white-space: pre-wrap; /* CSS3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+
+
+.content {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100vw - 1rem);
+  max-width: 1440px;
+  background-color: var(--white);
+  min-height: 300px;
+}
+
+
+
+.content.home h3 {
+  font-size: 3rem;
+ font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  color: var(--primary);
+  text-align: center;
+  padding: 2rem 0 3rem 0;
+  margin: 0;
+}
+
+
+.container p a {
+  line-height: inherit;
+  color: var(--black);
+  border-bottom: 2px dotted var(--primary);
+  background-color: var(--white);
+  text-transform: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  padding:0 0.25rem;
+white-space: wrap;
+}
+
+.container p a:hover {
+  color: var(--white);
+  border-bottom: 2px solid var(--black);
+
+  text-decoration: none;
+  background-color: var(--primary);
+  transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+
+
 .eightypercentborder {
   margin: 0 auto 3.5rem auto;
   border-bottom: 6px dotted var(--lightgreen);
@@ -1524,67 +1588,7 @@ color : var(--white);
       flex-direction: column; /* This stacks the items vertically */
 }
   }
-/* content layout */
 
-
-.container {
-  margin: 0 auto;
-  background-color: var(--white);
-  padding: 6rem 0;
- white-space: pre-wrap; /* CSS3 */    
-    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-    white-space: -pre-wrap; /* Opera 4-6 */    
-    white-space: -o-pre-wrap; /* Opera 7 */    
-    word-wrap: break-word; /* Internet Explorer 5.5+ */
-}
-
-
-
-
-
-
-
-.content {
-  margin: 0 auto;
-  padding: 0;
-  width: calc(100vw - 10rem);
-  max-width: 1440px;
-  background-color: var(--white);
-  min-height: 300px;
-}
-
-
-
-.content.home h3 {
-  font-size: 3rem;
- font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-  color: var(--primary);
-  text-align: center;
-  padding: 2rem 0 3rem 0;
-  margin: 0;
-}
-
-
-.container p a {
-  line-height: inherit;
-  color: var(--black);
-  border-bottom: 2px dotted var(--primary);
-  background-color: var(--white);
-  text-transform: none;
-  cursor: pointer;
-  transition: all 0.4s ease-in-out;
-  padding:0 0.25rem;
-white-space: wrap;
-}
-
-.container p a:hover {
-  color: var(--white);
-  border-bottom: 2px solid var(--black);
-
-  text-decoration: none;
-  background-color: var(--primary);
-  transition: all 0.4s ease-in-out;
-}
 
 .text-center {text-align: center;}
 .text-left {text-align: left;}
