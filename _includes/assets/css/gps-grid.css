@@ -1882,13 +1882,9 @@ z-index: 0;
 /* sliding images */
 
 
-.content-left, .content-right {
-min-height: 500px;
-}
 
-.accordion-content .content-left, .accordion-content .content-right {
-min-height: 300px;
-}
+
+
 
 .grid-2-products .content-left, .grid-2-products .content-right, .grid-2-products-categories, .grid-2-products-categories .content-left, .grid-2-products-categories .content-right {
   min-height: 300px;
@@ -3334,7 +3330,7 @@ text-decoration: none;
   background-color: var(--white);
  font-size: 1.2rem;
  border: 1px solid #ebebeb;
- margin-bottom: 1rem;
+ margin: 0;
 }
 
 
