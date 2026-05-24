@@ -29,4 +29,4 @@ eleventyNavigation:
 <div>{% set postslist = collections['admin']  %} 
 {% include "components/postslist-team-admin.njk" %}</div>
 <div>{% set postslist = collections['preschool']  %} 
-{% include "components/postslist-team-pre.njk" %}</div>
+{% include "components/postslist-team-preschool.njk" %}</div>
