@@ -5,8 +5,8 @@ position: 2
 active: true
 categories: "Director, Centre Manager & Nominated Supervisors"
 image: "Kareen.jpg"
-create_date: 2022-05-04
-modified_date: 2025-02-26
+create_date: 2022-05-06
+modified_date: 2025-02-28
 
 managementcommittee:
 director: true
