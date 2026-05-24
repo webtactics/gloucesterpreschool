@@ -3207,18 +3207,14 @@ font-family: ProximaNova,sans-serif;
   border-bottom: 2px solid var(--primary);
   margin-bottom: -2px;
   overflow: hidden;
-}
-
-.contactpage .accordion-item {
-  border-top: 1px solid var(--white);
-  border-bottom: 2px solid var(--white);
-  -webkit-transition: all var(--animation-delay);
+   -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
   -ms-transition: all var(--animation-delay);
   -o-transition: all var(--animation-delay);
   transition: all var(--animation-delay);
-
 }
+
+
 
 .accordion-item:hover {
   border-top: 1px solid var(--primary);
@@ -3296,36 +3292,6 @@ text-decoration: none;
 .accordion-trigger::after {
   display: block;
   position: absolute;
-  right: 16px;
-  top: 18px;
-  content: '';
-  width: 8px;
-  height: 8px;
-  border: 2px solid var(--black);
-  border-bottom: transparent;
-  border-left: transparent;
-  transform: rotate(135deg);
-  transition: transform var(--transitionLength) var(--transitionTiming);
-}
-
-.accordion-trigger:hover::after {  
-  display: block;
-  position: absolute;
-  right: 16px;
-  top: 18px;
-  content: '';
-  width: 8px;
-  height: 8px;
-  border: 2px solid var(--primary);
-  border-bottom: transparent;
-  border-left: transparent;
-  transform: rotate(135deg);
-  transition: transform var(--transitionLength) var(--transitionTiming);
-}
-
-.contactpage .accordion-trigger::after {
-  display: block;
-  position: absolute;
   right: 2rem;
   top: 1.4rem;
   content: '';
@@ -3338,7 +3304,7 @@ text-decoration: none;
   transition: transform var(--transitionLength) var(--transitionTiming);
 }
 
-.contactpage .accordion-trigger:hover::after { 
+.accordion-trigger:hover::after {  
   display: block;
   position: absolute;
   right: 2rem;
@@ -3352,6 +3318,7 @@ text-decoration: none;
   transform: rotate(135deg);
   transition: transform var(--transitionLength) var(--transitionTiming);
 }
+
 
 
 
@@ -3369,12 +3336,10 @@ text-decoration: none;
 .accordion-content {
   padding: 1rem;
   background-color: var(--white);
-  font-size: 0.9rem;
+ font-size: 1.2rem;
 }
 
-.contactpage .accordion-content {
-  font-size: 1.2rem;
-}
+
 
 
 .products-details .accordion-content {
