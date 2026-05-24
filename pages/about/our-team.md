@@ -22,11 +22,16 @@ eleventyNavigation:
 
 <p><strong>Please note all teachers and educators at the Pre School are DoCS's Mandatory reporters.</strong></p>
 
-<div>{% set postslist = collections['management-committee']  %} 
-{% include "components/postslist-team-management.njk" %}</div>
-<div>{% set postslist = collections['director']  %} 
-{% include "components/postslist-team-director.njk" %}</div>
-<div>{% set postslist = collections['admin']  %} 
-{% include "components/postslist-team-admin.njk" %}</div>
-<div>{% set postslist = collections['preschool']  %} 
-{% include "components/postslist-team-preschool.njk" %}</div>
+{% include "components/global/management.html" %}
+{% include "components/global/director.html" %}
+{% include "components/global/admin.html" %}
+{% include "components/global/preschool.html" %}
+{% include "components/global/early.html" %}
+{% include "components/global/additional.html" %}
+{% include "components/global/ancillary.html" %}
+{% include "components/global/mobile.html" %}
+
+
+
+
+
