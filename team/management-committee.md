@@ -17,6 +17,10 @@ earlyyears:
 additional:
 Ancillary:
 mobileplay:
+
+tags:
+- management-committee
+
 ---
 
 <p><strong>President:</strong> Patricia Banyer</p>

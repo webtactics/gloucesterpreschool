@@ -1,0 +1,43 @@
+ <div class="accordion contactpage">
+	{% for post in postslist  %}
+
+
+
+ <div class="accordion-item">
+    <input id="accordion-trigger-{{ post.data.order }}" class="accordion-trigger-input" type="checkbox"></input>
+      <label class="accordion-trigger" for="accordion-trigger-1">Management Committee</label>
+        <section class="accordion-animation-wrapper">
+          <div class="accordion-animation">
+            <div class="accordion-transform-wrapper">
+              <div class="accordion-content">
+                
+
+                
+             {% if post.data.anagementcommittee %}
+         {{ post.content | safe }}
+           {% endif %}
+
+              </div>
+            </div>
+          </div>
+        </section>
+  </div>
+
+
+
+	{% endfor %}
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

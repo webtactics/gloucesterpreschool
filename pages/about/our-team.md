@@ -22,4 +22,5 @@ eleventyNavigation:
 
 <p><strong>Please note all teachers and educators at the Pre School are DoCS's Mandatory reporters.</strong></p>
 
-<div>{LISETeam}</div>
+<div>{% set postslist = collections['management-committee']  %} 
+{% include "components/postslist-team-management.njk" %}</div>
