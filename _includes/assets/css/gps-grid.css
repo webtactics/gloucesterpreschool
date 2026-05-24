@@ -3004,279 +3004,7 @@ textarea
 	border: 1px solid var(--primary);
 }
 
- /* accordion
-------------------------------------------------- */
-.nutritionservetitle {
-border-bottom: 1px solid var(--primary);
-    font-weight: 400;
-    padding:0.4rem 0;
-    font-size: 1rem;
-}
 
-.accordion-animation-wrapper {
-  display: grid;
-  grid-template-rows: 0fr;
-  overflow: hidden;
-  transition: grid-template-rows var(--transitionLength) var(--transitionTiming);
-}
-
-
-.accordion-trigger-input:checked ~ .accordion-animation-wrapper {
-  grid-template-rows: 1fr;
-}
-
-.accordion-animation {
-  min-height: 0;
-}
-
-.accordion-transform-wrapper {
-  transform: translateY(-100%);
-  visibility: hidden;
-  transition: transform var(--transitionLength) var(--transitionTiming), visibility 0s var(--transitionLength) var(--transitionTiming);
-}
-
-.accordion-trigger-input:checked ~ .accordion-animation-wrapper .accordion-transform-wrapper {
-  transform: translateY(0);
-  visibility: visible;
-  transition: transform var(--transitionLength) var(--transitionTiming), visibility 0s linear;
-}
-/* Margins inside the container will throw animation height calculations off, better use paddings */
-.accordion-content * {
-  margin: 0;
-}
-
-.accordion {
-  width: auto;
-  margin: 2rem auto;
-}
-
-.contactpage .accordion {
-  width: auto;
-  margin: 4rem auto 2rem auto;
-}
-
-.accordion-item {
-  border-top: 1px solid var(--primary);
-  border-bottom: 2px solid var(--primary);
-  margin-bottom: -2px;
-  overflow: hidden;
-}
-
-.contactpage .accordion-item {
-  border-top: 1px solid var(--white);
-  border-bottom: 2px solid var(--white);
-  -webkit-transition: all var(--animation-delay);
-  -moz-transition: all var(--animation-delay);
-  -ms-transition: all var(--animation-delay);
-  -o-transition: all var(--animation-delay);
-  transition: all var(--animation-delay);
-
-}
-
-.accordion-item:hover {
-  border-top: 1px solid var(--primary);
-  border-bottom: 2px solid var(--primary);
-  -webkit-transition: all var(--animation-delay);
-  -moz-transition: all var(--animation-delay);
-  -ms-transition: all var(--animation-delay);
-  -o-transition: all var(--animation-delay);
-  transition: all var(--animation-delay);
-
-}
-
-.accordion-trigger-input {
-  clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap; 
-  width: 1px;
-}
-
-
-
-
-.accordion-trigger {
-  display: block;
-  position: relative;
-    padding: 1rem 0.4rem;
-  transition: box-shadow var(--transitionLength) var(--transitionTiming);
-  z-index: 1;
-  cursor: pointer;
-  color: var(--black);
-  font-size: 1.3rem;
-}
-
-.contactpage .accordion-trigger {
-  font-size: 1.8rem;
-    color: var(--white);
-    font-weight:600;
-    text-indent: 4rem;
-background: var(--primary);
-
-}
-
- .accordion-trigger:hover, .accordion-trigger:active, .accordion-trigger:focus {
-
-   transition: box-shadow var(--transitionLength) var(--transitionTiming);
-  -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
-
-text-decoration: none;
-  color: var(--black);
-background: var(--primary);
-}
-
-.accordion-trigger-input:focus-visible ~ .accordion-trigger {
-  outline: 2px solid;
-  outline-offset: -2px;
-}
-
-.accordion-trigger::after {
-  display: block;
-  position: absolute;
-  right: 16px;
-  top: 18px;
-  content: '';
-  width: 8px;
-  height: 8px;
-  border: 2px solid var(--black);
-  border-bottom: transparent;
-  border-left: transparent;
-  transform: rotate(135deg);
-  transition: transform var(--transitionLength) var(--transitionTiming);
-}
-
-.accordion-trigger:hover::after {  
-  display: block;
-  position: absolute;
-  right: 16px;
-  top: 18px;
-  content: '';
-  width: 8px;
-  height: 8px;
-  border: 2px solid var(--primary);
-  border-bottom: transparent;
-  border-left: transparent;
-  transform: rotate(135deg);
-  transition: transform var(--transitionLength) var(--transitionTiming);
-}
-
-.contactpage .accordion-trigger::after {
-  display: block;
-  position: absolute;
-  right: 2rem;
-  top: 1.4rem;
-  content: '';
-  width: 1rem;
-  height: 1rem;
-  border: 0.4rem solid var(--white);
-  border-bottom: transparent;
-  border-left: transparent;
-  transform: rotate(135deg);
-  transition: transform var(--transitionLength) var(--transitionTiming);
-}
-
-.contactpage .accordion-trigger:hover::after { 
-  display: block;
-  position: absolute;
-  right: 2rem;
-  top: 1.4rem;
-  content: '';
-  width: 1rem;
-  height: 1rem;
-  border: 0.4rem solid var(--primarydark);
-  border-bottom: transparent;
-  border-left: transparent;
-  transform: rotate(135deg);
-  transition: transform var(--transitionLength) var(--transitionTiming);
-}
-
-
-
-.accordion-trigger-input:checked ~ .accordion-trigger::after {
-  transform: rotate(135deg) rotateX(180deg) rotateY(180deg) translateY(4px) translateX(-4px);
-}
-
-
-.accordion-trigger-input:checked ~ .accordion-trigger {
- box-shadow: 0 1px 2px var(--primary);
- transition: box-shadow calc(var(--transitionLength) / 4) var(--transitionTiming);
-}
-
-
-.accordion-content {
-  padding: 1rem;
-  background-color: var(--white);
-  font-size: 0.9rem;
-}
-
-.contactpage .accordion-content {
-  font-size: 1.2rem;
-}
-
-
-.products-details .accordion-content {
-  padding: 0.75rem;
-}
-
-.accordion-content h2 {
-  padding-bottom: 0.75rem;
-}
-
-.accordion-content p {
-  padding-bottom: 1rem;
-  font-size: 0.9rem;
-  line-height: 1;
-}
-
-.accordion-content p:last-of-type {
-  padding-bottom: 0;
-}
-
-.accordion-content img {
-  max-width: 100%;
-}
-
-.accordion-content .contacttext a {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-  color: var(--black);
-  border-bottom: 2px dotted var(--primary);
-  background-color: var(--white);
-  text-transform: none;
-  cursor: pointer;
-  transition: all .4s ease-in-out;
-  padding: 0 .25rem;
-  white-space: wrap;
-  font-weight: 600;
-}
-.accordion-content .contacttext a:hover {
-
-  color: var(--white);
-  border-bottom: 2px solid var(--black);
-  text-decoration: none;
-  background-color: var(--primary);
-  transition: all .4s ease-in-out;
-}
-
-.accordion-content .description {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-  color: var(--primary);
-
-}
-
-.accordion-content .description .contacttext {  color: var(--black); }
-
-.description {padding:0 0 1rem 0;}
-.description:first-child {padding:1rem 0;}
-span.contacttext {padding: 0 0.4rem;}
-.description.map span.contacttext {padding: 0;}
 
 
 .tradeloginexternal {
@@ -3426,3 +3154,278 @@ font-family: ProximaNova,sans-serif;
 .headerspace {height:0;}
 
 }
+
+
+/* accordion
+------------------------------------------------- */
+
+
+.accordion-animation-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: grid-template-rows var(--transitionLength) var(--transitionTiming);
+}
+
+
+.accordion-trigger-input:checked ~ .accordion-animation-wrapper {
+  grid-template-rows: 1fr;
+}
+
+.accordion-animation {
+  min-height: 0;
+}
+
+.accordion-transform-wrapper {
+  transform: translateY(-100%);
+  visibility: hidden;
+  transition: transform var(--transitionLength) var(--transitionTiming), visibility 0s var(--transitionLength) var(--transitionTiming);
+}
+
+.accordion-trigger-input:checked ~ .accordion-animation-wrapper .accordion-transform-wrapper {
+  transform: translateY(0);
+  visibility: visible;
+  transition: transform var(--transitionLength) var(--transitionTiming), visibility 0s linear;
+}
+/* Margins inside the container will throw animation height calculations off, better use paddings */
+.accordion-content * {
+  margin: 0;
+}
+
+.accordion {
+  width: auto;
+  margin: 2rem auto;
+}
+
+.contactpage .accordion {
+  width: auto;
+  margin: 4rem auto 2rem auto;
+}
+
+.accordion-item {
+  border-top: 1px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
+  margin-bottom: -2px;
+  overflow: hidden;
+}
+
+.contactpage .accordion-item {
+  border-top: 1px solid var(--white);
+  border-bottom: 2px solid var(--white);
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
+
+}
+
+.accordion-item:hover {
+  border-top: 1px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
+
+}
+
+.accordion-trigger-input {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+
+
+
+.accordion-trigger {
+  display: block;
+  position: relative;
+    padding: 1rem 0.4rem;
+  transition: box-shadow var(--transitionLength) var(--transitionTiming);
+  z-index: 1;
+  cursor: pointer;
+  color: var(--black);
+  font-size: 1.3rem;
+}
+
+.contactpage .accordion-trigger {
+  font-size: 1.8rem;
+    color: var(--white);
+    font-weight:600;
+    text-indent: 4rem;
+     background: var(--primary);
+  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
+  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
+  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
+
+}
+
+ .accordion-trigger:hover, .accordion-trigger:active, .accordion-trigger:focus {
+
+   transition: box-shadow var(--transitionLength) var(--transitionTiming);
+  -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+
+text-decoration: none;
+  color: #7ed321;
+  background: -webkit-linear-gradient(left, #73B72B , #00B2C2);
+  background: -o-linear-gradient(right, #73B72B, #00B2C2);
+  background: -moz-linear-gradient(right, #73B72B, #00B2C2);
+  background: linear-gradient(to right, #73B72B , #00B2C2);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accordion-trigger-input:focus-visible ~ .accordion-trigger {
+  outline: 2px solid;
+  outline-offset: -2px;
+}
+
+.accordion-trigger::after {
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 18px;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--black);
+  border-bottom: transparent;
+  border-left: transparent;
+  transform: rotate(135deg);
+  transition: transform var(--transitionLength) var(--transitionTiming);
+}
+
+.accordion-trigger:hover::after {  
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 18px;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--primary);
+  border-bottom: transparent;
+  border-left: transparent;
+  transform: rotate(135deg);
+  transition: transform var(--transitionLength) var(--transitionTiming);
+}
+
+.contactpage .accordion-trigger::after {
+  display: block;
+  position: absolute;
+  right: 2rem;
+  top: 1.4rem;
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  border: 0.4rem solid var(--white);
+  border-bottom: transparent;
+  border-left: transparent;
+  transform: rotate(135deg);
+  transition: transform var(--transitionLength) var(--transitionTiming);
+}
+
+.contactpage .accordion-trigger:hover::after { 
+  display: block;
+  position: absolute;
+  right: 2rem;
+  top: 1.4rem;
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  border: 0.4rem solid var(--primarydark);
+  border-bottom: transparent;
+  border-left: transparent;
+  transform: rotate(135deg);
+  transition: transform var(--transitionLength) var(--transitionTiming);
+}
+
+
+
+.accordion-trigger-input:checked ~ .accordion-trigger::after {
+  transform: rotate(135deg) rotateX(180deg) rotateY(180deg) translateY(4px) translateX(-4px);
+}
+
+
+.accordion-trigger-input:checked ~ .accordion-trigger {
+ box-shadow: 0 1px 2px var(--primary);
+ transition: box-shadow calc(var(--transitionLength) / 4) var(--transitionTiming);
+}
+
+
+.accordion-content {
+  padding: 1rem;
+  background-color: var(--white);
+  font-size: 0.9rem;
+}
+
+.contactpage .accordion-content {
+  font-size: 1.2rem;
+}
+
+
+.products-details .accordion-content {
+  padding: 0.75rem;
+}
+
+.accordion-content h2 {
+  padding-bottom: 0.75rem;
+}
+
+.accordion-content p {
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.accordion-content p:last-of-type {
+  padding-bottom: 0;
+}
+
+.accordion-content img {
+  max-width: 100%;
+}
+
+.accordion-content .contacttext a {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: var(--black);
+  border-bottom: 2px dotted var(--primary);
+  background-color: var(--white);
+  text-transform: none;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  padding: 0 .25rem;
+  white-space: wrap;
+  font-weight: 600;
+}
+.accordion-content .contacttext a:hover {
+
+  color: var(--white);
+  border-bottom: 2px solid var(--black);
+  text-decoration: none;
+  background-color: var(--primary);
+  transition: all .4s ease-in-out;
+}
+
+.accordion-content .description {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: var(--primary);
+
+}
+
+.accordion-content .description .contacttext {  color: var(--black); }
