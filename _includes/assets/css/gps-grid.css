@@ -3389,3 +3389,29 @@ text-decoration: none;
 }
 
 .accordion-content .description .contacttext {  color: var(--black); }
+
+.gridteamwrapper {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: minmax(50px, 100px) 1fr;
+}
+
+.gridteamwrapper img {
+  border-radius: 20%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gridteamwrapper:hover img {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.gridteamtext p {
+  margin-bottom: 0.4rem;
+  line-height: 1.2;
+}

@@ -24,3 +24,5 @@ eleventyNavigation:
 
 <div>{% set postslist = collections['management-committee']  %} 
 {% include "components/postslist-team-management.njk" %}</div>
+<div>{% set postslist = collections['director']  %} 
+{% include "components/postslist-team-director.njk" %}</div>
