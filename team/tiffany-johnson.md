@@ -24,6 +24,4 @@ tags:
 - dapin
 
 ---
-
 <p>Certificate III in Early Childhood Education and Care. Educator in the Dapin Room.</p>
-

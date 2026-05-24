@@ -26,4 +26,3 @@ tags:
 ---
 
 <p>Currently studying a Certificate III in Early Childhood Education &amp; Care. Educator in the Gawul Room</p>
-

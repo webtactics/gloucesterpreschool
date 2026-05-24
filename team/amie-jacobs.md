@@ -26,4 +26,3 @@ tags:
 ---
 
 <p>Certificate III in Early Childhood Education and Care. Educator in the Service. Cook in the Kitchen and Educator in the Gawul room.</p>
-

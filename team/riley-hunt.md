@@ -28,4 +28,3 @@ tags:
 ---
 
 <p>Currently studying Certificate III In Early Childhood Education.</p>
-

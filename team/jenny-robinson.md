@@ -29,4 +29,3 @@ tags:
 
 <p>Bachelor of Education degree.</p>
 <p>Early Childhood Teacher and Room Leader in the Gawul Room.</p>
-

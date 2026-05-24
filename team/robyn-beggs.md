@@ -26,7 +26,5 @@ tags:
 - admin
 
 ---
-
 <p>Centre Manager</p>
 <p>Certificate IV in Bookkeeping. Bookkeeper in the Office. Currently studying Certificate III in Early Childhood Education and Care</p>
-
