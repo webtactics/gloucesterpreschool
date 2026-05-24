@@ -28,3 +28,5 @@ eleventyNavigation:
 {% include "components/postslist-team-director.njk" %}</div>
 <div>{% set postslist = collections['admin']  %} 
 {% include "components/postslist-team-admin.njk" %}</div>
+<div>{% set postslist = collections['preschool']  %} 
+{% include "components/postslist-team-pre.njk" %}</div>
