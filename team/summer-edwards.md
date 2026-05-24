@@ -18,6 +18,11 @@ earlyyears:
 additional:
 Ancillary:
 mobileplay:
+
+tags:
+- preschool
+- dapin
+
 ---
 
 <p>Currently studying Certificate III in Early Childhood Education and Care. Educator in the Yapii Room.</p>

@@ -20,6 +20,11 @@ yapii:
 additional:
 Ancillary:
 mobileplay:
+
+tags:
+- earlyyears
+- banggu
+
 ---
 
 <p>Certificate III in Early Childhood Education and Care. Room Leader and Educator in the Banggu Room.</p>

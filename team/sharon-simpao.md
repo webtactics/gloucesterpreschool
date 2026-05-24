@@ -20,6 +20,11 @@ yapii:
 additional:
 Ancillary:
 mobileplay:
+
+tags:
+- earlyyears
+- banggu
+
 ---
 
 <p>Diploma in Early Childhood Education and Care. Educator in the Banggu Room.</p>

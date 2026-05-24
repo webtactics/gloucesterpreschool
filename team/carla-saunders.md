@@ -22,6 +22,12 @@ yapii: true
 additional:
 Ancillary:
 mobileplay: true
+
+tags:
+- earlyyears
+- yapii
+- mobileplay
+
 ---
 
 <p>Certificate III in Early Childhood Education and Care. Educator for Gloucester Mobile Supported Playgroup &amp; Early Years Learning Centre.</p>

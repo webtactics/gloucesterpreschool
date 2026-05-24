@@ -18,6 +18,10 @@ earlyyears:
 additional:
 Ancillary:
 mobileplay:
+
+tags:
+- admin
+
 ---
 
 <p>Certificate IV Secretarial Studies. Administrative Assistant in the Office.</p>

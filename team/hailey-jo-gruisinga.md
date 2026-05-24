@@ -20,6 +20,11 @@ yapii: true
 additional:
 Ancillary:
 mobileplay:
+
+tags:
+- earlyyears
+- yapii
+
 ---
 
 <p>Studying Diploma in Early Childhood Education &amp; Care. Educator in the Gawul Room</p>

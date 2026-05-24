@@ -20,6 +20,12 @@ earlyyears:
 additional: true
 Ancillary:
 mobileplay:
+
+tags:
+- preschool
+- dapin
+- additional
+
 ---
 
 <p>Currently studying Certificate III in Early Childhood Education and Care. Educator in the Dapin Room</p>

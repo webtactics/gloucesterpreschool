@@ -22,6 +22,11 @@ yapii: true
 additional:
 Ancillary:
 mobileplay:
+
+tags:
+- earlyyears
+- yapii
+
 ---
 
 <p>Currently studying Certificate III in Early Childhood Education and Care. Educator in the Yapii Room.</p>

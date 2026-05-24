@@ -20,6 +20,11 @@ yapii: true
 additional:
 Ancillary:
 mobileplay:
+
+tags:
+- earlyyears
+- yapii
+
 ---
 
 <p>Currently studying Certificate III In Early Childhood Education.</p>

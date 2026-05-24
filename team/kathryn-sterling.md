@@ -18,6 +18,11 @@ earlyyears:
 additional:
 Ancillary:
 mobileplay:
+
+tags:
+- preschool
+- dapin
+
 ---
 
 <p>Bachelor's Degree in Early Childhood and Primary Education.</p>

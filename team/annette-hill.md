@@ -18,6 +18,10 @@ earlyyears:
 additional:
 Ancillary:
 mobileplay: true
+
+tags:
+- mobileplay
+
 ---
 
 <p>Support Worker for the Mobile Playgroup</p>
