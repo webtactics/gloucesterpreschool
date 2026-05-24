@@ -3297,7 +3297,7 @@ text-decoration: none;
   content: '';
   width: 1rem;
   height: 1rem;
-  border: 0.4rem solid var(--white);
+  border: 0.4rem solid var(--primary);
   border-bottom: transparent;
   border-left: transparent;
   transform: rotate(135deg);
@@ -3312,7 +3312,7 @@ text-decoration: none;
   content: '';
   width: 1rem;
   height: 1rem;
-  border: 0.4rem solid var(--primarydark);
+  border: 0.4rem solid var(--black);
   border-bottom: transparent;
   border-left: transparent;
   transform: rotate(135deg);
@@ -3341,18 +3341,13 @@ text-decoration: none;
 
 
 
-
-.products-details .accordion-content {
-  padding: 0.75rem;
-}
-
 .accordion-content h2 {
   padding-bottom: 0.75rem;
 }
 
 .accordion-content p {
   padding-bottom: 1rem;
-  font-size: 0.9rem;
+ font-size: 1.2rem;
   line-height: 1;
 }
 
