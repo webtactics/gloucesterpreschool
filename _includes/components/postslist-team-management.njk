@@ -3,7 +3,7 @@
 
 
 
- <div class="accordion-item">
+<div class="accordion-item">
     <input id="accordion-trigger-man" class="accordion-trigger-input" type="checkbox"></input>
       <label class="accordion-trigger" for="accordion-trigger-man">Management Committee</label>
         <section class="accordion-animation-wrapper">
@@ -11,31 +11,18 @@
             <div class="accordion-transform-wrapper">
               <div class="accordion-content">
                 
-
-                
-             {% if post.data.managementcommittee %}
-         {{ post.content | safe }}
-           {% endif %}
+{% if post.data.managementcommittee %}{{ post.content | safe }}{% endif %}
 
               </div>
             </div>
           </div>
         </section>
-  </div>
+</div>
 
 
 
 	{% endfor %}
 </div>
-
-
-
-
-
-
-
-
-
 
 
 
