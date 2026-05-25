@@ -3384,6 +3384,12 @@ text-decoration: none;
 
 .accordion-content .description .contacttext {  color: var(--black); }
 
+.teamwrapper {
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid var(--lightgrey);
+}
+
 .gridteamwrapper {
   display: grid;
   gap: 0.8rem;
