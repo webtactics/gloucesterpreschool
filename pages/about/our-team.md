@@ -1,5 +1,5 @@
 ---
-title: "Experienced and Qualified Staff"
+title: "Our Team"
 slug: our-team
 content_alias: our-team
 type: content
@@ -18,6 +18,8 @@ eleventyNavigation:
   parent: About Us
   order: 2
 
+subtitle: Experienced and Qualified Staff
+
 ---
 
 <p><strong>Please note all teachers and educators at the Pre School are DoCS's Mandatory reporters.</strong></p>
@@ -30,5 +32,3 @@ eleventyNavigation:
 {% include "components/global/additional.html" %}
 {% include "components/global/ancillary.html" %}
 {% include "components/global/mobile.html" %}
-
-
