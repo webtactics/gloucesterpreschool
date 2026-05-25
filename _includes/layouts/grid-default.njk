@@ -150,6 +150,48 @@
 {% endblock %}
 
 {% block content2 %}{% endblock %}
+
+
+
+
+{% block ctacontent %}
+<div class="section cta-content" style="background: url({% if ctaimage %}{{ ctaimage }}{% else %}https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/home-slide-1-1920x953_G3eidXsMb.jpg{% endif %}/tr:w-1920,h-953) no-repeat center center;width:100%; background-size:cover;">
+
+<div class="content ctabgcontainer">
+	
+<div class="right-cta fade-in">
+    <div class="inner">
+
+		
+			<div class="text">
+				<div class="titlebox">
+				 	<h3 class="cta-title">{% if ctatitle %}{{ ctatitle }}{% else %}Our Philosophy.{% endif %}</h3>
+				</div>
+
+				<div class="indent">
+					<p>{% if ctatext %}{{ ctatext }}{% else %}We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.{% endif %}</p>
+					<div class="linkwrapper"><a class="resultspdf" href="{% if ctalink %}{{ ctalink }}{% else %}/about/our-philosophy/{% endif %}" title="{% if ctatitle %}{{ ctatitle }}{% else %}Our Philosophy.{% endif %}" alt="{% if ctatitle %}{{ ctatitle }}{% else %}Our Philosophy.{% endif %}">Learn more &gt;</a></div>
+				</div>
+			</div>
+		
+
+	</div>        
+</div> 
+
+</div>
+
+</div>
+
+<div class="pad4rembothwhitebg"></div>	
+{% endblock %}
+
+
+
+
+
+
+
+
 {% block content3 %}{% endblock %}
 
 
