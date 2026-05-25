@@ -3192,6 +3192,10 @@ font-family: ProximaNova,sans-serif;
   width: auto;
   margin: 0 auto;
 }
+.accordion.top {
+  width: auto;
+  margin: 2rem auto 0 auto;
+}
 
 
 .accordion-item {
@@ -3243,18 +3247,7 @@ font-family: ProximaNova,sans-serif;
   font-size: 1.3rem;
 }
 
-.contactpage .accordion-trigger {
-  font-size: 1.8rem;
-    color: var(--white);
-    font-weight:600;
-    text-indent: 4rem;
-     background: var(--primary);
-  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
-  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
-  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
 
-}
 
  .accordion-trigger:hover, .accordion-trigger:active, .accordion-trigger:focus {
 
