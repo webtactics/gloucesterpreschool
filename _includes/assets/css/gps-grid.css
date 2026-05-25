@@ -1425,9 +1425,9 @@ color : var(--white);
 .linkwrapper  {padding: 2rem 0;}
 .home .linkwrapper  {padding: 4rem 0 2rem 0;}
 
-.white {color: var(--white);}
-.red {color: var(--red);}
-.black {color: var(--black);}
+.white {  background-color: var(--white);}
+.red {  background-color: var(--red);}
+.black {  background-color: var(--black);}
 .lightgrey {color: var(--lightgrey);}
 
 .close, .closed {
@@ -2761,7 +2761,10 @@ ul  li.taggs a:hover, ul  li.taggs  a:focus {
   width: 100%;
   
 }
+.mapwrapper {
 
+max-height: 300px;
+}
 
 .google-maps {
 
