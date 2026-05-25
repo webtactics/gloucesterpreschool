@@ -1453,7 +1453,7 @@ svg:hover {
   display: grid;
   grid-template-columns:1fr;
     margin: 0 auto;
-    width: calc(100vw - 4rem);
+    width: calc(100vw - 1rem);
     max-width: 1440px;
   padding: 40px 0 53px 0;
    } 
@@ -1572,15 +1572,8 @@ color : var(--white);
   
 
   @media (max-width: 700px) {
- .footernav {
-  display: grid;
-   grid-template-columns: repeat(1, 1fr); 
-    gap: 0;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 670px;
-  padding: 0;
-   } 
+
+
 .footerright {
     display: flex;
     justify-content: center;
