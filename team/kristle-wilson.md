@@ -1,7 +1,7 @@
 ﻿---
 title: "Kristle Wilson"
 slug: kristle-wilson
-position: 33
+order: 33
 active: true
 categories: "Pre School (3 to 5 years), Gawul Room"
 image: "Kristle 2025.jpg"

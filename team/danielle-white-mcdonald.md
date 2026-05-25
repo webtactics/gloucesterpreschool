@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: true
 
 title: "Danielle White-McDonald"
 slug: danielle-white-mcdonald
-position: 27
+order: 27
 active: false
 categories: "Early Years Learning Centre (0-3 years), Yapii Room"
 image: "Danielle.jpg"

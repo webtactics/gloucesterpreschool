@@ -1,7 +1,7 @@
 ﻿---
 title: "Calida Holstein"
 slug: calida-holstein
-position: 4
+order: 4
 active: true
 categories: "Administration Team"
 image: "Calida .jpg"

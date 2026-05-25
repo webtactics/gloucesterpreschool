@@ -1,7 +1,7 @@
 ﻿---
 title: "Katie Edwards"
 slug: katie-edwards
-position: 32
+order: 32
 active: true
 categories: "Pre School (3 to 5 years), Gawul Room"
 image: "KatieEdwardsAug2024.jpg"

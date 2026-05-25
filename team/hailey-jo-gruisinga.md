@@ -1,7 +1,7 @@
 ﻿---
 title: "Hailey-Jo Gruisinga"
 slug: hailey-jo-gruisinga
-position: 17
+order: 17
 active: true
 categories: "Early Years Learning Centre (0-3 years), Yapii Room"
 image: "Hailey-Jo.jpg"

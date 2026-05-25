@@ -1,7 +1,7 @@
 ﻿---
 title: "Amie Jacobs"
 slug: amie-jacobs
-position: 12
+order: 12
 active: true
 categories: "Ancillary Staff, Gawul Room"
 image: "Amie.jpg"

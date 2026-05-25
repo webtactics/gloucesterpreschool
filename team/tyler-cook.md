@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: true
 
 title: "Tyler Cook"
 slug: tyler-cook
-position: 7
+order: 7
 active: false
 categories: "Pre School (3 to 5 years), Dapin Room"
 image: "Tyler.jpg"

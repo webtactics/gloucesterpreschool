@@ -1,7 +1,8 @@
 ﻿---
 title: "Alison Trudgeon"
 slug: alison-trudgeon
-position: 30
+order: 30
+position: Room Leader
 active: true
 categories: "Pre School (3 to 5 years), Gawul Room"
 image: "alison-trudgeon.jpg" 

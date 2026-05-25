@@ -1,7 +1,7 @@
 ﻿---
 title: "Lucy Byron"
 slug: lucy-byron
-position: 9
+order: 9
 active: true
 categories: "Early Years Learning Centre (0-3 years), Banggu Room"
 image: "Lucy.jpg"

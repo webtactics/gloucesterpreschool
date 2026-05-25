@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: true
 
 title: "Kasey Wilson"
 slug: kasey-wilson
-position: 18
+order: 18
 active: false
 categories: "Pre School (3 to 5 years), Gawul Room"
 image: "Kasey.jpg"

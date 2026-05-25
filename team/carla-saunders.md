@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: true
 
 title: "Carla Saunders"
 slug: carla-saunders
-position: 15
+order: 15
 active: false
 categories: "Early Years Learning Centre (0-3 years), Supported Mobile Playgroup, Yapii Room"
 image: "Carla-Saunders.jpg"

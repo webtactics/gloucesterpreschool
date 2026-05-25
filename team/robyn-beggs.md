@@ -1,7 +1,8 @@
 ﻿---
 title: "Robyn Beggs"
 slug: robyn-beggs
-position: 3
+order: 3
+position: Director & Centre Manager
 active: true
 categories: "Director, Centre Manager & Nominated Supervisors, Administration Team"
 image: "Robyn.jpg"
@@ -26,5 +27,4 @@ tags:
 - admin
 
 ---
-<p>Centre Manager</p>
 <p>Certificate IV in Bookkeeping. Bookkeeper in the Office. Currently studying Certificate III in Early Childhood Education and Care</p>

@@ -32,6 +32,3 @@ eleventyNavigation:
 {% include "components/global/mobile.html" %}
 
 
-
-
-

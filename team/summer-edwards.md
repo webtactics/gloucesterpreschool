@@ -1,7 +1,7 @@
 ﻿---
 title: "Summer Edwards"
 slug: summer-edwards
-position: 21
+order: 21
 active: true
 categories: "Pre School (3 to 5 years), Dapin Room"
 image: "Summer.jpg"

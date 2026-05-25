@@ -1,7 +1,7 @@
 ﻿---
 title: "Louise Thurgood"
 slug: louise-thurgood
-position: 11
+order: 11
 active: true
 categories: "Ancillary Staff"
 image: "Louise.jpg"

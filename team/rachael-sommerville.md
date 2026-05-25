@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: true
 
 title: "Rachael Sommerville"
 slug: rachael-sommerville
-position: 25
+order: 25
 active: false
 categories: "Pre School (3 to 5 years), Additional Educators, Dapin Room"
 image: "Rachael.jpg"

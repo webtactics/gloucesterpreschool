@@ -1,7 +1,7 @@
 ﻿---
 title: "Kelly Putan"
 slug: kelly-putan
-position: 14
+order: 14
 active: true
 categories: "Ancillary Staff"
 image: "Kelly.jpg"

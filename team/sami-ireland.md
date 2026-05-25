@@ -1,7 +1,7 @@
 ﻿---
 title: "Sami Ireland"
 slug: sami-ireland
-position: 28
+order: 28
 active: false
 categories: "Early Years Learning Centre (0-3 years), Supported Mobile Playgroup, Banggu Room"
 image: "Samantha.JPG"

@@ -1,7 +1,8 @@
 ﻿---
 title: "Kareen Higgins"
 slug: kareen-higgins
-position: 2
+order: 2
+position: Director
 active: true
 categories: "Director, Centre Manager & Nominated Supervisors"
 image: "Kareen.jpg"

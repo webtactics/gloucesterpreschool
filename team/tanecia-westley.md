@@ -1,7 +1,7 @@
 ﻿---
 title: "Tanecia Westley"
 slug: tanecia-westley
-position: 22
+order: 22
 active: true
 categories: "Early Years Learning Centre (0-3 years), Supported Mobile Playgroup, Banggu Room"
 image: "Tanecia.jpg"

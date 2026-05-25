@@ -1,7 +1,7 @@
 ﻿---
 title: "Jacqueline Girrard (Jacquie)"
 slug: jacquie
-position: 13
+order: 13
 active: true
 categories: "Ancillary Staff"
 image: "Jackie.jpg"

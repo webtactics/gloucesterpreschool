@@ -1,7 +1,7 @@
 ﻿---
 title: "Tina Pastor"
 slug: tina-pastor
-position: 23
+order: 23
 active: true
 categories: "Ancillary Staff"
 image: "Tina1.jpg"

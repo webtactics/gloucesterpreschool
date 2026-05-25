@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: false
 
 title: "Elizabeth Price"
 slug: elizabeth-price
-position: 1
+order: 1
 active: true
 categories: "Additional Educators"
 image: "Elizabeth.jpg"

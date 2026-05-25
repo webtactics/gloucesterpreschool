@@ -1,7 +1,7 @@
 ﻿---
 title: "Cheryl McLachlan"
 slug: cheryl-mclachlan
-position: 31
+order: 31
 active: true
 categories: "Pre School (3 to 5 years), Gawul Room"
 image: "ChezAug2024.JPG"

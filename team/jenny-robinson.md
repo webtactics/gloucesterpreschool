@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: true
 
 title: "Jenny Robinson"
 slug: jenny-robinson
-position: 5
+order: 5
 active: false
 categories: "Pre School (3 to 5 years), Gawul Room"
 image: "Jenny.jpg"

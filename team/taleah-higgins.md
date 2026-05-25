@@ -1,7 +1,7 @@
 ﻿---
 title: "Taleah Higgins"
 slug: taleah-higgins
-position: 16
+order: 16
 active: true
 categories: "Early Years Learning Centre (0-3 years), Banggu Room"
 image: "Taleah.jpg"

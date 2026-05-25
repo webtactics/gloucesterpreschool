@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: true
 
 title: "Breanna Richards"
 slug: breanna-richards
-position: 20
+order: 20
 active: false
 categories: "Early Years Learning Centre (0-3 years), Banggu Room"
 image: "Breanna.jpg"

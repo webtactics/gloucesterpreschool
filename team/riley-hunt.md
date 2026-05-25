@@ -1,7 +1,7 @@
 ﻿---
 title: "Riley Hunt"
 slug: riley-hunt
-position: 26
+order: 26
 active: true
 categories: "Early Years Learning Centre (0-3 years), Yapii Room"
 image: "Riley.jpg"

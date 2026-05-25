@@ -1,7 +1,7 @@
 ﻿---
 title: "Angelica McCurday"
 slug: angelica-mccurday
-position: 19
+order: 19
 active: true
 categories: "Pre School (3 to 5 years), Gawul Room"
 image: "Angelica.JPG"

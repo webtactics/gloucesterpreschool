@@ -1,7 +1,7 @@
 ﻿---
 title: "Rashelle Franks"
 slug: rashelle-franks
-position: 6
+order: 6
 active: false
 categories: "Pre School (3 to 5 years), Dapin Room"
 image: "Rashelle.jpg"

@@ -1,7 +1,7 @@
 ﻿---
 title: "Sharon Simpao"
 slug: sharon-simpao
-position: 10
+order: 10
 active: false
 categories: "Early Years Learning Centre (0-3 years), Banggu Room"
 image: "Sharon.jpg"

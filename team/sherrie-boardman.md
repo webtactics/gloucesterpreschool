@@ -1,7 +1,7 @@
 ﻿---
 title: "Sherrie Boardman"
 slug: sherrie-boardman
-position: 35
+order: 35
 active: true
 categories: "Additional Educators"
 image: "Sherrie.jpg"

@@ -1,7 +1,7 @@
 ﻿---
 title: "Tiffany Johnson"
 slug: tiffany-johnson
-position: 24
+order: 24
 active: true
 categories: "Pre School (3 to 5 years), Dapin Room"
 image: "Tiff.jpg"
