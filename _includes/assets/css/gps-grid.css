@@ -2651,7 +2651,11 @@ grid-template-columns: 2fr 1fr;gap: 3rem;}
 .pad1remtopbottom, .pad1remboth {padding: 1rem 0;}
 .pad2remtopbottom, .pad2remboth {padding: 2rem 0;}
 .pad3remtopbottom, .pad3remboth {padding: 3rem 0;}
-.pad4rembothwhitebg {padding: 4rem 0;  background-color:var(--white);}
+
+.pad4rembothwhitebg {
+padding: 4rem 0;  
+background-color:var(--white);
+background-image: url(/static/img/assets/gps-bg.png) repeat repeat;}
 
 
 .pad4rem  {padding-top:4rem;}
