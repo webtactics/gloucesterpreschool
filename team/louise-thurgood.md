@@ -1,4 +1,7 @@
-﻿---
+﻿
+---
+eleventyExcludeFromCollections: true
+
 title: "Louise Thurgood"
 slug: louise-thurgood
 order: 11

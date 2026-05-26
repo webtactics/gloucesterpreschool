@@ -4,7 +4,7 @@ slug: cheryl-mclachlan
 order: 31
 active: true
 categories: "Pre School (3 to 5 years), Gawul Room"
-image: "ChezAug2024.JPG"
+image: 
 create_date: 2024-08-26
 modified_date: 2025-02-27
 

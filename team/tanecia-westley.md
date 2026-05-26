@@ -22,9 +22,8 @@ Ancillary:
 mobileplay: true
 
 tags:
-- earlyyears
-- banggu
 - mobileplay
+- ancillary
 
 ---
-<p>Certificate III in Early Childhood Education and Care. Playgroup Co-Ordinator and Educator in the Banggu Room.</p>
+<p>Certificate III in Early Childhood Education and Care.</p>

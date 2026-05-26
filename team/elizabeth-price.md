@@ -1,5 +1,5 @@
 ﻿---
-eleventyExcludeFromCollections: false
+eleventyExcludeFromCollections: true
 
 title: "Elizabeth Price"
 slug: elizabeth-price
