@@ -1,14 +1,14 @@
 ﻿---
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 
-title: "Tina Pastor"
-slug: tina-pastor
-order: 23
+title: "Janine Bard"
+slug: janine-bard
+order: 55
 active: true
 categories: "Ancillary Staff"
-image: "Tina1.jpg"
-create_date: 2024-01-30
-modified_date: 2024-01-31
+image: 
+create_date: 2026-05-26
+modified_date: 2026-05-26
 
 managementcommittee:
 director:
