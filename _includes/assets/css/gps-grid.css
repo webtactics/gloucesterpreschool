@@ -2763,7 +2763,7 @@ ul  li.taggs a:hover, ul  li.taggs  a:focus {
 }
 .mapwrapper {
 
-max-height: 300px;
+max-height: 200px;
 }
 
 .google-maps {
@@ -2773,6 +2773,7 @@ max-height: 300px;
   padding-bottom: 50%; /* This is the aspect ratio */
 
   height: 0;
+  max-height: 200px;
 
   overflow: hidden;
 
