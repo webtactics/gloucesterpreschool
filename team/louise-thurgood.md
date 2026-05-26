@@ -1,5 +1,4 @@
-﻿
----
+﻿---
 eleventyExcludeFromCollections: true
 
 title: "Louise Thurgood"

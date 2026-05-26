@@ -1,4 +1,6 @@
 ﻿---
+eleventyExcludeFromCollections: true
+
 title: "Annette Hill"
 slug: annette-hill
 order: 34
