@@ -22,8 +22,8 @@ tags:
 - management-committee
 
 ---
-<p><strong>President:</strong> Patricia Banyer</p>
-<p><strong>Vice President:</strong> Catherine Wiencke</p>
-<p><strong>Treasurer:</strong> Clare MacGregor</p>
-<p><strong>Secretary:</strong> Emma Maleklou</p>
-<p><strong>Ordinary Committee Members:</strong> Christian Watts, Sue Ray, Jocelyn Elliot & Olivia Harris</p>
+<p><strong>President:</strong> Jocelyn Elliot</p>
+<p><strong>Vice President:</strong> Emily Neilson</p>
+<p><strong>Treasurer:</strong> Shanon Standen</p>
+<p><strong>Secretary:</strong> Maggie Gorton</p>
+<p><strong>Ordinary Committee Members:</strong> Katheryn Stinson, Jessica Humphries, Risa Tomita</p>
