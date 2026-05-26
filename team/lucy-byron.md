@@ -1,4 +1,6 @@
 ﻿---
+eleventyExcludeFromCollections: true
+
 title: "Lucy Byron"
 slug: lucy-byron
 order: 9

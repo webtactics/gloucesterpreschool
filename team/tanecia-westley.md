@@ -1,4 +1,6 @@
 ﻿---
+eleventyExcludeFromCollections: true
+
 title: "Tanecia Westley"
 slug: tanecia-westley
 order: 22

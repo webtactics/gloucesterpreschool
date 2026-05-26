@@ -1,4 +1,6 @@
 ﻿---
+eleventyExcludeFromCollections: true
+
 title: "Riley Hunt"
 slug: riley-hunt
 order: 26
