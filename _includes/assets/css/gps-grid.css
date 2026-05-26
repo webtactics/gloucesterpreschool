@@ -2757,10 +2757,17 @@ ul  li.taggs a:hover, ul  li.taggs  a:focus {
 /* Useful links */
 
 .map {
-  margin: 2rem 0;
+  margin: 0;
+  padding: 2rem 0;
   width: 100%;
+  background-color: var(--white);
   
 }
+
+.content.mapcontent {
+min-height: 50px;
+}
+
 .mapwrapper {
 
 max-height: 300px;
