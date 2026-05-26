@@ -1426,6 +1426,7 @@ color : var(--white);
 .home .linkwrapper  {padding: 4rem 0 2rem 0;}
 
 .white {  background-color: var(--white);}
+.whitetext {  color: var(--white);}
 .red {  background-color: var(--red);}
 .black {  background-color: var(--black);}
 .lightgrey {color: var(--lightgrey);}
