@@ -2758,7 +2758,7 @@ ul  li.taggs a:hover, ul  li.taggs  a:focus {
 
 .map {
   margin: 0;
-  padding: 2rem 0;
+  padding: 5rem 0 0 0;
   width: 100%;
   background-color: var(--white);
   
@@ -2766,6 +2766,7 @@ ul  li.taggs a:hover, ul  li.taggs  a:focus {
 
 .content.mapcontent {
 min-height: 50px;
+padding-bottom: 5rem;
 }
 
 .mapwrapper {
