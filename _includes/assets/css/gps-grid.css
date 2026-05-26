@@ -440,7 +440,7 @@ color: var(--black);
 }
 
 
-.container p a {
+.container p a, .mapcontent p a {
   line-height: inherit;
   color: var(--black);
   border-bottom: 2px dotted var(--primary);
@@ -452,7 +452,7 @@ color: var(--black);
 white-space: wrap;
 }
 
-.container p a:hover {
+.container p a:hover, .mapcontent p a:hover {
   color: var(--white);
   border-bottom: 2px solid var(--black);
 
