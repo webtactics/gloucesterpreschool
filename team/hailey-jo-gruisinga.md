@@ -1,4 +1,6 @@
 ﻿---
+eleventyExcludeFromCollections: false
+
 title: "Hailey-Jo Gruisinga"
 slug: hailey-jo-gruisinga
 order: 17
