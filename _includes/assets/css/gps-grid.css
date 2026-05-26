@@ -2763,7 +2763,8 @@ ul  li.taggs a:hover, ul  li.taggs  a:focus {
 }
 .mapwrapper {
 
-max-height: 200px;
+max-height: 300px;
+  overflow: hidden;
 }
 
 .google-maps {
@@ -2773,7 +2774,7 @@ max-height: 200px;
   padding-bottom: 50%; /* This is the aspect ratio */
 
   height: 0;
-  max-height: 200px;
+  max-height: 300px;
 
   overflow: hidden;
 
@@ -2790,7 +2791,8 @@ max-height: 200px;
   width: 100% !important;
 
   height: 100% !important;
- max-height: 200px;
+ max-height: 300px;
+   overflow: hidden;
 }
 
 /* Contact Form */
