@@ -25,4 +25,4 @@ subtitle: "At Gloucester Pre School & Early Years Learning Centre we aim to fost
 
 
 <p>If you are a parent or guardian of a child currently enrolled in Gloucester Pre School and would like to become a member, please email <a href="mailto:admin@gloucesterpreschool.com.au">admin@gloucesterpreschool.com.au</a></p>
-<div>{MAMS action="login"}</div>
+
