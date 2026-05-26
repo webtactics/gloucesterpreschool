@@ -1,4 +1,6 @@
 ﻿---
+eleventyExcludeFromCollections: true
+
 title: "Summer Edwards"
 slug: summer-edwards
 order: 21
@@ -12,7 +14,7 @@ managementcommittee:
 director:
 admin:
 preschool: true
-dapin: true
+dapin:
 gawul:
 earlyyears:
 additional:
@@ -21,7 +23,7 @@ mobileplay:
 
 tags:
 - preschool
-- dapin
+- 
 
 ---
 <p>Currently studying Certificate III in Early Childhood Education and Care. Educator in the Yapii Room.</p>
