@@ -505,6 +505,7 @@ grid-template-rows: var(--headerheight);
   -ms-transition: all var( --transitionquick);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
+  border-bottom: 1px solid var(--lightgrey);
 }  
 
 
@@ -520,7 +521,7 @@ grid-template-rows: var(--headerheight);
   -ms-transition: all var( --transitionquick);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
-
+  border-bottom: 1px solid var(--lightgrey);
 } 
 
 
