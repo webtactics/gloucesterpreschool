@@ -607,7 +607,7 @@ background-color: var(--white);
 
 .navwrapper {
   display: grid;
-  grid-template-columns:280px  1fr;
+  grid-template-columns:140px  1fr;
   grid-template-areas:
     "logo navrightside";
     grid-template-rows: var(--headerheight);
@@ -624,7 +624,7 @@ background-color: var(--white);
 
 .scrolled  .navwrapper {
       display: grid;
-      grid-template-columns:280px  1fr;
+      grid-template-columns:140px  1fr;
       grid-template-areas:
         "logo navrightside";
         grid-template-rows: var(--navbottomheight); 
@@ -698,7 +698,7 @@ background-color: var(--white);
  }
 
 
-  .logo img {max-width:150px;aspect-ratio: 1 / 1;
+  .logo img {max-width:140px;aspect-ratio: 1 / 1;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
     -ms-transition: all var( --transitionquick);
@@ -709,7 +709,7 @@ background-color: var(--white);
     box-shadow: rgba(0,0,0,.15) 1.95px 1.95px 2.6px;
   
   }
-.scrolled .logo img {max-width:100px;
+.scrolled .logo img {max-width:80px;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
