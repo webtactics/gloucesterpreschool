@@ -462,11 +462,6 @@ white-space: wrap;
 }
 
 
-
-
-
-
-
 .eightypercentborder {
   margin: 0 auto 3.5rem auto;
   border-bottom: 6px dotted var(--lightgreen);
@@ -492,7 +487,7 @@ white-space: wrap;
 .search-wrapper { grid-area: search-wrapper; }
 .pad100 { grid-area: pad100; }
 
-
+ 
 .headerwrapper {
   display: grid;
   grid-template-columns: 60px 1fr 60px;
@@ -505,7 +500,7 @@ grid-template-rows: var(--headerheight);
   -ms-transition: all var( --transitionquick);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
-  border-bottom: 1px solid var(--lightgrey);
+
 }  
 
 
@@ -521,7 +516,7 @@ grid-template-rows: var(--headerheight);
   -ms-transition: all var( --transitionquick);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
-  border-bottom: 1px solid var(--lightgrey);
+
 } 
 
 
