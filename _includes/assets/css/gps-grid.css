@@ -1,7 +1,7 @@
 :root {
-  --primary: #73b72b;
+  --primary: hsl(179, 56%, 42%);
   --primaryright: #00b2c2;
-  --primarylight: hsla(211,50%,53%,0.6);
+  --primarylight: hsl(179, 56%, 60%);
   --primarydark: #00b2c2;
   --primarydark30: hsla(185, 100%, 38%, 0.3);
   --darkgreen: #047E47;
