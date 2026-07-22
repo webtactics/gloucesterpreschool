@@ -319,6 +319,7 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
   line-height: 4rem;
   font-weight: 400;
   color: var(--white);
+  margin-bottom: 2rem;
 }
 
 .content h2 a {
