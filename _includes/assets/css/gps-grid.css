@@ -3234,3 +3234,8 @@ text-decoration: none;
   margin-bottom: 0.4rem;
   line-height: 1.2;
 }
+
+.homeboxes {
+  padding: 2rem 0;
+ background-color: var(--primary);
+}
