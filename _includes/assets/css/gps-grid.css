@@ -1,5 +1,5 @@
 :root {
-  --primary: hsl(179, 56%, 60%);
+  --primary: hsl(179, 56%, 40%);
   --primaryright: #00b2c2;
   --primarylight: hsl(179, 56%, 80%);
   --primarydark: hsl(179, 56%, 40%);
@@ -3237,7 +3237,7 @@ text-decoration: none;
 
 .homeboxes {
   padding: 2rem 0;
- background-color: var(--primary);
+ background-color: var(--primarylight);
 }
 
 
@@ -3254,7 +3254,7 @@ text-decoration: none;
     -moz-transition: box-shadow 0.2s ease-in-out;
     -o-transition: box-shadow 0.2s ease-in-out;
     transition: box-shadow 0.2s ease-in-out;
-    border: 1px solid var(--primary);
+    border: 1px solid var(--primarydark);
 }
 
 .homecard1box {position:relative;text-align:center;z-index:90;}
