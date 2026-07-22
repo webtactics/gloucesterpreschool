@@ -1,8 +1,8 @@
 :root {
-  --primary: hsl(179, 56%, 42%);
+  --primary: hsl(179, 56%, 60%);
   --primaryright: #00b2c2;
-  --primarylight: hsl(179, 56%, 60%);
-  --primarydark: #00b2c2;
+  --primarylight: hsl(179, 56%, 80%);
+  --primarydark: hsl(179, 56%, 40%);
   --primarydark30: hsla(185, 100%, 38%, 0.3);
   --darkgreen: #047E47;
   --text: #4A4A4A;
