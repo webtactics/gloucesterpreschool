@@ -1,9 +1,0 @@
-{
-    "layout": "layouts/post-recipes.njk",
-    "permalink": "recipes/{{ title | slug }}/index.html",
-    "author": "Anonymous",
-    "tags": [
-     "Recipes"
-    ]
-  }
-  
