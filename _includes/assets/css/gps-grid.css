@@ -1609,10 +1609,46 @@ button.success, .button.success {
   cursor: pointer;
 }
 
+button.homebox.title3, .button.homebox.title3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  border: 0.3rem solid var(--primary);
+  border-radius: 0px;
+  color: var(--white);
+  font-size: 1.3rem;
+  padding: 0.4rem 3rem;
+  margin: 0;
+  text-decoration: none;
+  -webkit-transition: all var( --transitionquick);
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
   background-color: var(--white);
   border: 0.3rem solid var(--white);
   border-radius: 20px;
+  color: var(--primary);
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
+button.success.homebox:hover, button.success.homebox:focus, .button.success.homebox:hover, .button.success.homebox:focus {
+  background-color: var(--primarydark);}
+
+button.homebox.title3:hover, button.homebox.title3:focus, .button.homebox.title3:hover, .button.homebox.title3:focus {
+  background-color: var(--primarydark);
+  border: 0.3rem solid var(--white);
+  border-radius: 0px;
   color: var(--primary);
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
