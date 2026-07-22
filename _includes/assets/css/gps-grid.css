@@ -3239,3 +3239,32 @@ text-decoration: none;
   padding: 2rem 0;
  background-color: var(--primary);
 }
+
+
+.homecards {
+    margin: 0 0 2rem 0;
+    padding: 1.4rem;
+    background-color: var(--white);
+    border: 1px solid var(--primary);
+}
+
+.homecards:hover {
+    box-shadow: 0 2px 8px #cfcfcf;
+    -webkit-transition: box-shadow 0.2s ease-in-out;
+    -moz-transition: box-shadow 0.2s ease-in-out;
+    -o-transition: box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+    border: 1px solid var(--primary);
+}
+
+.homecard1box {position:relative;text-align:center;z-index:90;}
+
+.homecard1box img{width:100%;z-index:90}
+
+.homecard1box .image-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0);-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s;opacity:0;overflow:hidden}
+
+.homecard1box:hover .image-overlay{opacity:1;background-color:rgba(255, 255, 255, 0);}
+
+.homecard1box .image-overlay .overlay-icon{width:85px;height:85px;display:block;border-radius:3px;margin:-20% auto 0;opacity:0;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s}
+.homecard1box:hover .image-overlay .overlay-icon{opacity:1;margin:20% auto 0;background-color: white;}
+.homecard1box .image-overlay .overlay-icon img{width:85px;height:85px}
