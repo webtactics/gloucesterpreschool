@@ -3280,18 +3280,35 @@ text-decoration: none;
   text-transform: none;
   font-weight: 400;
   font-size: 1.3rem;
-  margin: 1.4rem 0 1.2rem 0;line-height: 2.4rem;min-height:2.4rem;text-align:center;color:var(--white);background:var(--primary);width:100%;padding:0.5rem 1rem;
+  margin: 1.4rem 0 1.2rem 0;
+  line-height: 2.4rem;
+  min-height:2.4rem;
+  text-align:center;
+  color:var(--white);
+  background:var(--primarylight);
+  width:100%;
+  padding:0.5rem 1rem;
 	-webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
     -o-transition: all 0.6s;
     transition: all 0.6s;}
 
-	.homeboxes  .homecard1box:hover .Newsroomtitle h2 a 
-	{display:block;text-transform: none;font-weight: 400;font-size: 1.3rem;margin: 0.7rem 0 1.2rem 0;line-height: 2.4rem;min-height:2.4rem;text-align:center;
-		color:[[$black]];background:var(--primarylight);width:100%;padding:0.5rem 1rem;
-		-webkit-transition: all 0.6s;
-		-moz-transition: all 0.6s;
-		-ms-transition: all 0.6s;
-		-o-transition: all 0.6s;
-		transition: all 0.6s;}
+	.homeboxes  .homecard1box:hover .Newsroomtitle h2 a {
+  display:block;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 1.4rem 0 1.2rem 0;
+  line-height: 2.4rem;
+  min-height:2.4rem;
+  text-align:center;
+  color:var(--white);
+  background:var(--primarydark);
+  width:100%;
+  padding:0.5rem 1rem;
+	-webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;}
