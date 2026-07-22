@@ -428,7 +428,10 @@ color: var(--black);
   min-height: 300px;
 }
 
-
+.content.homeboxcontent {
+  background-color: var(--primarylight);
+padding: 2rem 0;
+}
 
 .content.home h3 {
   font-size: 3rem;
