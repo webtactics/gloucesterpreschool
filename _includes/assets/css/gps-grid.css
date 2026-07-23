@@ -1618,9 +1618,7 @@ button.success, .button.success {
 }
 
 button.homebox.title3, .button.homebox.title3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ display: inline-block;
   background-color: var(--black);
   border: 0.3rem solid var(--primary);
   border-radius: 0px;
@@ -1655,9 +1653,7 @@ button.success.homebox:hover, button.success.homebox:focus, .button.success.home
   background-color: var(--primarydark);}
 
 button.homebox.title3:hover, button.homebox.title3:focus, .button.homebox.title3:hover, .button.homebox.title3:focus {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: inline-block;
   background-color: var(--primary);
   border: 0.3rem solid var(--red);
   border-radius: 0px;
