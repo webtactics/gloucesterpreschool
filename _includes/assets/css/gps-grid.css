@@ -436,8 +436,7 @@ color: var(--black);
 }
 
 .content.homeboxcontent {
-background-color: var(--primarylight);
-background-image: linear-gradient(180deg, var(--primarylight) 0%, var(--primarydark30) 100%);
+background-color: transparent;
 padding: 2rem 0;
 }
 
@@ -3293,6 +3292,7 @@ text-decoration: none;
 .homeboxes {
   padding: 2rem 0;
  background-color: var(--primarylight);
+ background-image: url(/static/img/assets/gps-bg.png) repeat repeat;
 }
 
 
