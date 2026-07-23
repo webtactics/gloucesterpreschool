@@ -1,0 +1,17 @@
+<section class="homeblog3" >
+<div class="grid-3-columns">
+
+<div class="box3wrapper">
+{% set postslist = collections['Blog'] | limit(2) %} 
+{% include "components/postslist-news-3-wide.njk" %}
+</div>
+
+
+
+<div class="box3wrapper">
+{% set postslist = collections['Behaviour Guidance'] | reverse | limit(1) %} 
+{% include "components/postslist-news-3-wide.njk" %}
+</div>
+
+</div>
+</section>
