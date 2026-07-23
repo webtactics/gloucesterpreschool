@@ -2708,7 +2708,7 @@ grid-template-columns: 2fr 1fr;gap: 3rem;}
 .pad4rembothwhitebg {
 padding: 4rem 0;  
 background-color:var(--white);
-background-image: url(/static/img/assets/gps-bg.png) repeat repeat;}
+}
 
 
 .pad4rem  {padding-top:4rem;}
@@ -3336,7 +3336,7 @@ background-repeat: repeat;
 .flex-captionp p {text-align: center;line-height: 1.2rem;margin: 0 0 1rem 0;font-size: 1.2rem;color: var(--primary);}
 
 .homeblog3 {
-  margin: 3rem 0;
-  padding: 2rem 0;
+  margin: 0;
+  padding: 1rem 0;
  background-color: var(--white);
 }
