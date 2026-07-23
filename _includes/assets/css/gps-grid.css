@@ -3291,7 +3291,7 @@ text-decoration: none;
 
 .homeboxes {
   padding: 2rem 0;
- background-color: var(--primarylight);
+ background-color: var(--white);
  background-image: url("/static/img/assets/gps-bg.png") repeat repeat;
 }
 
