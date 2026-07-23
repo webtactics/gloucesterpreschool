@@ -3292,7 +3292,8 @@ text-decoration: none;
 .homeboxes {
   padding: 2rem 0;
  background-color: var(--white);
- background-image: url("/static/img/assets/gps-bg.png") repeat repeat;
+background-repeat: repeat;
+  background-image: url("https://ik.imagekit.io/webtactics/changs-media/assets/pattern/Pattern_red3-20-inverted_eGngWJiR2.png?updatedAt=1711430178841"),linear-gradient(to bottom,#ed1c2e,#e51c2c,#dd1c2b,#d51b29,#cd1b28,#c61b27,#be1b25,#b71b24,#af1b22,#a71a21,#a01a1f,#98191e);
 }
 
 
