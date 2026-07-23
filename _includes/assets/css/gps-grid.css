@@ -3293,7 +3293,7 @@ text-decoration: none;
   padding: 2rem 0;
  background-color: var(--white);
 background-repeat: repeat;
-  background-image: url("https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/assets/gps-bg.png"),linear-gradient(to bottom,#ed1c2e,#e51c2c,#dd1c2b,#d51b29,#cd1b28,#c61b27,#be1b25,#b71b24,#af1b22,#a71a21,#a01a1f,#98191e);
+  background-image: url("https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/assets/gps-bg.png");
 }
 
 
