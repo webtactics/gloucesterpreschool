@@ -13,7 +13,7 @@ tags:
 
 author: Robyn
 
-image: images/blog/Survive_the_heat.jpg
+image: "https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/blog/Survive_the_heat.jpg"
 
 ---
 

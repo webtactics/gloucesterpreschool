@@ -13,7 +13,7 @@ tags:
 
 author: Robyn
 
-image: images/blog/Pa1-gpypcwItmB.jpg
+image: "https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/blog/Pa1-gpypcwItmB.jpg"
 
 ---
 

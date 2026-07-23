@@ -13,7 +13,7 @@ tags:
 
 author: Robyn
 
-image: images/blog/Safe_sleeping.jpg
+image: "https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/blog/Safe_sleeping.jpg"
 
 ---
 
