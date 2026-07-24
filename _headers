@@ -1,1 +1,6 @@
 
+# Never cache Netlify Identity API responses — a cached 404 from before
+# Identity was enabled on this site can otherwise get stuck serving stale
+# "not found" responses for /.netlify/identity/* at the edge.
+/.netlify/identity/*
+  Cache-Control: no-cache

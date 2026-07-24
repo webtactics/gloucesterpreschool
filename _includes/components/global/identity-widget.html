@@ -28,12 +28,25 @@
 
   window.netlifyIdentity.on("init", updateIdentityUI);
 
-  window.netlifyIdentity.on("login", function () {
-    // Netlify's edge checks the nf_jwt cookie against the Role-based redirect
-    // rules protecting /members/*, so send the browser on a fresh request.
-    var redirectTo = sessionStorage.getItem("gps-members-redirect") || "/members/";
+  window.netlifyIdentity.on("login", function (user) {
+    updateIdentityUI(user);
+
+    // The widget re-fires "login" on things like a background token refresh,
+    // not just an interactive sign-in — only navigate if this login came from
+    // our own login button (which sets this flag before opening the modal).
+    // Without this guard, landing on /members/ with an existing session can
+    // redirect to /members/ again and again, which looks like a page stuck
+    // reloading/flashing.
+    var redirectTo = sessionStorage.getItem("gps-members-redirect");
+    if (!redirectTo) return;
     sessionStorage.removeItem("gps-members-redirect");
-    window.location.href = redirectTo;
+    window.netlifyIdentity.close();
+    if (window.location.pathname !== redirectTo) {
+      // Netlify's edge checks the nf_jwt cookie against the Role-based
+      // redirect rules protecting /members/*, so send the browser on a
+      // fresh request to the target page.
+      window.location.href = redirectTo;
+    }
   });
 
   window.netlifyIdentity.on("logout", function () {
