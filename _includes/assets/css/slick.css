@@ -69,7 +69,7 @@ height:50svh;
 left: 0.5rem;
 right: 0.5rem;
 top: 30vh;
-max-width: auto;
+max-width: 100%;
 }
 .flex-caption.internal {
    top: 30vh;
