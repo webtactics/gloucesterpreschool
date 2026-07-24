@@ -2070,13 +2070,13 @@ h3.emailboxh3 {
   font-size: 2rem;
   line-height: 2rem;
   position: relative;
-  z-index: 10;
-  letter-spacing: -2px;
+  letter-spacing: 2px;
   padding: 0.5rem;
   text-decoration: none;
   color: var(--primary);
   z-index: 2;
   background-color: var(--white);
+  width: auto;
 
 }
 
