@@ -2071,19 +2071,22 @@ h3.emailboxh3 {
   line-height: 2rem;
   position: relative;
   letter-spacing: 2px;
-  padding: 0.5rem;
+  padding: 0rem;
   text-decoration: none;
   color: var(--primary);
   z-index: 2;
-  background-color: var(--white);
-  width: auto;
 
+
+}
+.emailtitle {
+    background-color: var(--white70);
+  width: auto;
+   padding: 0.5rem;
 }
 
 
-
 .newslettertitlebg {
-background-color: rgba(0,0,0,0.30);
+background-color: var(--black40);
 
 }
 
