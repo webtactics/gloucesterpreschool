@@ -15,18 +15,28 @@
     document.querySelectorAll("[data-identity-logged-out]").forEach(function (el) {
       el.hidden = !!user;
     });
+  }
 
-    // The widget only keeps the session in localStorage — it does NOT set a
-    // cookie on its own. Our Edge Function (netlify/edge-functions/members-gate.js)
-    // checks a cookie to protect /members/* at the edge, so we have to write
-    // it ourselves here, or every request looks logged-out to the server no
-    // matter what the widget shows client-side.
-    if (user && user.token && user.token.access_token) {
-      var maxAge = user.token.expires_in || 3600;
-      document.cookie = "nf_jwt=" + user.token.access_token + "; path=/; max-age=" + maxAge + "; SameSite=Lax";
-    } else {
+  // The widget only keeps the session in localStorage — it does NOT set a
+  // cookie on its own. Our Edge Function (netlify/edge-functions/members-gate.js)
+  // checks a cookie to protect /members/* at the edge, so we have to write it
+  // ourselves. netlifyIdentity.refresh() returns a Promise for a guaranteed
+  // fresh, valid JWT string — more reliable than reading a token property
+  // straight off the user object, which may be stale or shaped differently
+  // across widget versions.
+  function syncJwtCookie(user) {
+    if (!user) {
       document.cookie = "nf_jwt=; path=/; max-age=0";
+      return Promise.resolve();
     }
+    return window.netlifyIdentity
+      .refresh()
+      .then(function (jwt) {
+        document.cookie = "nf_jwt=" + jwt + "; path=/; max-age=3600; SameSite=Lax";
+      })
+      .catch(function () {
+        document.cookie = "nf_jwt=; path=/; max-age=0";
+      });
   }
 
   // Invite / password-recovery / confirmation emails land on the site with a
@@ -38,7 +48,10 @@
     });
   }
 
-  window.netlifyIdentity.on("init", updateIdentityUI);
+  window.netlifyIdentity.on("init", function (user) {
+    updateIdentityUI(user);
+    syncJwtCookie(user);
+  });
 
   window.netlifyIdentity.on("login", function (user) {
     updateIdentityUI(user);
@@ -50,24 +63,30 @@
     // redirect to /members/ again and again, which looks like a page stuck
     // reloading/flashing.
     var redirectTo = sessionStorage.getItem("gps-members-redirect");
-    if (!redirectTo) return;
-    sessionStorage.removeItem("gps-members-redirect");
-    window.netlifyIdentity.close();
-    if (window.location.pathname !== redirectTo) {
-      // Our Edge Function checks the nf_jwt cookie set above against
-      // /members/*, so send the browser on a fresh request to the target
-      // page rather than relying on any client-side view of the content.
-      window.location.href = redirectTo;
-    }
+
+    // Wait for the cookie write to actually finish before navigating — our
+    // Edge Function checks that cookie on the very next request, so
+    // redirecting too early sends it before there's anything to check.
+    syncJwtCookie(user).then(function () {
+      if (!redirectTo) return;
+      sessionStorage.removeItem("gps-members-redirect");
+      window.netlifyIdentity.close();
+      if (window.location.pathname !== redirectTo) {
+        window.location.href = redirectTo;
+      }
+    });
   });
 
   window.netlifyIdentity.on("logout", function () {
     updateIdentityUI(null);
+    syncJwtCookie(null);
     window.location.href = "/";
   });
 
   document.addEventListener("DOMContentLoaded", function () {
-    updateIdentityUI(window.netlifyIdentity.currentUser());
+    var user = window.netlifyIdentity.currentUser();
+    updateIdentityUI(user);
+    syncJwtCookie(user);
   });
 
   document.addEventListener("click", function (e) {
@@ -77,12 +96,15 @@
     var action = el.getAttribute("data-identity-action");
     if (action === "login") {
       var redirectTo = el.getAttribute("data-identity-redirect") || "/members/";
+      var currentUser = window.netlifyIdentity.currentUser();
       // If there's already a valid session, opening "login" just shows the
       // account panel ("Logged in as ...") instead of a login form — no
-      // "login" event fires, so nothing would otherwise happen. Skip the
-      // widget entirely and go straight to the destination.
-      if (window.netlifyIdentity.currentUser()) {
-        window.location.href = redirectTo;
+      // "login" event fires, so nothing would otherwise happen. Make sure
+      // the cookie is fresh, then go straight to the destination.
+      if (currentUser) {
+        syncJwtCookie(currentUser).then(function () {
+          window.location.href = redirectTo;
+        });
         return;
       }
       sessionStorage.setItem("gps-members-redirect", redirectTo);

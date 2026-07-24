@@ -9,10 +9,11 @@
 //
 // So instead of verifying the JWT ourselves, this asks Netlify's own
 // Identity service to do it: it reads the nf_jwt cookie the widget already
-// sets in the browser and passes it straight to GoTrue's own /user endpoint
-// as a Bearer token. That endpoint returns the full user record (including
-// app_metadata.roles) if the token is valid, or fails if it isn't — no
-// crypto, no secrets, no npm dependency, plain Web APIs only.
+// sets in the browser (see identity-widget.html — the widget does NOT do
+// this on its own, we set it manually) and passes it straight to GoTrue's
+// own /user endpoint as a Bearer token. That endpoint returns the full user
+// record (including app_metadata.roles) if the token is valid, or fails if
+// it isn't — no crypto, no secrets, no npm dependency, plain Web APIs only.
 const ALLOWED_ROLES = ["guardian", "staff"];
 
 function getCookie(request, name) {
@@ -21,32 +22,45 @@ function getCookie(request, name) {
   return match ? decodeURIComponent(match[1]) : null;
 }
 
-async function getAuthorizedUser(request) {
+export default async (request, context) => {
   const token = getCookie(request, "nf_jwt");
-  if (!token) return null;
+
+  // Diagnostic header so the exact denial reason is visible from curl or the
+  // browser Network tab without needing console access — this thread has
+  // burned a lot of turns guessing blind, this stops that.
+  const deny = async (reason) => {
+    const unauthorizedPage = await fetch(new URL("/401.html", request.url));
+    return new Response(await unauthorizedPage.text(), {
+      status: 401,
+      headers: {
+        "content-type": "text/html; charset=utf-8",
+        "x-members-gate": reason,
+      },
+    });
+  };
+
+  if (!token) {
+    return deny("no-cookie");
+  }
 
   const response = await fetch(new URL("/.netlify/identity/user", request.url), {
     headers: { Authorization: `Bearer ${token}` },
   });
-  if (!response.ok) return null;
-
-  return response.json();
-}
-
-export default async (request, context) => {
-  const user = await getAuthorizedUser(request);
-  const roles = (user && user.app_metadata && user.app_metadata.roles) || [];
-  const authorized = roles.some((role) => ALLOWED_ROLES.includes(role));
-
-  if (authorized) {
-    return context.next();
+  if (!response.ok) {
+    return deny("invalid-or-expired-token");
   }
 
-  const unauthorizedPage = await fetch(new URL("/401.html", request.url));
-  return new Response(await unauthorizedPage.text(), {
-    status: 401,
-    headers: { "content-type": "text/html; charset=utf-8" },
-  });
+  const user = await response.json();
+  const roles = (user.app_metadata && user.app_metadata.roles) || [];
+  const authorized = roles.some((role) => ALLOWED_ROLES.includes(role));
+
+  if (!authorized) {
+    return deny("no-guardian-or-staff-role");
+  }
+
+  const nextResponse = await context.next();
+  nextResponse.headers.set("x-members-gate", "ok:" + roles.join(","));
+  return nextResponse;
 };
 
 export const config = {
