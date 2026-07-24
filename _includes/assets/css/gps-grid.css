@@ -901,8 +901,7 @@ transition: all var(--transitionquick) ease-in-out;
 padding:0 0.5rem;
 }
 
-a.tradelogin  {font-weight:600;}
-a.tradelogin:hover {background-color: var(--primarydark30);} 
+
 
 .mobilemenu {padding:0;}
 
@@ -1028,10 +1027,6 @@ ul.off-canvas-list > li.parent > a:hover {
 
   }
 
- 
-
-
-
 
 
 /* All */
@@ -1154,11 +1149,6 @@ ul.second-level {
     background-color: var(--white);
   }
   
-
-
-
-
-
 
 
 ul.navbar-menu li ul.second-level li a {
@@ -1785,51 +1775,6 @@ height: auto;
 
 }
 
-.content .indent {
-  position: relative;
-  padding-left: 7rem;
-}
-
-.content .indent::before {
-  content: "";
-  width: 5.5rem;
-  height: 0.5rem;
-  display: block;
-  background: transparent url(https://ik.imagekit.io/webtactics/pmfresh/assets/rectangle_IuEasM-q3.svg?updatedAt=1763079970435) no-repeat left top;
-    background-size: auto;
-  background-size: 5.5rem 0.5rem;
-  position: absolute;
-  left: 0;
-  top: 0.4rem;
-}
-
-.content.ctabgcontainer .right-cta.fade-in .indent p {
-  font-weight: 400;
-  color:var(--black);
-}
-
-@media (max-width: 1024px) { 
-
-.content .indent {
-  position: relative;
-  padding-left: 3.5rem;
-}
-
-.content .indent::before {
-  content: "";
-  width: 3rem;
-  height: 0.5rem;
-  display: block;
-  background: transparent url(https://ik.imagekit.io/webtactics/pmfresh/assets/rectangle_IuEasM-q3.svg?updatedAt=1763079970435) no-repeat left top;
-    background-size: auto;
-  background-size: 3rem 0.5rem;
-  position: absolute;
-  left: 0;
-  top: 0.4rem;
-}
-
-}
-
 
 
 
@@ -2233,13 +2178,6 @@ h4.sum-title a:hover {
 
 /* Who we serve
 ------------------------------------------------- */
-
-
-
-
-
-
-
 
 .clear {
   display: block;
@@ -2876,38 +2814,6 @@ textarea
 
 
 
-
-.tradeloginexternal {
-  display:flex;
-  justify-content: flex-start;
-  align-items: center;
-  min-height:2rem;
-  margin-bottom:0.5rem;
-}
- a.tradeloginmobile {
-  color: var(--white);
-background-color: var(--primary);
-  font-size: 1rem;
-padding:.75rem .5rem;
-  transition: background .3s ease;
-  font-weight: 400;
-  text-decoration: none;
-  white-space: wrap;
-border:none;
-width:100%;
-}
-
- a.tradeloginmobile:hover {
-  color: var(--white);
-  background-color: var(--primarydark);
- font-size: 1rem;
-padding:.75rem .5rem;
-  transition: background .3s ease;
-  font-weight: 400;
-  text-decoration: none;
-  white-space: wrap;
-border:none;
-}
 
 /* Fade-in from-left */
 
