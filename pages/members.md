@@ -24,7 +24,7 @@ layout: layouts/grid-members.njk
 <div>{LISENewsletters pagelimit=4}</div>
 <h3>GPS Blog</h3>
 <div>{% set postslist = collections['Blog'] | reverse | limit(3) %} 
-{% include "components/postslist-news-3-wide-no-date.njk" %}
+{% include "components/postslist-news-3-wide-no-date.njk" %}</div>
 
 
 <div class="logoutbuttonwrapper">
