@@ -2080,9 +2080,10 @@ h3.emailboxh3 {
 
 }
 .emailtitle {
-    background-color: var(--white70);
+    background-color: var(--white20);
   width: auto;
    padding: 0.5rem;
+   margin: 0 0 1.5rem 0;
 }
 
 
