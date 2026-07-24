@@ -338,13 +338,8 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
 h2.heading-text  {
   color: var(--primary);
   padding: 1rem 0;
-  margin: 0 0 4rem 0;
+  margin: 0 0 2rem 0;
 }
-
-
-
-
-
 
 
 
