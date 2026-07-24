@@ -15,5 +15,7 @@ modified_date: 2022-08-26
 permalink: /members/policies/
 ---
 
+{% include "components/global/members-nav.html" %}
+
 <p>Below are some of our Pre School policies.</p>
 <div>{LISEPolicies}</div>

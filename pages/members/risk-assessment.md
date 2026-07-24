@@ -15,6 +15,8 @@ modified_date: 2023-07-20
 permalink: /members/risk-assessment/
 ---
 
+{% include "components/global/members-nav.html" %}
+
 <p>Below are some of our Pre School Risk Assessment Plans.</p>
 
 ---

@@ -15,7 +15,10 @@ modified_date: 2023-07-21
 permalink: /members/
 ---
 
-<p class="member-welcome">Welcome back<span data-identity-name></span>! <button class="button" data-identity-action="logout">Log Out</button></p>
+<p class="member-welcome">Welcome back<span data-identity-name></span>!</p>
+
+{% include "components/global/members-nav.html" %}
+
 <p><br />Now you have signed in, please feel free to browse our <a href="/members/gloucester-preschool-blog/">Blog</a> or <a href="/members/newsletters/">Newsletter</a> sections.</p>
 <p>&nbsp;</p>
 <h3>Newsletters</h3>

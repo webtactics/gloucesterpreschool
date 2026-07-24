@@ -15,6 +15,8 @@ modified_date: 2023-07-20
 permalink: /members/gloucester-preschool-blog/
 ---
 
+{% include "components/global/members-nav.html" %}
+
 <p>Welcome to our Blog section. We hope you find some useful and interesting information.</p>
 
 ---

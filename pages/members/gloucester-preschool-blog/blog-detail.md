@@ -16,4 +16,6 @@ permalink: /members/gloucester-preschool-blog/blog-detail/
 
 ---
 
+{% include "components/global/members-nav.html" %}
+
 {LISEBlog}

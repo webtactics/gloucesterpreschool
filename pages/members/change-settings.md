@@ -16,5 +16,7 @@ permalink: /members/change-settings/
 
 ---
 
+{% include "components/global/members-nav.html" %}
+
 <p>Update your name, email address or password using the button below.</p>
 <p><button class="button" data-identity-action="account">Manage My Account</button></p>

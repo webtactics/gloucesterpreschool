@@ -16,4 +16,6 @@ permalink: /members/quality-improvement-plan/qip-detail/
 
 ---
 
+{% include "components/global/members-nav.html" %}
+
 {LISEQIP}

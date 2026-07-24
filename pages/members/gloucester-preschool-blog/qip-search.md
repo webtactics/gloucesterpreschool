@@ -16,4 +16,6 @@ permalink: /members/gloucester-preschool-blog/qip-search/
 
 ---
 
+{% include "components/global/members-nav.html" %}
+
 {LISEBlog action="search"}
