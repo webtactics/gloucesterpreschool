@@ -15,6 +15,18 @@
     document.querySelectorAll("[data-identity-logged-out]").forEach(function (el) {
       el.hidden = !!user;
     });
+
+    // The widget only keeps the session in localStorage — it does NOT set a
+    // cookie on its own. Our Edge Function (netlify/edge-functions/members-gate.js)
+    // checks a cookie to protect /members/* at the edge, so we have to write
+    // it ourselves here, or every request looks logged-out to the server no
+    // matter what the widget shows client-side.
+    if (user && user.token && user.token.access_token) {
+      var maxAge = user.token.expires_in || 3600;
+      document.cookie = "nf_jwt=" + user.token.access_token + "; path=/; max-age=" + maxAge + "; SameSite=Lax";
+    } else {
+      document.cookie = "nf_jwt=; path=/; max-age=0";
+    }
   }
 
   // Invite / password-recovery / confirmation emails land on the site with a
@@ -42,14 +54,15 @@
     sessionStorage.removeItem("gps-members-redirect");
     window.netlifyIdentity.close();
     if (window.location.pathname !== redirectTo) {
-      // Netlify's edge checks the nf_jwt cookie against the Role-based
-      // redirect rules protecting /members/*, so send the browser on a
-      // fresh request to the target page.
+      // Our Edge Function checks the nf_jwt cookie set above against
+      // /members/*, so send the browser on a fresh request to the target
+      // page rather than relying on any client-side view of the content.
       window.location.href = redirectTo;
     }
   });
 
   window.netlifyIdentity.on("logout", function () {
+    updateIdentityUI(null);
     window.location.href = "/";
   });
 
