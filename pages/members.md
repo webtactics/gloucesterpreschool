@@ -27,8 +27,7 @@ layout: layouts/grid-members.njk
 {% include "components/postslist-news-3-wide-no-date.njk" %}
 
 
-<div class="logoutbuttonwrapper"><a href="/members/gloucester-preschool-blog/" title="GPS Blog"><button class="button success logoutbutton">View all blog articles &gt;</button></a></div>
-
-
-<div class="linkwrapper"><a class="infobuttons expand" href="/members/gloucester-preschool-blog/" title="GPS Blog">View all blog articles &gt;</a></div>
+<div class="logoutbuttonwrapper">
+<a href="/members/gloucester-preschool-blog/" class="button success logoutbutton" title="GPS Blog" alt="GPS Blog">View all blog articles &gt;</a>
 </div>
+
