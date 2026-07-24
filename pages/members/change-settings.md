@@ -16,4 +16,5 @@ permalink: /members/change-settings/
 
 ---
 
-{MAMS action="changesettings"}
+<p>Update your name, email address or password using the button below.</p>
+<p><button class="button" data-identity-action="account">Manage My Account</button></p>

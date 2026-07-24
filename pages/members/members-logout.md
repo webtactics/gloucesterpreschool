@@ -19,4 +19,10 @@ eleventyNavigation:
 
 ---
 
-{MAMS action="logout"}
+<p>Logging you out&hellip;</p>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.logout();
+  }
+</script>
+<p>If you are not redirected automatically, <a href="/">return to the homepage</a>.</p>

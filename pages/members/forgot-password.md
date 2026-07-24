@@ -16,4 +16,5 @@ permalink: /members/forgot-password/
 
 ---
 
-{MAMS action="forgotpw"}
+<p>Click the button below and choose <strong>Forgot password?</strong> in the login window that opens.</p>
+<p><button class="button" data-identity-action="login" data-identity-redirect="/members/">Open Login / Reset Password</button></p>

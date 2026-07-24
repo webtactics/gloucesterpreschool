@@ -21,7 +21,7 @@ eleventyNavigation:
 
 ---
 
-<div>{MAMS action="logoutform"}</div>
+<p class="member-welcome">Welcome back<span data-identity-name></span>! <button class="button" data-identity-action="logout">Log Out</button></p>
 <p><br />Now you have signed in, please feel free to browse our <a href="/members/gloucester-preschool-blog/">Blog</a> or <a href="/members/newsletters/">Newsletter</a> sections.</p>
 <p>&nbsp;</p>
 <h3>Newsletters</h3>
