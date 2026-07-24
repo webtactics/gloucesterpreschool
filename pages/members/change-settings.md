@@ -1,0 +1,19 @@
+---
+title: "Change your settings"
+slug: change-settings
+content_alias: change-settings
+type: mams_protected_page
+parent: members
+menu_text: Change Settings
+show_in_menu: false
+active: true
+secure: true
+protected: true
+create_date: 2022-03-28
+modified_date: 2022-03-28
+
+permalink: /members/change-settings/
+
+---
+
+{MAMS action="changesettings"}
