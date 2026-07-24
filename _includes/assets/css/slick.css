@@ -66,10 +66,10 @@ height:50svh;
 @media (max-width: 1025px) { 
 
 .flex-caption {
-left: 1rem;
-right: auto;
+left: 0.5rem;
+right: 0.5rem;
 top: 30vh;
-max-width: 100%;
+max-width: auto;
 }
 .flex-caption.internal {
    top: 30vh;
