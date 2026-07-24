@@ -2709,7 +2709,7 @@ background-color:var(--white);
 ul  li.taggs a, ul  li.taggs a:visited {
   display: block;
   color: var(--white);
-  background: var(--darkgreen);
+  background: var(--primary);
  padding: 0.25rem 0.5rem;
   border:none;
   transition: background 300ms ease;
@@ -2723,14 +2723,30 @@ ul  li.taggs a, ul  li.taggs a:visited {
 
 ul  li.taggs a:hover, ul  li.taggs  a:focus {
   color: var(--white);
-  background: var(--primary);
+  background: var(--black);
   font-weight: normal;
   text-decoration: none;
 }
 
+ul.menu-vert  li.taggs a, ul  li.taggs a:visited {
+  display: block;
+  color: var(--white);
+  background: var(--black);
+ padding: 0.25rem 0.5rem;
+  border:none;
+  transition: background 300ms ease;
+  font-weight: normal;
+ font-size: 0.9rem;
+  text-decoration: none;
+  text-transform: none;
+}
 
-
-
+ul.menu-vert  li.taggs a:hover, ul.menu-vert  li.taggs  a:focus {
+  color: var(--white);
+  background: var(--primary);
+  font-weight: normal;
+  text-decoration: none;
+}
 
 
 .two-colum-wrapper {
