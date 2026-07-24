@@ -63,8 +63,16 @@
     e.preventDefault();
     var action = el.getAttribute("data-identity-action");
     if (action === "login") {
-      var redirectTo = el.getAttribute("data-identity-redirect");
-      if (redirectTo) sessionStorage.setItem("gps-members-redirect", redirectTo);
+      var redirectTo = el.getAttribute("data-identity-redirect") || "/members/";
+      // If there's already a valid session, opening "login" just shows the
+      // account panel ("Logged in as ...") instead of a login form — no
+      // "login" event fires, so nothing would otherwise happen. Skip the
+      // widget entirely and go straight to the destination.
+      if (window.netlifyIdentity.currentUser()) {
+        window.location.href = redirectTo;
+        return;
+      }
+      sessionStorage.setItem("gps-members-redirect", redirectTo);
       window.netlifyIdentity.open("login");
     } else if (action === "logout") {
       window.netlifyIdentity.logout();
