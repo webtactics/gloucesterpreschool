@@ -2111,7 +2111,7 @@ h3.news-title a {
 
 h3.news-title a:hover {
   color: var(--white);
-  background-color: var(--darkgreen);
+  background-color: var(--black);
   transition: background-color .6s;
 }
 
@@ -2172,7 +2172,7 @@ h4.sum-title a {
 }
 h4.sum-title a:hover {
   color: var(--white);
-  background-color: var(--darkgreen);
+  background-color: var(--black);
   transition: background-color .6s;
   border-bottom-left-radius: .5rem;
   border-bottom-right-radius: .5rem;

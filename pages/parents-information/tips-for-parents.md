@@ -22,4 +22,4 @@ eleventyNavigation:
   order: 1
 ---
 {% set postslist = collections['Blog'] | reverse %} 
-{% include "components/postslist-news-3-wide.njk" %}
+{% include "components/postslist-news-3-wide-no-date.njk" %}
