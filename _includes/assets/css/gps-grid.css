@@ -399,7 +399,7 @@ line-height: 1.7rem;
 margin: 0 0 1rem 0;
 padding:0;}
 
-strong {font-weight: 600;color: var(--black);}
+strong {font-weight: 600;color: var(--primary);}
 
 p em {
 font-style: italic;
