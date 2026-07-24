@@ -2922,7 +2922,7 @@ font-family: ProximaNova,sans-serif;
 
 
 
-.sidebarnav li a:hover, .sidebarnav li.menuactive a {
+.sidebarnav li a:hover, .sidebarnav li.menuactive a, .sidebarnav li a.active-class, .sidebarnav li a.active-class:hover {
   background: var(--primary);
   color: var(--white);
 }
