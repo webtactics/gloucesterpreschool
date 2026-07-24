@@ -2069,16 +2069,12 @@ h3.emailboxh3 {
   font-weight: 700;
   font-size: 2rem;
   line-height: 2rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding: 0rem;
   text-decoration: none;
   color: var(--black);
   z-index: 2;
   margin:0;
-  width:auto;
-   background-color: var(--red);
-
-
 }
 .emailtitle {
     background-color: var(--white20);
