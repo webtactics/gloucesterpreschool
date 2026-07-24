@@ -20,8 +20,5 @@ eleventyNavigation:
   key: Tips for Parents
   order: 1
 ---
-
-<div class="box3wrapper">
-				{% set postslist = collections['Blog'] | reverse %} 
-				{% include "components/postslist-news-3-wide.njk" %}
-			</div>
+{% set postslist = collections['Blog'] | reverse %} 
+{% include "components/postslist-news-3-wide.njk" %}
