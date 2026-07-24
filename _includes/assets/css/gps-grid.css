@@ -1660,6 +1660,45 @@ border-radius: 8px;
   cursor: pointer;
 }
 
+button.success.logoutbutton, .button.success.logoutbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  font-size: 1rem;
+  padding: 0.4rem 3rem;
+  margin: 2rem 0;
+  text-decoration: none;
+  -webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
+  cursor: pointer;
+}
+
+button.success.logoutbutton:hover, button.success.logoutbutton:focus, .button.success.logoutbutton:hover, .button.success.logoutbutton:focus {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  font-size: 1rem;
+  padding: 0.4rem 3rem;
+   margin: 2rem 0;
+  text-decoration: none;
+  -webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
+  cursor: pointer;
+}
+
+
+
 .close-nav-wrapper {
   display: flex;
   justify-content: flex-start;
