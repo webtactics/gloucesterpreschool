@@ -21,15 +21,18 @@ eleventyNavigation:
   order: 1
 ---
 
-<h3>If you are a member of this site, please login below.</h3>
+<h3 data-identity-logged-out>If you are a member of this site, please login below.</h3>
 
 <p data-identity-logged-out>
   <button class="button" data-identity-action="login" data-identity-redirect="/members/">Log In to the Members Area</button>
 </p>
 
-<p data-identity-logged-in hidden>
-  Welcome back<span data-identity-name></span>. <a href="/members/">Go to the Members Area</a> or
-  <button class="button" data-identity-action="logout">Log Out</button>.
-</p>
+<div data-identity-logged-in hidden>
+  <h3>Welcome back<span data-identity-name></span>.</h3>
+  <p>
+    <a href="/members/">Go to the Members Area</a> or
+    <button class="button" data-identity-action="logout">Log Out</button>.
+  </p>
+</div>
 
 <p>If you are a parent or guardian of a child currently enrolled in Gloucester Pre School and would like to become a member, please email <a href="mailto:admin@gloucesterpreschool.com.au">admin@gloucesterpreschool.com.au</a></p>
