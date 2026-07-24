@@ -15,7 +15,10 @@ imagetwo: images/Gallery/GPS-side.jpg
 
 
 permalink: /parents-information/parents-members-login/
-
+eleventyNavigation:
+  parent: Parents Information
+  key: Members Login
+  order: 1
 ---
 
 <h3>If you are a member of this site, please login below.</h3>

@@ -19,7 +19,7 @@ permalink: /parents-information/tips-for-parents/
 eleventyNavigation:
   parent: Parents Information
   key: Tips for Parents
-  order: 1
+  order: 6
 ---
 {% set postslist = collections['Blog'] | reverse %} 
 {% include "components/postslist-news-3-wide-no-date.njk" %}
