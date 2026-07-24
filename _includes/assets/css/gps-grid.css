@@ -2275,6 +2275,10 @@ grid-template-columns: 7fr 5fr;
 gap: 5rem;
 }
 
+.grid-2-3x1 {
+grid-template-columns: 3fr 1fr;
+gap: 3rem;
+}
 
 
 

@@ -1,4 +1,5 @@
 ---
+layout: layouts/grid-3x1.njk
 title: "Tips for Parents"
 slug: tips-for-parents
 content_alias: tips-for-parents
