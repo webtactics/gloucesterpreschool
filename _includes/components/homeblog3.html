@@ -3,7 +3,7 @@
 		
 
 			<div class="box3wrapper">
-				{% set postslist = collections['Blog'] | limit(3) | reverse %} 
+				{% set postslist = collections['Blog'] | reverse | limit(3) %} 
 				{% include "components/postslist-news-3-wide.njk" %}
 			</div>
 
