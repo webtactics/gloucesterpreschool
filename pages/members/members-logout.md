@@ -20,9 +20,16 @@ eleventyNavigation:
 ---
 
 <p>Logging you out&hellip;</p>
+<p><button class="button" data-identity-action="logout">Log Out</button></p>
+
 <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.logout();
-  }
+  // The Netlify Identity widget script loads further down the page, so it
+  // isn't ready yet if we try to call it immediately here. Wait for the
+  // window "load" event (fires after all scripts have run) to attempt an
+  // automatic logout; the button above is a guaranteed fallback either way.
+  window.addEventListener("load", function () {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.logout();
+    }
+  });
 </script>
-<p>If you are not redirected automatically, <a href="/">return to the homepage</a>.</p>
