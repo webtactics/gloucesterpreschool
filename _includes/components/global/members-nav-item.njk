@@ -1,0 +1,11 @@
+{#
+  Renders one <li><a> for the members sidebar nav, marking it active when
+  the current page matches (exact match, or a sub-page of it — e.g. viewing
+  /members/gloucester-preschool-blog/blog-detail/ still highlights "Pre
+  School Blog"). "/members/" is excluded from the sub-page check since it's
+  a prefix of every members URL and would otherwise always show as active.
+#}
+{% macro navItem(href, label, currentUrl) %}
+{% set isActive = currentUrl == href or (href != "/members/" and currentUrl.startsWith(href)) %}
+<li><a href="{{ href }}" title="{{ label }}"{% if isActive %} class="active-class" aria-current="page"{% endif %}>{{ label }}</a></li>
+{% endmacro %}

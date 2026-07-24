@@ -1,15 +1,17 @@
+{% from "components/global/members-nav-item.njk" import navItem %}
 <div class="members-sidebar">
 <nav class="members-nav" aria-label="Members section navigation">
   <ul class="members-nav-list">
-    <li><a href="/members/">Members Home</a></li>
-    <li><a href="/members/gloucester-preschool-blog/">Pre School Blog</a></li>
-    <li><a href="/members/newsletters/">Newsletters</a></li>
-    <li><a href="/members/policies/">Policies</a></li>
-    <li><a href="/members/risk-assessment/">Risk Assessment</a></li>
-    <li><a href="/members/quality-improvement-plan/">Quality Improvement Plan</a></li>
-    <li><a href="/members/video-resources/">Video Resources</a></li>
-    <li><a href="/members/change-settings/">Change Settings</a></li>
+    {{ navItem("/members/", "Members Home", page.url) }}
+    {{ navItem("/members/gloucester-preschool-blog/", "Pre School Blog", page.url) }}
+    {{ navItem("/members/newsletters/", "Newsletters", page.url) }}
+    {{ navItem("/members/policies/", "Policies", page.url) }}
+    {{ navItem("/members/risk-assessment/", "Risk Assessment", page.url) }}
+    {{ navItem("/members/quality-improvement-plan/", "Quality Improvement Plan", page.url) }}
+    {{ navItem("/members/video-resources/", "Video Resources", page.url) }}
+    {{ navItem("/members/change-settings/", "Change Settings", page.url) }}
   </ul>
 </nav>
 
   <button class="button success" data-identity-action="logout">Log Out</button>
+</div>
