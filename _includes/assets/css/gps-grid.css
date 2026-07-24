@@ -1799,9 +1799,11 @@ height: auto;
   }
 
 .detailwrapper ul li {
-  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+    font-size: 1.2rem;
   font-size: clamp(18px, 2vw + 1rem, 1.4rem);
   line-height: 1.7rem;
+   color: var(--text);
 }
 
 .detailwrapper ul li::marker {
@@ -1811,11 +1813,11 @@ height: auto;
 
 
 .detailwrapper ol li {
-  line-height: 1.6rem;
   margin-bottom: 0.8rem;
     font-size: 1.2rem;
   font-size: clamp(18px, 2vw + 1rem, 1.4rem);
   line-height: 1.7rem;
+   color: var(--text);
 }
 
 .detailwrapper ol li::marker {
