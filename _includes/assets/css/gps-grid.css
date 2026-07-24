@@ -1575,11 +1575,17 @@ color : var(--white);
   border: none;
   padding:0.5rem 2rem;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none;
 }
 
 .button:focus, .button:hover {
   background-color: var(--black);
   color: var(--white);
+    text-decoration: none;
+  text-align: center;
+  text-transform: none;
 }
 
 
