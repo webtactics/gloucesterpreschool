@@ -13,11 +13,6 @@ create_date: 2022-07-13
 modified_date: 2022-08-26
 
 permalink: /members/policies/
-eleventyNavigation:
-  parent: Members
-  key: Policies
-  order: 7
-
 ---
 
 <p>Below are some of our Pre School policies.</p>

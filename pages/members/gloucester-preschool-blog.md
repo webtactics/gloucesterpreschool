@@ -13,11 +13,6 @@ create_date: 2022-03-24
 modified_date: 2023-07-20
 
 permalink: /members/gloucester-preschool-blog/
-eleventyNavigation:
-  parent: Members
-  key: Pre School Blog
-  order: 4
-
 ---
 
 <p>Welcome to our Blog section. We hope you find some useful and interesting information.</p>

@@ -13,11 +13,6 @@ create_date: 2022-03-30
 modified_date: 2022-08-12
 
 permalink: /members/gloucester-preschool-blog/blog-detail/blog-page-2/
-eleventyNavigation:
-  parent: Gloucester Pre School Blog Detail
-  key: "2"
-  order: 1
-
 ---
 
 {LISEBlog template_summary=LISEBlog_summary_default pagelimit=30 start=30}

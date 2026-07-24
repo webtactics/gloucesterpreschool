@@ -13,11 +13,6 @@ create_date: 2023-07-20
 modified_date: 2023-07-20
 
 permalink: /members/risk-assessment/
-eleventyNavigation:
-  parent: Members
-  key: Risk Assessment
-  order: 8
-
 ---
 
 <p>Below are some of our Pre School Risk Assessment Plans.</p>

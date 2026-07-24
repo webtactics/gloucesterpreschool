@@ -13,11 +13,6 @@ create_date: 2023-07-24
 modified_date: 2023-07-24
 
 permalink: /members/video-resources/
-eleventyNavigation:
-  parent: Members
-  key: Video Resources
-  order: 9
-
 ---
 
 <p>Video Resources</p>

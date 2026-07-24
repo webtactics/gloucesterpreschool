@@ -13,12 +13,6 @@ create_date: 2022-03-25
 modified_date: 2023-07-21
 
 permalink: /members/
-eleventyNavigation:
-  key: Members
-  order: 6
-
-
-
 ---
 
 <p class="member-welcome">Welcome back<span data-identity-name></span>! <button class="button" data-identity-action="logout">Log Out</button></p>

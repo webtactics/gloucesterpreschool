@@ -13,11 +13,6 @@ create_date: 2022-05-03
 modified_date: 2023-06-26
 
 permalink: /members/newsletters/
-eleventyNavigation:
-  parent: Members
-  key: Newsletters
-  order: 6
-
 ---
 
 <div>{LISENewsletters pagelimit=16}</div>
