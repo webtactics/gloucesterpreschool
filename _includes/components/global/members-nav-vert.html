@@ -1,0 +1,19 @@
+{% from "components/global/members-nav-item.njk" import navItem %}
+<div class="tagged">
+  <div class="tag">
+
+  <ul>
+    {{ navItem("/members/", "Members Home", page.url) }}
+    {{ navItem("/members/gloucester-preschool-blog/", "Pre School Blog", page.url) }}
+    {{ navItem("/members/newsletters/", "Newsletters", page.url) }}
+    {{ navItem("/members/policies/", "Policies", page.url) }}
+    {{ navItem("/members/risk-assessment/", "Risk Assessment", page.url) }}
+    {{ navItem("/members/quality-improvement-plan/", "Quality Improvement Plan", page.url) }}
+    {{ navItem("/members/video-resources/", "Video Resources", page.url) }}
+  </ul>
+
+
+</div>
+</div>
+
+  <button class="button success" data-identity-action="logout">Log Out</button>
