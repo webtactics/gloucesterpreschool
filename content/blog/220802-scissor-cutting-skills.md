@@ -1,6 +1,7 @@
 ---
 title: How to Teach Scissor Cutting Skills
 date: 2022-08-02
+members_only: true
 description: A step-by-step guide to the developmental sequence of cutting skills, from ripping and snipping through to zig zags, curves and right angles.
 
 newsdate:

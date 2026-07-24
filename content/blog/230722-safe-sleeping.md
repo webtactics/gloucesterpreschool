@@ -1,6 +1,7 @@
 ---
 title: Safe Sleeping
 date: 2023-07-22
+members_only: true
 description: Simple, evidence-based safe sleeping practices that help reduce the risk of SIDS, from back sleeping to a smoke-free environment.
 
 newsdate:

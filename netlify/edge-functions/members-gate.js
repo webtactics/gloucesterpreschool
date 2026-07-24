@@ -75,6 +75,11 @@ export const config = {
     "/static/pdf/qip/*",
     "/static/pdf/newsletters/*",
     "/uploads/pdf/policies/*",
+    // Individual blog article pages (content/blog/*.md, output to
+    // /blog/<slug>/). The public teaser listing at /tagged/Blog/ (title +
+    // image + "More Info >" only, no article body) stays open — there's no
+    // page at the bare /blog/ path itself to accidentally catch here.
+    "/blog/*",
   ],
   excludedPath: ["/members/forgot-password/", "/members/members-logout/"],
 };

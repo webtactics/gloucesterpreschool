@@ -1,6 +1,7 @@
 ---
 title: Becoming continent; a guide to toilet training
 date: 2022-07-28
+members_only: true
 description: Toilet training is one of the biggest challenges for parents - when to start, how to start, and how to know your child is ready.
 
 newsdate:

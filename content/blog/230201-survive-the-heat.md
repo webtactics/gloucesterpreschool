@@ -1,6 +1,7 @@
 ---
 title: Survive The Heat
 date: 2023-02-01
+members_only: true
 description: Know the effects of extreme heat, who is most at risk and how you can prepare yourself and your family to stay safe.
 
 newsdate:

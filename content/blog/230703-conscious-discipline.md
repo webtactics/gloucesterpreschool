@@ -1,6 +1,7 @@
 ---
 title: Conscious Discipline
 date: 2023-07-03
+members_only: true
 description: How 'I Love You Rituals' and conscious breathing help children build connection, self-regulation and emotional wellbeing.
 
 newsdate:
