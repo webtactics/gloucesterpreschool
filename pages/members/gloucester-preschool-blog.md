@@ -17,8 +17,5 @@ permalink: /members/gloucester-preschool-blog/
 
 <p>Welcome to our Blog section. We hope you find some useful and interesting information.</p>
 
----
-
-### Second Content
-
-<div>{LISEBlog}</div>
+{% set postslist = collections['Blog'] | reverse  %} 
+{% include "components/postslist-news-3-wide-no-date.njk" %}
