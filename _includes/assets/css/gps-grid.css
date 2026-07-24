@@ -2072,7 +2072,7 @@ h3.emailboxh3 {
   letter-spacing: 2px;
   padding: 0rem;
   text-decoration: none;
-  color: var(--primary);
+  color: var(--black);
   z-index: 2;
   margin:0;
   width:auto;
