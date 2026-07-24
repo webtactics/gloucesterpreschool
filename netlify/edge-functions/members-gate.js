@@ -7,7 +7,7 @@
 // @netlify/identity, and only lets the request through if the user has the
 // "guardian" or "staff" role. Otherwise it returns the site's own /401.html
 // with a real 401 status.
-import { getUser } from "npm:@netlify/identity@2";
+import { getUser } from "npm:@netlify/identity@1";
 
 const ALLOWED_ROLES = ["guardian", "staff"];
 
