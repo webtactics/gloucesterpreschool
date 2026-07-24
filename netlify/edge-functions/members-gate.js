@@ -25,12 +25,13 @@ function getCookie(request, name) {
 export default async (request, context) => {
   const token = getCookie(request, "nf_jwt");
 
-  // Diagnostic header so the exact denial reason is visible from curl or the
-  // browser Network tab without needing console access — this thread has
-  // burned a lot of turns guessing blind, this stops that.
+  // Diagnostic reason, shown both as a response header (Network tab) and
+  // printed directly into the 401 page body (no DevTools needed at all) —
+  // this thread has burned a lot of turns guessing blind, this stops that.
   const deny = async (reason) => {
     const unauthorizedPage = await fetch(new URL("/401.html", request.url));
-    return new Response(await unauthorizedPage.text(), {
+    const html = (await unauthorizedPage.text()).replace("GATE_REASON_PLACEHOLDER", reason);
+    return new Response(html, {
       status: 401,
       headers: {
         "content-type": "text/html; charset=utf-8",
@@ -47,7 +48,7 @@ export default async (request, context) => {
     headers: { Authorization: `Bearer ${token}` },
   });
   if (!response.ok) {
-    return deny("invalid-or-expired-token");
+    return deny("invalid-or-expired-token:" + response.status);
   }
 
   const user = await response.json();
@@ -55,7 +56,7 @@ export default async (request, context) => {
   const authorized = roles.some((role) => ALLOWED_ROLES.includes(role));
 
   if (!authorized) {
-    return deny("no-guardian-or-staff-role");
+    return deny("no-guardian-or-staff-role:roles=" + JSON.stringify(roles));
   }
 
   const nextResponse = await context.next();
