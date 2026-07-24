@@ -3333,7 +3333,7 @@ background-repeat: repeat;
   justify-content: center;}
 
 
-.flex-captionp p {text-align: center;line-height: 1.2rem;margin: 0 0 1rem 0;font-size: 1.2rem;color: var(--primary);}
+.flex-captionp p {text-align: center;line-height: 1.5rem;margin: 0 0 2rem 0;font-size: 1.2rem;color: var(--black);}
 
 .homeblog3 {
   margin: 0;
