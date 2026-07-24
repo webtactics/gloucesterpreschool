@@ -5,8 +5,8 @@ content_alias: parents-members-login
 type: content
 parent: parents-information
 menu_text: Members Login
-show_in_menu: true
-active: true
+show_in_menu: false
+active: false
 create_date: 2022-07-21
 modified_date: 2022-08-18
 pageimage: images/Gallery/20210114_140619.jpg
@@ -15,10 +15,7 @@ imagetwo: images/Gallery/GPS-side.jpg
 
 
 permalink: /parents-information/parents-members-login/
-eleventyNavigation:
-  parent: Parents Information
-  key: Members Login
-  order: 1
+
 ---
 
 <h3>If you are a member of this site, please login below.</h3>
