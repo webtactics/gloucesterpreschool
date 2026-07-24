@@ -14,7 +14,10 @@
 // own /user endpoint as a Bearer token. That endpoint returns the full user
 // record (including app_metadata.roles) if the token is valid, or fails if
 // it isn't — no crypto, no secrets, no npm dependency, plain Web APIs only.
-const ALLOWED_ROLES = ["guardian", "staff"];
+// Matched case-insensitively against the actual role names set up in
+// Identity (mirroring the original CMS's "Staff" / "Parents & Guardians"
+// member groups).
+const ALLOWED_ROLES = ["staff", "parents & guardians"];
 
 function getCookie(request, name) {
   const cookieHeader = request.headers.get("cookie") || "";
@@ -53,7 +56,7 @@ export default async (request, context) => {
 
   const user = await response.json();
   const roles = (user.app_metadata && user.app_metadata.roles) || [];
-  const authorized = roles.some((role) => ALLOWED_ROLES.includes(role));
+  const authorized = roles.some((role) => ALLOWED_ROLES.includes(String(role).toLowerCase()));
 
   if (!authorized) {
     return deny("no-guardian-or-staff-role:roles=" + JSON.stringify(roles));
