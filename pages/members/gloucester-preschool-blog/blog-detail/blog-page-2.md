@@ -15,6 +15,4 @@ modified_date: 2022-08-12
 permalink: /members/gloucester-preschool-blog/blog-detail/blog-page-2/
 ---
 
-{% include "components/global/members-nav.html" %}
-
 {LISEBlog template_summary=LISEBlog_summary_default pagelimit=30 start=30}

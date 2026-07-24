@@ -13,7 +13,7 @@ create_date: 2022-03-28
 modified_date: 2022-08-22
 
 permalink: /members/forgot-password/
-
+layout: layouts/grid-default.njk
 ---
 
 <p>Click the button below and choose <strong>Forgot password?</strong> in the login window that opens.</p>

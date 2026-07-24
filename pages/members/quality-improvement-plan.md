@@ -15,8 +15,6 @@ modified_date: 2023-07-24
 permalink: /members/quality-improvement-plan/
 ---
 
-{% include "components/global/members-nav.html" %}
-
 <p>Welcome to our Quality Improvement Plan section.</p>
 
 ---

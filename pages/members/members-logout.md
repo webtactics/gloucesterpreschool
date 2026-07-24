@@ -12,6 +12,7 @@ create_date: 2022-03-25
 modified_date: 2022-08-18
 
 permalink: /members/members-logout/
+layout: layouts/grid-default.njk
 ---
 
 <p>Logging you out&hellip;</p>

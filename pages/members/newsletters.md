@@ -15,6 +15,4 @@ modified_date: 2023-06-26
 permalink: /members/newsletters/
 ---
 
-{% include "components/global/members-nav.html" %}
-
 <div>{LISENewsletters pagelimit=16}</div>

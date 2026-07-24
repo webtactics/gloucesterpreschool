@@ -1,0 +1,31 @@
+{% extends "layouts/grid-default.njk" %}
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+		<div class="titlebox">
+			<h2 class="heading-text">{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}</h2>
+		</div>
+
+		<div class="grid-2-7x5-columns">
+
+			<div class="content-left">
+				<div class="text">
+					<div class="contentwrapper">
+						{{ content | safe }}
+					</div>
+				</div>
+			</div>
+
+			<div class="content-right">
+				<div class="sidebarnav">
+					{% include "components/global/members-nav.html" %}
+				</div>
+			</div>
+
+		</div>
+
+	</main>
+</div>
+{% endblock %}
