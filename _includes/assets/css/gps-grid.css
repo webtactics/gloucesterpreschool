@@ -2076,6 +2076,7 @@ h3.emailboxh3 {
   z-index: 2;
   margin:0;
   width:auto;
+   background-color: var(--red);
 
 
 }
