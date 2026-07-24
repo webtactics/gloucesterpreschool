@@ -1860,6 +1860,9 @@ height: auto;
   font-size: 1.5em;
 }
 
+
+
+
 .detailwrapper ol li {
   line-height: 1.6rem;
   margin-bottom: 0.8rem;
@@ -3323,4 +3326,16 @@ background-repeat: repeat;
   margin: 0;
   padding: 1rem 0;
  background-color: var(--white);
+}
+
+
+.content > li {
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding-left: 1em;
+  padding-bottom: .25em;
+  font-size: 1.2rem;
+  font-size: clamp(18px, 2vw + 1rem, 1.4rem);
+  line-height: 1.7rem;
 }
