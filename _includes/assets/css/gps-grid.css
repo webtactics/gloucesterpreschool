@@ -2162,7 +2162,7 @@ h3.news-title a:hover {
   color: var(--primary);
 }
 
-.postdetaildate p {
+.postdetaildate p, p.tagtitle {
   margin: 0;
   line-height: 2rem;
  color: var(--primary);
