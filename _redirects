@@ -1,22 +1,5 @@
 /home/                /
 
-# --- Netlify Identity: Members-only section ---
-# Keep these two paths public so a visitor can recover a password or sign out
-# even without a session (or with an expired one).
-/members/forgot-password/     /members/forgot-password/       200
-/members/members-logout/      /members/members-logout/        200
-
-# Everything else under /members/ requires the "guardian" or "staff" role,
-# assigned per-user in Netlify's Identity dashboard.
-/members/*                    /members/:splat                 200!  Role=guardian,staff
-
-# Protect the documents linked from the members-only pages too, so a direct
-# or shared PDF link can't be used to bypass the login wall.
-/static/pdf/policies/*        /static/pdf/policies/:splat      200!  Role=guardian,staff
-/static/pdf/risk/*            /static/pdf/risk/:splat          200!  Role=guardian,staff
-/static/pdf/qip/*             /static/pdf/qip/:splat           200!  Role=guardian,staff
-/static/pdf/newsletters/*     /static/pdf/newsletters/:splat   200!  Role=guardian,staff
-/uploads/pdf/policies/*       /uploads/pdf/policies/:splat     200!  Role=guardian,staff
-
-# Friendly landing page for anyone who hits a Role-gated URL without a session.
-/*                             /401.html                        401
+# /members/* and the policy/risk/qip/newsletter PDFs are protected by the
+# netlify/edge-functions/members-gate.js Edge Function, not by a Role=
+# redirect here — Netlify's `Role=` condition only works on Enterprise plans.
