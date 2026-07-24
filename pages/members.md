@@ -22,5 +22,8 @@ layout: layouts/grid-members.njk
 <p>&nbsp;</p>
 <h3>Newsletters</h3>
 <div>{LISENewsletters pagelimit=4}</div>
-<h3>Blog</h3>
-<div>{LISEBlog pagelimit=2 template_summary='LISEBlog_summary_2_wide'}</div>
+<h3>GPS Blog</h3>
+<div>{% set postslist = collections['Blog'] | reverse | limit(3) %} 
+{% include "components/postslist-news-3-wide-no-date.njk" %}
+<div class="linkwrapper"><a class="infobuttons expand" href="/members/gloucester-preschool-blog/" title="GPS Blog">View all blog articles &gt;</a></div>
+</div>
