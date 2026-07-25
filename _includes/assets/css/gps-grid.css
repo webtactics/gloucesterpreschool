@@ -1044,7 +1044,7 @@ ul.off-canvas-list > li.parent > a:hover {
   line-height: var(--navbottomheight);
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
 .navbar-menu a {
   padding: 0 0 0 2rem;
 }
