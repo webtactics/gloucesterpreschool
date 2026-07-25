@@ -1,4 +1,4 @@
-<section class="grid-3-columns summary3" >
+<section class="grid-2-columns summary2" >
 	{% for post in postslist %}
 <summary class="changssummary">
 
@@ -13,7 +13,7 @@
 
 
 <div class="sum4title">
-<h3 class="sum-title"><a class="eventtitle" href="{{ post.data.videolink }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >{{ post.data.subtitle }}</a></h3>
+<h3 class="sum-title"><a class="eventtitle" href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >{{ post.data.title }}</a></h3>
 </div>
 
 	
