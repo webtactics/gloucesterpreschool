@@ -3392,3 +3392,62 @@ figure {
 }
 
 p.underbox {margin: 0;}
+
+.sidebarsumborder {
+  display:Flex;
+  justify-content:center;
+  align-items:center;
+  width:.6rem;
+  height:100%;
+  background-color:var(--black);
+  border-radius:12px
+}
+.sidebarsumborder a {
+  display:Flex;
+  justify-content:center;
+  align-items:center;
+  width:.6rem;
+  height:100%;
+  background-color:var(--black);
+  border-radius:12px
+}
+.sidebarsumpic {
+  display:Flex;
+  justify-content:center;
+  align-items:center;
+  padding:0;
+  margin:0;
+  min-height:120px
+}
+.postlistsidebarimgsquare {
+  height:auto;
+  width:120px;
+  aspect-ratio:1/1
+}
+.grid-detailpage-sidebar-summary {
+  grid-template-columns:1rem 120px 1fr;
+  padding-bottom:3rem;
+  min-height:180px
+}
+.grid-detailpage-sidebar-summary:hover img {
+  filter:brightness(1.2)
+}
+.grid-detailpage-sidebar-summary:hover .pricelistsum h4 a,
+.grid-tracks-sidebar:hover .sidebarsumtitle h3 a,
+.grid-tracks-sidebar:hover .sidebarsumtitle h4 a {
+  color:var(--accent)
+}
+.grid-detailpage-sidebar-summary:hover .sidebarsumborder a,
+.grid-tracks-sidebar:hover .sidebarsumborder a,
+.grid-tracks-sidebar:hover .sidebarwrapper h3 a {
+  display:Flex;
+  justify-content:center;
+  align-items:center;
+  width:.6rem;
+  height:100%;
+  background-color:var(--accent);
+  border-radius:12px
+}
+.grid-tracks-sidebar:hover .sidebarsumtitle.downloads h3 a {
+  color:var(--white)
+}
