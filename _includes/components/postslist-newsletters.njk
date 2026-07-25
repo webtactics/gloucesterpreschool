@@ -1,0 +1,11 @@
+
+
+<article class="newsletters-wrapper">
+	{% for post in postslist %}	
+<div class="newsletter-link">
+    <a href="{{ post.data.link }}" class="loaded" target="_blank">{{ post.data.title }}</a>
+</div> 
+{% endfor %}
+</article>
+		
+

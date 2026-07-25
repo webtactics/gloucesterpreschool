@@ -15,4 +15,5 @@ modified_date: 2023-06-26
 permalink: /members/newsletters/
 ---
 
-<div>{LISENewsletters pagelimit=16}</div>
+<div>{% set postslist = collections['Newsletters'] | reverse %} 
+{% include "components/postslist-newsletters.njk" %}</div>
