@@ -24,16 +24,13 @@ section: post
           <div class="postnewsimage">
             <img src="{{ image }}/tr:w-600,h-400" alt="{{ title }}" title="{{ title }}" width="600px" height="auto" class="postlistimg">
           </div>
+          {% include "components/global/tagged.html" %}
         </div>
 
     </div>
 
   </article>
 </div>
-
-
-{% include "components/global/tagged.html" %}
-
 
 
 {% include "components/global/members-nav-vert.html" %}
