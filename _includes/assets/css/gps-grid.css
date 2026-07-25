@@ -3321,3 +3321,26 @@ background-repeat: repeat;
   font-size: clamp(18px, 2vw + 1rem, 1.4rem);
   line-height: 1.7rem;
 }
+
+
+
+a.newsletter-link-summary {
+  line-height: inherit;
+  color: var(--black);
+  border-bottom: 2px dotted var(--primary);
+  background-color: var(--white);
+  text-transform: none;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  padding: 0 .25rem;
+  white-space: wrap;
+  margin: 0 0 .25rem 0;
+}
+
+a.newsletter-link-summaryhover {
+  color: var(--white);
+  border-bottom: 2px solid var(--black);
+  text-decoration: none;
+  background-color: var(--primary);
+  transition: all .4s ease-in-out;
+}
