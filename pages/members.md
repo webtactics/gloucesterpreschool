@@ -14,8 +14,9 @@ modified_date: 2023-07-21
 
 permalink: /members/
 layout: layouts/grid-members.njk
----
 
+
+---
 <p class="member-welcome">Welcome back <span data-identity-name></span>!</p>
 
 <p><br />Now you have signed in, please feel free to browse our <a href="/members/gloucester-preschool-blog/">Blog</a> or <a href="/members/newsletters/">Newsletter</a> sections.</p>

@@ -13,9 +13,8 @@ create_date: 2022-03-24
 modified_date: 2023-07-20
 
 permalink: /members/gloucester-preschool-blog/
+
+subtitle: "Welcome to our Gloucester Pre School and Early Years Learning Centre Blog section. We hope you find some useful and interesting information."
 ---
-
-<p>Welcome to our Blog section. We hope you find some useful and interesting information.</p>
-
 {% set postslist = collections['Blog'] | reverse  %} 
 {% include "components/postslist-news-3-wide-no-date.njk" %}
