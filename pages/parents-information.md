@@ -26,7 +26,7 @@ eleventyNavigation:
 <p><strong>Long Day Care (LDC) Enrollment</strong></p>
 <p>Gloucester Preschool is able to offer Long Day Care enrollments.</p>
 <p>Long day Care days are available to children under the age of 6 and operates from 8am to 5:15pm, Monday to Friday for 50 weeks per year.</p>
-The Government's new Child Care Subsidy package will determine the fee per day for LDC enrollments.</p>
+<p>The Government's new Child Care Subsidy package will determine the fee per day for LDC enrollments.</p>
 <p><strong>Preschool Enrollment</strong></p>
 <p>Our Preschool program is available to children 3 years to school age and operates from 8:15am - 3:45pm during term time.</p>
 <p>We are funded by the NSW Government under their Early Childhood Education Program. Two days of free preschool are available for children 3 to 5 years of age.</p>
@@ -37,8 +37,6 @@ The Government's new Child Care Subsidy package will determine the fee per day f
 <p>A copy of the fees policy is located in the Parent Login in section under policies</p>
 <p>National Law and Regulations - link attached below to view the National laws and regulations that govern our service</p>
 <p><a title="National Law and Regulations" href="https://legislation.nsw.gov.au/view/html/inforce/current/sl-2011-0653" target="_blank" rel="noopener">National Law and Regulations</a></p>
-
-
 
 <h3>Members Login</h3>
 
