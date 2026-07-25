@@ -459,7 +459,7 @@ padding: 0;
 }
 
 
-.content p a, .mapcontent p a {
+.content p a, .mapcontent p a, .content li a {
   line-height: inherit;
   color: var(--black);
   border-bottom: 2px dotted var(--primary);
@@ -471,7 +471,7 @@ padding: 0;
 white-space: wrap;
 }
 
-.content p a:hover, .mapcontent p a:hover {
+.content p a:hover, .mapcontent p a:hover, .content li a:hover {
   color: var(--white);
   border-bottom: 2px solid var(--black);
 
