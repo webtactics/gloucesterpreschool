@@ -440,6 +440,7 @@ padding: 2rem 0;
 background-color: transparent;
 padding: 0;
 }
+.box3wrapper {padding: 0 0 1rem 0;}
 .content.home h3 {
   font-size: 3rem;
  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
