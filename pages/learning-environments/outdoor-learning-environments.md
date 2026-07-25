@@ -40,9 +40,7 @@ eleventyNavigation:
 <p>Our service has a community sustainability practices ethos and this is embedded through all our programs. We have worm farms, compost stations, rainwater tanks supplying water to our children's hand pumps, we upcycle and recycle materials and we frequently create and explore with natural materials.</p>
 <p><strong>In fact, we see the environment as the 'third teacher', alongside our highly trained, experienced early education professionals.</strong></p>
 
----
-
-### Second Content
+<figure><div class="page_img pad30"><img title="Outdoor Learning Environments" alt="Outdoor Learning Environments" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/uploads/images/Gallery/PS_Ropes.jpg"></div></figure>
 
 <h3>Outdoor Learning Environment Vision</h3>
 <p>To provide children with a natural outdoor learning environment that encourages self-exploration, and connection with nature. To allow nature to enrich the life of each child by supporting physical, social, emotional, and cognitive development.</p>
