@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-qip.njk",
+    "permalink": "qip/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+      "QIP"
+    ]
+  }
+  
