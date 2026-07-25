@@ -17,8 +17,5 @@ permalink: /members/risk-assessment/
 
 <p>Below are some of our Pre School Risk Assessment Plans.</p>
 
----
-
-### Second Content
-
-<div>{LISERisk}</div>
+<div>{% set postslist = collections['Risk'] | reverse %} 
+{% include "components/postslist-newsletters.njk" %}</div>
