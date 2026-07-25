@@ -7,30 +7,25 @@ section: post
 
 <div class="detailwrapper news">
   <article>
-    <div class="grid-2-news">
+   
 
       <div class="item postdetail">
 
         <div class="detailcontent">
-
-          <div class="postdetaildate">
-            <p>{{ newsdate.day }} {{ newsdate.month }}, {{ newsdate.year }}</p>
-          </div>
+<h2>{{ title }}</h2>
+<div class="newsletter-link">
+  <a href="{{ link }}" target="_blank">View {{ title }} Newsletter</a>
+</div>
             {{ content | safe }}
         </div>
       </div>
         
-        <div class="sidebarwrapper">
-          <div class="postnewsimage">
-            <img src="{{ image }}/tr:w-600,h-400" alt="{{ title }}" title="{{ title }}" width="600px" height="auto" class="postlistimg">
-          </div>
-          {% include "components/global/tagged.html" %}
-        </div>
+       
 
-    </div>
+  
 
   </article>
 </div>
 
-
+ {% include "components/global/tagged.html" %}
 {% include "components/global/members-nav-vert.html" %}
