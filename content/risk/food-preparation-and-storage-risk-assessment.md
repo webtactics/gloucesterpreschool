@@ -4,7 +4,7 @@ slug: food-preparation-and-storage-risk-assessment
 position: 4
 active: true
 create_date: 2023-07-22
-pdf: "Food_prep_and_storage_Risk_Assessment.pdf"
+pdf: "/static/pdf/risk/Food_prep_and_storage_Risk_Assessment.pdf"
 members_only: true
 ---
 

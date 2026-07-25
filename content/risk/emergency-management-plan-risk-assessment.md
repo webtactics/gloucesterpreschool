@@ -4,7 +4,7 @@ slug: emergency-management-plan-risk-assessment
 position: 5
 active: true
 create_date: 2023-07-22
-pdf: "Emergency_Management_Plan_Risk Assessment.pdf"
+pdf: "/static/pdf/risk/Emergency_Management_Plan_Risk Assessment.pdf"
 members_only: true
 ---
 

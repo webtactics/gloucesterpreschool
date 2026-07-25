@@ -4,7 +4,7 @@ slug: rough-and-tumble-play-risk-assessment
 position: 1
 active: true
 create_date: 2023-07-22
-pdf: "Rough_and_Tumble_Play_Risk_Assessment.pdf"
+pdf: "/static/pdf/risk/Rough_and_Tumble_Play_Risk_Assessment.pdf"
 members_only: true
 ---
 

@@ -4,7 +4,7 @@ slug: six-seater-pram-risk-assessment
 position: 8
 active: true
 create_date: 2023-07-22
-pdf: "6_Seater_Pram_Risk_Assessment_2023.pdf"
+pdf: "/static/pdf/risk/6_Seater_Pram_Risk_Assessment_2023.pdf"
 members_only: true
 ---
 

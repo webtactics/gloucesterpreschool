@@ -4,7 +4,7 @@ slug: excursion-community-walks-community-gardens-billabong-park-risk-assessment
 position: 14
 active: true
 create_date: 2023-07-22
-pdf: "Excursion_Community_Walks_Community_Gardens_and_Billabong_Park.pdf"
+pdf: "/static/pdf/risk/Excursion_Community_Walks_Community_Gardens_and_Billabong_Park.pdf"
 members_only: true
 ---
 

@@ -4,7 +4,7 @@ slug: sleep-and-rest-risk-assessment
 position: 0
 active: true
 create_date: 2023-07-22
-pdf: "Sleep_and_Rest_Risk_Assessment.pdf"
+pdf: "/static/pdf/risk/Sleep_and_Rest_Risk_Assessment.pdf"
 members_only: true
 ---
 
