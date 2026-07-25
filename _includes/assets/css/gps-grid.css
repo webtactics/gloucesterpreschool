@@ -1849,7 +1849,7 @@ height: auto;
     font-weight: 500;
   }
 
-.content ul li {
+.detailcontent ul li, .content-left ul li {
   margin-bottom: 0.8rem;
     font-size: 1.2rem;
   font-size: clamp(18px, 2vw + 1rem, 1.4rem);
@@ -1857,13 +1857,13 @@ height: auto;
    color: var(--text);
 }
 
-.content ul li::marker {
+.detailcontent ul li::marker, .content-left ul li::marker {
   color: var(--primary);
   font-size: 1.5em;
 }
 
   
-.content ol li {
+.detailcontent ol li, .content-left ol li {
   margin-bottom: 0.8rem;
     font-size: 1.2rem;
   font-size: clamp(18px, 2vw + 1rem, 1.4rem);
@@ -1871,7 +1871,7 @@ height: auto;
    color: var(--text);
 }
 
-.content ol li::marker {
+.detailcontent ol li::marker, .content-left ol li::marker {
   color: var(--primary);
   font-size: 1.2em;
   font-weight: bold;
