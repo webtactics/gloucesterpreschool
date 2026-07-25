@@ -29,12 +29,11 @@ subtitle: "Long Day Care is open 8am to 5.15pm and operates 50 weeks per year."
 
 <figure><div class="page_img pad30"><img title="Long Day Care" alt="Long Day Care" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/uploads/images/Gallery/camping-small-village.JPG"></div></figure>
 
-<div class="lowercontent">
 
 <p><strong>Long Day Care for Pre School Aged Children</strong></p>
 
 <p>Families requiring longer hours of education and care for preschool-aged children can use our long day care facilities. These children will experience the preschool program from 8.15 am to 3.45 pm. They have a quieter session during the extended hours often family grouping with younger children. This provides a more homely structure where children have the opportunities for quieter play, extended story reading, songs and conversations with educators.</p>
 
-<p><strong>Long Day Care for children 0 to 3 years of age see Early Years Learning Centre Information</strong></p>
+<p><strong>Long Day Care for children 0 to 3 years of age see <a href="/learning-environments/early-years-learning-centre/">Early Years Learning Centre Information</a></strong></p>
 
-</div>
+
