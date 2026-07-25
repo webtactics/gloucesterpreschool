@@ -436,7 +436,10 @@ color: var(--black);
 background-color: transparent;
 padding: 2rem 0;
 }
-
+.content.homeboxcontentlow {
+background-color: transparent;
+padding: 0;
+}
 .content.home h3 {
   font-size: 3rem;
  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
