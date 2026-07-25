@@ -1,0 +1,19 @@
+<!-- items -->
+{% for post in postslist %}
+<div class="detailpagesummaryborder"></div>
+<div class="grid-detailpage-sidebar-summary">
+    <div class="sidebarsumborder"><a href="{{ post.url | url }}" alt="{{ post.data.title }} @ {{ metadata.title }}" title="{{ post.data.title }} @ {{ metadata.title }}"></a></div>
+<div class="sidebarsumpic">
+<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-100,h-100" alt="{{ post.data.title }} @ {{ metadata.title }}" title="{{ post.data.title }} @ {{ metadata.title }}" width="100px" height="100px" class="postlistsidebarimgsquare"></a>
+</div>
+
+<div class="detailpage-sidebar-summary-content-wrapper">
+<div class="pricelistsum">
+<h4><a href="{{ post.url | url }}" alt="{{ post.data.title }} @ {{ metadata.title }}" title="{{ post.data.title }} @ {{ metadata.title }}">{{ post.data.title }}</a></h4>
+</div>
+
+</div>
+</div>
+
+{% endfor %}
+<!-- end items -->

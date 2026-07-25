@@ -1,31 +1,22 @@
-
-
-<!-- Start Price list Template -->
-
-<h3>What we do:</h3>
-<div class="detailpagesummaryborder"></div>
 <!-- items -->
 {% for post in postslist %}
-<div class="detailpagesummary">
+
+<div class="detailpagesummaryborder"></div>
+
 <div class="grid-detailpage-sidebar-summary">
 
+    <div class="sidebarsumborder"><a href="{{ post.url | url }}" alt="{{ post.data.title }} @ {{ metadata.title }}" title="{{ post.data.title }} @ {{ metadata.title }}"></a></div>
+        
+        <div class="sidebarsumpic">
+            <a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-100,h-100" alt="{{ post.data.title }} @ {{ metadata.title }}" title="{{ post.data.title }} @ {{ metadata.title }}" width="100px" height="100px" class="postlistsidebarimgsquare"></a>
+        </div>
 
-<div class="pricesumpic">
-<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-300,h-200" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" ></a>
+        <div class="detailpage-sidebar-summary-content-wrapper">
+            <div class="pricelistsum">
+                <h4><a href="{{ post.url | url }}" alt="{{ post.data.title }} @ {{ metadata.title }}" title="{{ post.data.title }} @ {{ metadata.title }}">{{ post.data.title }}</a></h4>
+            </div>
+        </div>
 </div>
 
-<div class="detailpage-sidebar-summary-content-wrapper">
-<div class="pricelistsum">
-<h3><a href="{{ post.url | url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h3>
-</div>
-<div class="NewsSummaryPrice">   
-{% if post.data.time30 %}30 min: {{ post.data.time30 }} | {% endif %}{% if post.data.time45 %}45 min: {{ post.data.time45 }}{% endif %}<br>
-{% if post.data.time60 %}60 min: {{ post.data.time60 }} | {% endif %}{% if post.data.time90 %}90 min: {{ post.data.time90 }}{% endif %}
-</div>
-</div>
-</div>
-</div>
 {% endfor %}
-
-
-
+<!-- end items -->
