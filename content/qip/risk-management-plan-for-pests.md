@@ -6,7 +6,7 @@ position: 5
 active: true
 create_date: 2023-07-24
 modified_date: 2023-07-24
-pdf: "Plan_2022_No.1_Risk_assessment_for_Pest_Managment_Plan.pdf"
+pdf: "/static/pdf/qip/Plan_2022_No.1_Risk_assessment_for_Pest_Managment_Plan.pdf"
 members_only: true
 ---
 

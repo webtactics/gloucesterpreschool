@@ -6,7 +6,7 @@ position: 0
 active: true
 create_date: 2023-07-11
 modified_date: 2023-07-22
-pdf: "2023-No.1-QIP-Leadership.pdf"
+pdf: "/static/pdf/qip/2023-No.1-QIP-Leadership.pdf"
 members_only: true
 ---
 

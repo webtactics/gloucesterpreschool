@@ -6,7 +6,7 @@ position: 2
 active: true
 create_date: 2023-07-22
 modified_date: 2023-07-26
-pdf: "2023_Staff_Wellbeing26.7.2023.pdf"
+pdf: "/static/pdf/qip/2023_Staff_Wellbeing26.7.2023.pdf"
 members_only: true
 ---
 

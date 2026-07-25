@@ -6,7 +6,7 @@ position: 6
 active: true
 create_date: 2023-07-24
 modified_date: 2023-07-24
-pdf: "2022_No.2_QIP_Documention.pdf"
+pdf: "/static/pdf/qip/2022_No.2_QIP_Documention.pdf"
 members_only: true
 ---
 

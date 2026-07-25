@@ -6,7 +6,7 @@ position: 3
 active: true
 create_date: 2023-07-22
 modified_date: 2023-07-26
-pdf: "2023_No4_Conscious_Discipline.docx.pdf"
+pdf: "/static/pdf/qip/2023_No4_Conscious_Discipline.docx.pdf"
 members_only: true
 ---
 

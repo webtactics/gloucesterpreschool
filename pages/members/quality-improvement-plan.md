@@ -17,8 +17,5 @@ permalink: /members/quality-improvement-plan/
 
 <p>Welcome to our Quality Improvement Plan section.</p>
 
----
-
-### Second Content
-
-<div>{LISEQIP}</div>
+<div>{% set postslist = collections['QIP'] | sortAlphabetically("title") %}
+{% include "components/postslist-policies.njk" %}</div>

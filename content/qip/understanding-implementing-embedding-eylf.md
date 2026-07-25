@@ -6,7 +6,7 @@ position: 1
 active: true
 create_date: 2023-07-22
 modified_date: 2023-07-22
-pdf: "2023_No.2_QIP_EYLF_changes.pdf"
+pdf: "/static/pdf/qip/2023_No.2_QIP_EYLF_changes.pdf"
 members_only: true
 ---
 

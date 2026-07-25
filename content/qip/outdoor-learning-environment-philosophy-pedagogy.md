@@ -6,7 +6,7 @@ position: 4
 active: true
 create_date: 2023-07-24
 modified_date: 2023-07-24
-pdf: "Plan_6 2021_Outdoor_Learning_Environment_Philosophy.pdf"
+pdf: "/static/pdf/qip/Plan_6 2021_Outdoor_Learning_Environment_Philosophy.pdf"
 members_only: true
 ---
 
