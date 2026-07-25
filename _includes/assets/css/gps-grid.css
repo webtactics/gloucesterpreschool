@@ -359,6 +359,14 @@ text-decoration: none;
   color: var(--black);
   padding: 0 0 1rem 0;
 }
+.homeblog3 .content h3 {
+  line-height: 3rem;
+  font-weight: 400;
+  color: var(--primary);
+  padding: 0;
+}
+
+
 
 .content.contact .content h3 {
   line-height: 3rem;
