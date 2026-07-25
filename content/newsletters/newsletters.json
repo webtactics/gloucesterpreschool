@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-news.njk",
+    "permalink": "newsletters/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+      "Newsletters"
+    ]
+  }
+  
