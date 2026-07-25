@@ -4,7 +4,7 @@ slug: child-protection-risk-management-strategy
 position: 7
 active: true
 create_date: 2023-07-22
-pdf: "Child_Protection_Risk_Management_Strategy.pdf"
+pdf: "/static/pdf/risk/Child_Protection_Risk_Management_Strategy.pdf"
 members_only: true
 ---
 
