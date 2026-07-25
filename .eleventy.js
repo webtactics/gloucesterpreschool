@@ -132,6 +132,15 @@ eleventyConfig.addFilter("randomLimit", (arr, limit, currPage) => {
   });
 
 
+  eleventyConfig.addFilter("sortAlphabetically", (arr, key) => {
+  if (!Array.isArray(arr)) return arr;
+  return arr.slice().sort((a, b) => {
+    const valA = (key ? (a.data?.[key] ?? a[key]) : a) ?? '';
+    const valB = (key ? (b.data?.[key] ?? b[key]) : b) ?? '';
+    return String(valA).localeCompare(String(valB));
+  });
+});
+
   // Layout aliases
   eleventyConfig.addLayoutAlias("default", "layouts/grid-default.njk");
   eleventyConfig.addWatchTarget("./_includes/");
