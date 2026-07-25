@@ -30,7 +30,7 @@ eleventyNavigation:
 <div data-identity-logged-in hidden>
   <h3>Welcome back <span data-identity-name></span>.</h3>
   <p>
-    <a href="/members/">Go to the Members Area</a> or <button class="button success logoutbutton" data-identity-action="logout">Log Out</button>.
+    <a href="/members/">Go to the Members Area</a> or <button class="button logoutbutton" data-identity-action="logout">Log Out</button>.
   </p>
 </div>
 
