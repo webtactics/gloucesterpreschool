@@ -70,6 +70,10 @@ export default async (request, context) => {
 export const config = {
   path: [
     "/members/*",
+    "/policies/*",
+    "/newsletters/*",
+    "/qip/*",
+    "/risk/*",
     "/static/pdf/policies/*",
     "/static/pdf/risk/*",
     "/static/pdf/qip/*",
