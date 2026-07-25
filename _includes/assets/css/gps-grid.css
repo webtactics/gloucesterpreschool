@@ -3324,7 +3324,7 @@ background-repeat: repeat;
 
 
 
-a.newsletter-link-summary {
+.newsletter-link a {
   line-height: inherit;
   color: var(--black);
   border-bottom: 2px dotted var(--primary);
@@ -3334,10 +3334,11 @@ a.newsletter-link-summary {
   transition: all .4s ease-in-out;
   padding: 0 .25rem;
   white-space: wrap;
-  margin: 0 0 .25rem 0;
+  margin: 0 0 .5rem 0;
+  text-decoration: none;
 }
 
-a.newsletter-link-summaryhover {
+.newsletter-link a:hover {
   color: var(--white);
   border-bottom: 2px solid var(--black);
   text-decoration: none;
