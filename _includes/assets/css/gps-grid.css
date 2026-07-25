@@ -1684,6 +1684,7 @@ button.success.logoutbutton, .button.success.logoutbutton {
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   cursor: pointer;
+  max-width: 300px;
 }
 
 button.success.logoutbutton:hover, button.success.logoutbutton:focus, .button.success.logoutbutton:hover, .button.success.logoutbutton:focus {
@@ -1701,6 +1702,7 @@ button.success.logoutbutton:hover, button.success.logoutbutton:focus, .button.su
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   cursor: pointer;
+   max-width: 300px;
 }
 
 
