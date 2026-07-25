@@ -22,7 +22,3 @@ subtitle: "At Gloucester Pre School & Early Years Learning Centre we aim to fost
 ---
 <h3>Children are encouraged to become involved in a wide range of individual and group learning experiences, under the care of our qualified and caring educators.</h3>
 
-
-
-<p>If you are a parent or guardian of a child currently enrolled in Gloucester Pre School and would like to become a member, please email <a href="mailto:admin@gloucesterpreschool.com.au">admin@gloucesterpreschool.com.au</a></p>
-
