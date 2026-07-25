@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: "Newsletters"
 description: "All Gloucester Pre School newsletters"
 ---
