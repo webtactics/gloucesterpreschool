@@ -16,4 +16,5 @@ permalink: /members/policies/
 ---
 
 <p>Below are some of our Pre School policies.</p>
-<div>{LISEPolicies}</div>
+<div>{% set postslist = collections['Policies'] | reverse %} 
+{% include "components/postslist-policies.njk" %}</div>

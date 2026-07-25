@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-policies.njk",
+    "permalink": "policies/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+      "Policies"
+    ]
+  }
+  

@@ -1,0 +1,31 @@
+---
+layout: layouts/grid-detail.njk
+section: post
+---
+
+
+
+<div class="detailwrapper news">
+  <article>
+   
+
+      <div class="item postdetail">
+
+        <div class="detailcontent">
+<h2>{{ title }}</h2>
+<div class="newsletter-link">
+  <a href="{{ pdf }}" target="_blank" class="newsletter-link-summary">View {{ title }}</a>
+</div>
+            {{ content | safe }}
+        </div>
+      </div>
+        
+       
+
+  
+
+  </article>
+</div>
+
+
+{% include "components/global/members-nav-vert.html" %}
