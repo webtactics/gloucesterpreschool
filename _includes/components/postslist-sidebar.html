@@ -1,2 +1,7 @@
-	{% set postslist = collections['Blog'] | reverse | limit(4) %} 
-	{% include "components/postslist-sidebar.njk" %}
+<div class="sidebarlistwrapper pad30">
+    <h3>Recent Posts</h3>
+<div class="sidebarlist">
+    {% set postslist = collections['Blog'] | reverse | limit(4) %} 
+    {% include "components/postslist-sidebar.njk" %}
+</div>
+</div>

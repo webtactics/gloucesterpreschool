@@ -3399,7 +3399,7 @@ p.underbox {margin: 0;}
   align-items:center;
   width:.6rem;
   height:100%;
-  background-color:var(--black);
+  background-color:var(--primary);
   border-radius:12px
 }
 .sidebarsumborder a {
@@ -3408,7 +3408,7 @@ p.underbox {margin: 0;}
   align-items:center;
   width:.6rem;
   height:100%;
-  background-color:var(--black);
+  background-color:var(--primary);
   border-radius:12px
 }
 .sidebarsumpic {
@@ -3435,7 +3435,7 @@ p.underbox {margin: 0;}
 .grid-detailpage-sidebar-summary:hover .pricelistsum h4 a,
 .grid-tracks-sidebar:hover .sidebarsumtitle h3 a,
 .grid-tracks-sidebar:hover .sidebarsumtitle h4 a {
-  color:var(--accent)
+  color:var(--black)
 }
 .grid-detailpage-sidebar-summary:hover .sidebarsumborder a,
 .grid-tracks-sidebar:hover .sidebarsumborder a,
@@ -3445,9 +3445,6 @@ p.underbox {margin: 0;}
   align-items:center;
   width:.6rem;
   height:100%;
-  background-color:var(--accent);
+  background-color:var(--black);
   border-radius:12px
-}
-.grid-tracks-sidebar:hover .sidebarsumtitle.downloads h3 a {
-  color:var(--white)
 }
