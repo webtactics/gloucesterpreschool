@@ -6,6 +6,8 @@ active: true
 create_date: 2023-07-24
 modified_date: 2023-07-24
 members_only: true
+
+youtube: "https://www.youtube.com/embed/SkUsZAF-PGE?si=4mSUKn8UnCtk4KWt"
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SkUsZAF-PGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SkUsZAF-PGE?si=4mSUKn8UnCtk4KWt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

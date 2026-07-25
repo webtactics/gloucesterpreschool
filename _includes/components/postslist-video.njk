@@ -1,0 +1,25 @@
+<section class="grid-3-columns summary3" >
+	{% for post in postslist %}
+<summary class="changssummary">
+
+
+<div class="youtubesummary">
+	<div class="recipesvideocontent">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe id="video" class="embed-responsive-item" src="{{ post.data.youtube }}" frameborder="0" allowfullscreen=""></iframe>
+		</div>
+	</div>
+</div>
+
+
+<div class="sum4title">
+<h3 class="sum-title"><a class="eventtitle" href="{{ post.data.videolink }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >{{ post.data.subtitle }}</a></h3>
+</div>
+
+	
+</summary>
+		
+	{% endfor %}
+</section>
+
+

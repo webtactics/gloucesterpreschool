@@ -15,10 +15,6 @@ modified_date: 2023-07-24
 permalink: /members/video-resources/
 ---
 
-<p>Video Resources</p>
+<div>{% set postslist = collections['Video'] | sortAlphabetically("title") %}
+{% include "components/postslist-video.njk" %}</div>
 
----
-
-### Second Content
-
-<div>{LISEVideo}</div>
