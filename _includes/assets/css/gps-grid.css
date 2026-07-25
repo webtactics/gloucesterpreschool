@@ -3448,3 +3448,9 @@ p.underbox {margin: 0;}
   background-color:var(--black);
   border-radius:12px
 }
+.detailpage-sidebar-summary-content-wrapper {
+  display:Flex;
+  justify-content:flex-start;
+  align-items:center;
+  padding:0
+}
