@@ -1,5 +1,5 @@
 ---
-title: "We're Going On A Treasure Hunt - Gawul Room"
+title: "We are Going On A Treasure Hunt - Gawul Room"
 slug: were-going-on-a-treasure-hunt-gawul-room
 position: 1
 active: true
