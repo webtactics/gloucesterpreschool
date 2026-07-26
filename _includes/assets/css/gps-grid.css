@@ -2487,7 +2487,10 @@ gap: 3rem;
     gap: 1rem;
   }
 
-
+.grid-2-3x1 {
+grid-template-columns: 1fr;
+gap: 1rem;
+}
   .grid-4-columns {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
