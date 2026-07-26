@@ -30,9 +30,7 @@ eleventyNavigation:
 <p><strong>Toys:</strong> We discourage toys from being brought to Pre School. They can easily be lost or broken and are better left at home. A favourite teddy or soft toy for comfort is ok. If you feel that your child would be more comfortable with the toy then the Pre School takes no responsibility for lost or broken toys.</p>
 <p><strong>Lost Property:</strong> There is a lost property box on the veranda. Please check it regularly to make sure that your child has not left anything behind. At the end of each term it is emptied and clothes either go into our spare clothes collection or the local Op Shop.</p>
 
----
-
-### Second Content
+<figure><div class="page_img pad30"><img title="What to bring to Pre School" alt="What to bring to Pre School" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/static/img/pages/parent/child-girl-eating-watermelon.jpg"></div></figure>
 
 <h3>Food</h3>
 <p><strong>Long Day Bookings:</strong> Children will be supplied with morning tea, lunch and afternoon tea cooked daily on the premises in our commercial kitchen.</p>
