@@ -42,4 +42,6 @@ subtitle: "Gloucester Pre School is a unique learning environment for children 3
 
 <p><strong>All children are provided with nutritious meals prepared on the premises in our commercial kitchen each day.</strong></p>
 
-<p>Our young learners live and learn with nature, with sustainable practices embedded into the program. View our <a href="/learning-environments/outdoor-learning-environment/">Outdoor Learning Environment</a> page for more information.</p>
+<p>Our young learners live and learn with nature, with sustainable practices embedded into the program.</p>
+
+<p>View our <a href="/learning-environments/outdoor-learning-environments/">Outdoor Learning Environment</a> page for more information.</p>
