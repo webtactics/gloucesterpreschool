@@ -1,4 +1,5 @@
 ---
+layout: layouts/grid-gallery.njk
 title: "Photo Gallery"
 slug: gallery
 content_alias: gallery
@@ -16,6 +17,9 @@ eleventyNavigation:
   key: Gallery
   parent: About Us
   order: 4
+
+galleryimages: /static/img/Gallery
+headinggalleryimages: "More ways to enjoy"
 
 ---
 

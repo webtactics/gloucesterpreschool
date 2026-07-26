@@ -1,0 +1,72 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+
+
+
+{% block bodyclass %}<body class="3x1 {{ class }}" >{% endblock %}
+
+
+
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+		<div class="titlebox">
+				
+			<h2 class="heading-text">{% if subtitle %}{{ subtitle }}{% else %}{{ title }}{% endif %}</h2>
+				
+		</div>
+
+
+
+<div class="grid-2-3x1">
+
+	<div class="content-left">
+
+		<div class="text">
+    		
+
+      			<div class="contentwrapper">
+					{{ content | safe }}
+
+
+{% if galleryimages %}
+<div class="componenth3 gallerypics">
+{% if headinggalleryimages %}<h3>{{ headinggalleryimages }}</h3>{% endif %}
+{% set galleryFolder = galleryimages %}
+{% include "components/gallery-folder.njk" %}
+</div>
+{% endif %}
+
+				</div>
+		</div>
+
+	</div>
+
+
+	<div class="content-right">
+
+		<div class="sidebarnav">
+  			{% include "components/grid-nav-sidebar.njk" %}
+		</div>
+
+
+	</div>
+	   
+
+</div>
+
+
+	</main>
+</div>
+
+
+
+{% endblock %}
+
+
+
+
