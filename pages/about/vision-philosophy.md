@@ -41,6 +41,6 @@ subtitle: "To be a supportive, nurturing, inclusive educational service where ch
 
 <p>Our culture of organisational growth is based on critical reflection and ongoing professional learning.</p>
 
-<figure><div class="page_img pad30"><img title="Our Vision & Philosophy " alt="Our Vision & Philosophy " src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/static/img/pages/about/GPS_Ropes.jpg"></div></figure>
+<figure><div class="page_img pad30"><img title="Our Vision & Philosophy " alt="Our Vision & Philosophy " src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/static/img/pages/about/GPS-ropes.jpg"></div></figure>
 
 <p>Gloucester Pre-school strives to be an integral part of the local community. We collaborate and work in partnership with people, services, and agencies to develop shared understanding and actions that support children and families.</p>

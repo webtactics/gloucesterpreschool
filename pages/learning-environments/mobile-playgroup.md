@@ -25,7 +25,7 @@ subtitle: "Mobile Supported Playgroup is organised and facilitated by staff from
 <p>Children benefit from a wide variety of fun play-based activities, equipment and craft.</p>
 
 <figure>
-<div class="page_img pad1rem two"><img title="Mobile Supported Playgroup" alt="Mobile Supported Playgroup" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-800,h-600,q-80/static/img/pages/mobile-playgroup/mobile-1.jpg">
+<div class="page_img pad30"><img title="Mobile Supported Playgroup" alt="Mobile Supported Playgroup" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-800,h-600,q-80/static/img/pages/mobile-playgroup/mobile-1.jpg">
 </div>
 </figure>
 
