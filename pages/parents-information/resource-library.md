@@ -44,7 +44,8 @@ eleventyNavigation:
 <li>Rashes-any irritation you cannot identify</li>
 <li>Red swollen or discharging eyes</li>
 </ul>
-<p>The director may request that any child who is unwell be taken home, especially if they have symptoms of an infectious illness. Parents will be contacted if their child falls ill while at Pre-School. If the parent cannot be contacted someone on your emergency contact list (on your enrolment form) will be contacted.</p>
+<p><strong>The director may request that any child who is unwell be taken home, especially if they have symptoms of an infectious illness.</strong></p>
+<p>Parents will be contacted if their child falls ill while at Pre-School. If the parent cannot be contacted someone on your emergency contact list (on your enrolment form) will be contacted.</p>
 <h4>Some infectious diseases require exclusion from the Pre School</h4>
 <p><strong>Conjunctivitis:</strong> until discharge has cleared from eyes</p>
 <p><strong>Diarrhoea:</strong> If symptoms persist after 24 hours see your doctor</p>
