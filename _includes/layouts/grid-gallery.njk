@@ -1,7 +1,9 @@
 {% extends "layouts/grid-default.njk" %}
 
 
-
+{% block headmeta %}
+{% include "components/grid-head-gallery.njk" %}
+{% endblock %}
 
 
 {% block bodyclass %}<body class="3x1 {{ class }}" >{% endblock %}
