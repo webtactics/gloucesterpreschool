@@ -28,12 +28,19 @@ image: "https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/blog/
 <li>Being present in a playful situation</li>
 </ul>
 <p>Our educators have been introducing this into our program and the reactions from the children is so amazing. You really need to try it to believe it. The smile, gives you this surprise intense eye contact and usually ask for you to do it again. Watch the videos to see them in action.</p>
-<div class="pad2both">
-<div class="flex-video"><iframe title="YouTube video player" src="https://www.youtube.com/embed/C3PtrlnUm4U" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+
+
+<summary class="changssummary">
+<div class="youtubesummary">
+<div class="recipesvideocontent">
+<div class="embed-responsive embed-responsive-16by9">
+<div class="flex-video">
+<iframe title="YouTube video player" src="https://www.youtube.com/embed/C3PtrlnUm4U" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
-<div class="pad2both">
-<div class="flex-video"><iframe title="YouTube video player" src="https://www.youtube.com/embed/bl7b3TespAw" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
+</div>
+</div>
+</summary>
 <h3>Breathing as a Tool to Calm and Support Emotional Regulation</h3>
 <p>Slow deep breathing allows us to calm ourselves in stressful situations. Its 3 main effects are:</p>
 <p>It allows us to calm ourselves. Once calm we can pause before we react to a stimulus. This gives us the ability to engage/respond with conscious intent rather than just react.<br />Deep breathing shuts off the stress response in the body and can help you to remain calm enough to respond consciously to a child's behaviour.<br />It helps the child to self-regulate. It works like yawning - when one person yawns other people subconsciously follow. Breathing slowly and with intent has the same effect on the people around you, especially if you have close contact.</p>
