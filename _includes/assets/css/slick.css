@@ -233,3 +233,13 @@ top: 30vh;
 margin: 0;
 }
 
+.home-slide:not(.slick-initialized) .home-slide:not(:first-child) {
+  display: none;
+}
+
+.home-slide:not(.slick-initialized) {
+  visibility: hidden;
+  min-height: 50vh;
+  min-height: 50svh;
+}
+

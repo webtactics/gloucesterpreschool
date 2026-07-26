@@ -22,7 +22,7 @@ subtitle: "We are currently looking for permanent & casual educators"
 
 ---
 
-<h2>Positions Vacant</h2>
+<h3>Positions Vacant</h3>
 <p>Job Positions</p>
 <ul>
 <li>Certificate III in Early Education and Care</li>
