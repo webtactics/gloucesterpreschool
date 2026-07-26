@@ -19,12 +19,12 @@ eleventyNavigation:
 
 
 ---
+<p><strong>Gloucester Pre School &amp; Early Years Learning Centre</strong><br />
+52 Hume Street Gloucester NSW 2422<br />
+Phone: <a title="Call Gloucester Pre-School" href="tel:+61265581643">02 6558 1643</a><br />
+Email: <a title="admin@gloucesterpreschool.com.au" href="mailto:admin@gloucesterpreschool.com.au">admin@gloucesterpreschool.com.au</a></p>
 
-<p><strong>Gloucester Pre School &amp; Early Years Learning Centre</strong><br />52 Hume Street Gloucester NSW 2422<br />Phone: <a title="Call Gloucester Pre-School" href="tel:+61265581643">02 6558 1643</a><br />Email: <a title="admin@gloucesterpreschool.com.au" href="mailto:admin@gloucesterpreschool.com.au">admin@gloucesterpreschool.com.au</a></p>
 
----
-
-### Second Content
 
 <h4>Hours of Operation</h4>
 <p><strong>Pre School:</strong><br />Monday-Friday 8:15am-3:45pm.</p>
