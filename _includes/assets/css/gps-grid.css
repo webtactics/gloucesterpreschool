@@ -2996,7 +2996,7 @@ font-family: ProximaNova,sans-serif;
   white-space: nowrap;
   display: block;
   background-color: var(--white);
-  border: 1px solid var(--lightgray);
+  border: 1px solid var(--lightgrey);
   transition: background-color 300ms ease-out;
   
 }
@@ -3006,7 +3006,7 @@ font-family: ProximaNova,sans-serif;
 .sidebarnav li a:hover, .sidebarnav li.menuactive a, .sidebarnav li a.active-class, .sidebarnav li a.active-class:hover {
   background: var(--primary);
   color: var(--white);
-  border: 1px solid var(--lightgray);
+  border: 1px solid var(--lightgrey);
 }
 
 .headerspace {
