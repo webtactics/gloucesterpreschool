@@ -19,13 +19,21 @@ eleventyNavigation:
   parent: Learning Environments
   key: Outdoor Learning Environments
   order: 4
+
+subtitle: "From the moment you step outside into our unique outdoor learning environment, you will be transformed into a space that connects children to nature."
 ---
 
-<h2>From the moment you step outside into our unique outdoor learning environment, you will be transformed into a space that connects children to nature.</h2>
+
 <p>These areas were recognised for its natural design that support children's development through play, exploration and risk management skills when it won the Kidsafe National Playspace Design Awards in 2018.</p>
-<p>The outdoor environment consists of two areas, one designed for children under three years of age and the other for preschool age children. It is aesthetically pleasing with large natural grassed areas and a range of suitable spaces including garden beds, trees, vegetable gardens, composting, music &amp; art pergolas, shade structures, paths, boat, mud kitchen, water pumping station, creek bed, bike track and much more.</p>
-<p>Loose Parts Play is an integral part of our nature based curriculum. While it occurs in all areas of the program it is most prominent outside in the bark soft fall areas where the large timber poles can be seen. The poles provide the skeleton for supporting a creative way for children to play and learn. They provide an open ended landscape for engineering creativity.</p>
-<p>The poles areas allow for positive adult-supported risk-taking play or challenging play and provides opportunities for self-assessment of risk. Research shows that children that engage in supported risky play can become better problem-solvers and in adulthood are more likely to take better, healthier appropriate risks.</p>
+<p>The outdoor environment consists of two areas, one designed for children under three years of age and the other for preschool age children.</p>
+
+<p>It is aesthetically pleasing with large natural grassed areas and a range of suitable spaces including garden beds, trees, vegetable gardens, composting, music & art pergolas, shade structures, paths, boat, mud kitchen, water pumping station, creek bed, bike track and much more.</p>
+<p>Loose Parts Play is an integral part of our nature based curriculum. While it occurs in all areas of the program it is most prominent outside in the bark soft fall areas where the large timber poles can be seen. The poles provide the skeleton for supporting a creative way for children to play and learn.</p>
+
+<p>They provide an open ended landscape for engineering creativity.</p>
+<p>The poles areas allow for positive adult-supported risk-taking play or challenging play and provides opportunities for self-assessment of risk.</p>
+
+<p>Research shows that children that engage in supported risky play can become better problem-solvers and in adulthood are more likely to take better, healthier appropriate risks.</p>
 <p>Risky play helps to develop important life skill learnings, such as:</p>
 <ul>
 <li>Building resilience and persistence.</li>
