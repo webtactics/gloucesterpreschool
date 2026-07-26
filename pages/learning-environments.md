@@ -31,7 +31,7 @@ subtitle: "Our learning environments are designed to support children's learning
   <div class="content homeboxcontent">
 <div class="heading-text"><h2>Learning Environments</h2></div>
 
-<div class="grid-1-max400px">
+<div class="grid-1-max450px">
   <!-- box 1 -->
 <div class="homecards">
   <div class="homecard1box">

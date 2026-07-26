@@ -2282,6 +2282,12 @@ padding:0 0 2.5rem 6rem;
 gap: 2rem;
 padding:0 2rem;
 }
+.grid-1-max450px {
+    grid-template-columns: 1fr;
+gap: 2rem;
+ max-width: 450px;
+}
+
 
 .grid-150x1fr {
   grid-template-columns: 150px 1fr;
