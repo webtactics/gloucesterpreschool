@@ -32,12 +32,10 @@ subtitle: "Gloucester Pre School and Early Years Learning Centre is a non-profit
 </ul>
 <p><strong>The service is assessed through the National Quality Standards and is rated as Exceeding</strong></p>
 <p>Our service has been recognised for its ongoing commitment to leading the profession through the following awards.</p>
-<p>2018 Winner of the National PlaySafe Design Awards for the Education &amp; Care Services</p>
-<p>2022 Winner of the National Hesta Leadership Award for Early Childhood education &amp; Care Services</p>
+<p>2018 Winner of the National PlaySafe Design Awards for the Education & Care Services</p>
+<p>2022 Winner of the National Hesta Leadership Award for Early Childhood education & Care Services</p>
 <p>The service is run by a parent management committee and we value parents' contributions and support parenting with information, advice, resources and the opportunity to establish new networks.</p>
 
----
-
-### Second Content
+<figure><div class="page_img pad30"><img title="About Gloucester Pre School & Early Years Learning Centre" alt="About Gloucester Pre School & Early Years Learning Centre" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/static/img/pages/about/EYLC_garden-walk.jpg"></div></figure>
 
 <p><strong>Together, children, parents and educators make up our early childhood community.</strong></p>
