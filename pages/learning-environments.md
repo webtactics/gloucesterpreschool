@@ -27,8 +27,7 @@ subtitle: "Our learning environments are designed to support children's learning
 <p>The service has a strong sustainability vision and we support a low carbon footprint and teach children to play in a landscape that support biodiversity.</p>
 
 
-<div class="homeboxes">
-  <div class="content homeboxcontent">
+
 <div class="heading-text"><h2>Learning Environments</h2></div>
 
 <div class="grid-1-max450px">
@@ -96,6 +95,4 @@ subtitle: "Our learning environments are designed to support children's learning
   <!-- end box 3 -->
 
 
-</div>
-</div>
 </div>
