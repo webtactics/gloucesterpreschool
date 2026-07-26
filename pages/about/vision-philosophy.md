@@ -33,7 +33,13 @@ subtitle: "To be a supportive, nurturing, inclusive educational service where ch
 <li>Respect for our environment & its resources.</li>
 </ul>
 <p>These will be used to promote ongoing inquiry, knowledge and confidence in children's individual capabilities.</p>
-<p>Educational practices are influenced by theorists like Montessori, Dewey & Gardner through the lens of Claire Warden's Nature Pedagogy. Our service promotes a natural learning environment that includes learning beyond the boundary fence, connecting us to our rural community. We promote children to assess and take risks and build resilience in a supportive environment. We understand the connection that caring for our environment supports the long-term health and wellbeing of current and future generations of children. Our culture of organisational growth is based on critical reflection and ongoing professional learning.</p>
+<p>Educational practices are influenced by theorists like Montessori, Dewey & Gardner through the lens of Claire Warden's Nature Pedagogy.</p>
+
+<p>Our service promotes a natural learning environment that includes learning beyond the boundary fence, connecting us to our rural community.</p>
+
+<p>We promote children to assess and take risks and build resilience in a supportive environment. We understand the connection that caring for our environment supports the long-term health and wellbeing of current and future generations of children.</p>
+
+<p>Our culture of organisational growth is based on critical reflection and ongoing professional learning.</p>
 
 <figure><div class="page_img pad30"><img title="Our Vision & Philosophy " alt="Our Vision & Philosophy " src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/static/img/pages/about/GPS_Ropes.jpg"></div></figure>
 
