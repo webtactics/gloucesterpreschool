@@ -3474,12 +3474,11 @@ p.underbox {margin: 0;}
 
 
 .gridprogramwrapper:nth-child(even) {
-	background-color: [[$lightestgrey]];
-	
-  }
-	
-	.gridprogramtime {padding:0.5rem 0 0 0.5rem;color: [[$primary]];font-weight:bold;}
-	.gridprogramtext {padding:0 0 0.5rem 0.5rem ;color: [[$black]];font-weight:400;}
+	background-color: var(--lightgrey);
+	}
+
+	.gridprogramtime {padding:0.5rem 0 0 0.5rem;color: var(--primary);font-weight:bold;}
+	.gridprogramtext {padding:0 0 0.5rem 0.5rem ;color: var(--black);font-weight:400;}
 
 	@media (min-width:60em) {
 		.gridprogramwrapper  {
@@ -3487,6 +3486,6 @@ p.underbox {margin: 0;}
 		gap:0.8rem;	
 		grid-template-columns: 1fr 2fr;
 		}
-		.gridprogramtime {padding:0.5rem;color: [[$primary]];font-weight:bold;}
-		.gridprogramtext {padding:0.5rem 0;color: [[$black]];font-weight:400;}
+		.gridprogramtime {padding:0.5rem;color: var(--primary);font-weight:bold;}
+		.gridprogramtext {padding:0.5rem 0;color: var(--black);font-weight:400;}
 		}
