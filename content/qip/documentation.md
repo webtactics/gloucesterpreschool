@@ -18,7 +18,7 @@ members_only: true
 <li>Increased involvement/input from families</li>
 <li>Clear links between documentation and children's goals</li>
 <li>Clear planning cycle</li>
-<li>Documentation will continue to support our philosophy, EYLF &amp; NQS</li>
+<li>Documentation will continue to support our philosophy, EYLF & NQS</li>
 <li>Quality and quantity of documentation is consistent across the service</li>
 <li>Documentation is differentiated to suit different age groups</li>
 </ul>

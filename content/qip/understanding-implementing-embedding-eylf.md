@@ -21,7 +21,7 @@ members_only: true
 <p>Long term Strategies</p>
 <ul>
 <li>Embedded curriculum of EYLF</li>
-<li>Educators have the confidence to verbally explain how the EYLF supports &amp; guides their pedagogy.</li>
+<li>Educators have the confidence to verbally explain how the EYLF supports & guides their pedagogy.</li>
 </ul>
 
 [Download QIP Document](2023_No.2_QIP_EYLF_changes.pdf)

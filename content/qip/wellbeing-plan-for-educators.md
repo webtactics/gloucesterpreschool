@@ -10,10 +10,10 @@ pdf: "/static/pdf/qip/2023_Staff_Wellbeing26.7.2023.pdf"
 members_only: true
 ---
 
-<p>Educators &amp; staff working in the Early Childhood Professional are under increasing pressures from workload, expectations, time pressures and challenging student behaviour. This can affect their job satisfaction, mental health and relationships with children, colleagues &amp; community.</p>
+<p>Educators & staff working in the Early Childhood Professional are under increasing pressures from workload, expectations, time pressures and challenging student behaviour. This can affect their job satisfaction, mental health and relationships with children, colleagues & community.</p>
 <p>Outcomes</p>
 <ul>
-<li>Reducing &amp; managing employees stress levels</li>
+<li>Reducing & managing employees stress levels</li>
 <li>Maintaining positive social interactions</li>
 <li>Empowered to ask for help or support when needed</li>
 <li>Maintaining a supportive culture at our service</li>
@@ -27,8 +27,8 @@ members_only: true
 </ul>
 <p>Long term strategies</p>
 <ul>
-<li>Positive culture of wellbeing &amp; mental health</li>
-<li>Staff have skills &amp; strategies embedded for positive wellbeing.</li>
+<li>Positive culture of wellbeing & mental health</li>
+<li>Staff have skills & strategies embedded for positive wellbeing.</li>
 <li>Positive work life balance</li>
 </ul>
 

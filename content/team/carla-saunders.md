@@ -30,4 +30,4 @@ tags:
 
 ---
 
-<p>Certificate III in Early Childhood Education and Care. Educator for Gloucester Mobile Supported Playgroup &amp; Early Years Learning Centre.</p>
+<p>Certificate III in Early Childhood Education and Care. Educator for Gloucester Mobile Supported Playgroup & Early Years Learning Centre.</p>

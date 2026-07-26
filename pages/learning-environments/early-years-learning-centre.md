@@ -36,4 +36,4 @@ subtitle: "Early Years Learning Centre (0 to 3 yrs)."
 <figure><div class="page_img pad30"><img title="Early Years Learning Centre" alt="Early Years Learning Centre" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/uploads/images/Gallery/parent-5.jpg"></div></figure>
 
 
-<p>The spaces are designed for babies to roll around, pull to stand, cruise or practice first steps. Toddlers can explore art &amp; craft, spatial movement, music, language, literacy and the natural world.</p>
+<p>The spaces are designed for babies to roll around, pull to stand, cruise or practice first steps. Toddlers can explore art & craft, spatial movement, music, language, literacy and the natural world.</p>

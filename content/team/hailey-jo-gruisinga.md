@@ -29,4 +29,4 @@ tags:
 
 ---
 
-<p>Studying Diploma in Early Childhood Education &amp; Care. Educator in the Dapin Room</p>
+<p>Studying Diploma in Early Childhood Education & Care. Educator in the Dapin Room</p>

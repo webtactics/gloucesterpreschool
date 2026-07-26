@@ -38,7 +38,7 @@ subtitle: "Gloucester Pre School is a unique learning environment for children 3
 
 <figure><div class="page_img pad30"><img title="Pre School" alt="Pre School" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/uploads/images/Gallery/Mud-kitchen-play.JPG"></div></figure
 
-<p>Our indoor learning environments provide rich opportunities for learning in areas such as literacy, numeracy, social &amp; emotional development, science, technology &amp; creative arts. The children’s day is organised so they can experience long periods of uninterrupted play interspersed with experiences such as music and language.</p>
+<p>Our indoor learning environments provide rich opportunities for learning in areas such as literacy, numeracy, social & emotional development, science, technology & creative arts. The children’s day is organised so they can experience long periods of uninterrupted play interspersed with experiences such as music and language.</p>
 
 <p><strong>All children are provided with nutritious meals prepared on the premises in our commercial kitchen each day.</strong></p>
 

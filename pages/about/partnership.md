@@ -22,7 +22,7 @@ eleventyNavigation:
 
 ---
 
-<p>The service has strong connections with local services &amp; organisations that support families and young children.</p>
+<p>The service has strong connections with local services & organisations that support families and young children.</p>
 <p><strong>Connected with local schools</strong></p>
 <ul>
 <li><a title="Gloucester Public School" href="https://gloucester-p.schools.nsw.gov.au/" target="_blank" rel="noopener">Gloucester Public School</a></li>

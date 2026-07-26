@@ -23,7 +23,7 @@ members_only: true
 <li>Survey educators</li>
 <li>Survey families</li>
 <li>Draft philosophy and gather feedback</li>
-<li>Collaborate with educator on pedagogy, goals &amp; expectations.</li>
+<li>Collaborate with educator on pedagogy, goals & expectations.</li>
 <li>Draft and finalise document</li>
 <li>Add document to orientation package</li>
 </ul>
