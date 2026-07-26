@@ -19,7 +19,7 @@ eleventyNavigation:
   order: 4
 
 galleryimages: /static/img/Gallery
-headinggalleryimages: "More ways to enjoy"
+headinggalleryimages: "Gloucester Pre School Image Gallery"
 
 ---
 
