@@ -3501,3 +3501,28 @@ p.underbox {margin: 0;}
 		.gridprogramtime {padding:0.5rem;color: var(--primary);font-weight:bold;}
 		.gridprogramtext {padding:0.5rem 0;color: var(--black);font-weight:400;}
 		}
+
+
+    .galleryimgwrapper {
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center
+}
+.galleryimgwrapper img {
+  border-radius:.8rem;
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out
+}
+.galleryimgwrapper:hover img {
+  filter:brightness(120%);
+  border-radius:.8rem;
+  box-shadow:0 .15rem .4rem #555;
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out
+}
