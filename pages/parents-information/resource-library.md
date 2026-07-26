@@ -30,9 +30,8 @@ eleventyNavigation:
 <p>Management positions are declared vacant at the Annual General Meeting each year and all parents are welcome to stand for positions and to attend meetings.</p>
 <p>The Committee meets monthly to ensure that the service continues to operate legally, ethically and to a high standard of practice.</p>
 
----
+<figure><div class="page_img pad30"><img title="Resources" alt="Resources" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/static/img/pages/Committee_Members.png"></div></figure>
 
-### Second Content
 
 <h4>When to keep your child at home</h4>
 <p>If you suspect your child of having an infectious condition or early symptoms of illness, your child should be kept at home until you have the symptoms checked out by your local doctor, thereby protecting your child and other children in the Pre-School from unnecessary exposure to illness.</p>
@@ -58,9 +57,7 @@ eleventyNavigation:
 <p><strong>Ringworm:</strong> Until treatment has begun and a medical certificate is produced indicating so</p>
 <p><strong>Whooping cough:</strong> for at least 3 weeks and until a medical certificate is produced.</p>
 
----
-
-### Lower Content
+<figure><div class="page_img pad1rem two"><img title="Resources" alt="Resources" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-800,h-600,q-80/static/img/pages/parent/parent-2.jpg"></div></figure>
 
 <h4>Workplace Health and Safety</h4>
 <p>Gloucester Pre-School is strongly committed to maintaining a safe and healthy environment and thereby protecting all those involved in the Pre-School from any potentially adverse health and safety effects.<br /> In the interests of your safety and the safety of others, could you please abide by the following procedures when at Pre School.</p>
@@ -71,4 +68,6 @@ eleventyNavigation:
 <li>Please stay out of all storerooms.</li>
 <li>Please act in a way that ensures your own safety and the safety of others.</li>
 </ul>
-<p>For more information about our WH&amp;S policy and procedures ask a staff member.</p>
+<p>For more information about our WH&S policy and procedures ask a staff member.</p>
+
+<figure><div class="page_img pad30 three"><img title="Resources" alt="Resources" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/static/img/pages/parent/parent-3.jpg"></div></figure>
