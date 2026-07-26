@@ -3435,7 +3435,7 @@ p.underbox {margin: 0;}
 .grid-detailpage-sidebar-summary:hover .pricelistsum h4 a,
 .grid-tracks-sidebar:hover .sidebarsumtitle h3 a,
 .grid-tracks-sidebar:hover .sidebarsumtitle h4 a {
-  color:var(--black)
+  color:var(--primary)
 }
 .grid-detailpage-sidebar-summary:hover .sidebarsumborder a,
 .grid-tracks-sidebar:hover .sidebarsumborder a,
