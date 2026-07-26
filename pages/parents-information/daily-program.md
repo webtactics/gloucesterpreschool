@@ -29,9 +29,7 @@ eleventyNavigation:
 <p>We also want to provide a variety of learning experiences for a well-rounded education. So we plan a daily program that takes all of these goals into account.</p>
 <p>We follow the same routine day after day so children know what will be happening next. The day is a mix of free play, where the children can choose from the activities provided, and formal times where the children sit together and do all the same activities under staff instruction e.g. music, language groups and transition times.</p>
 
----
 
-### Second Content
 
 <h4>Gloucester Pre School Daily Program</h4>
 
@@ -124,9 +122,7 @@ eleventyNavigation:
 <p>In winter the inside and outside morning activities are rotated so we are inside first.</p>
 <p>Our programme is designed to provide a stimulating environment to encourage creativity, exploration and investigation in all areas. This will promote the development of the child. It is also flexible to meet the changing needs of children who use the service.</p>
 
----
 
-### Lower Content
 
 <h4>Arrival and Departure:</h4>
 <p><strong>Pre-School hours are 8:15 am – 3:45 pm</strong><br /> All children must be signed in and out each day using the tablets on the verandah.</p>
