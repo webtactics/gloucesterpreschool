@@ -17,7 +17,7 @@ eleventyNavigation:
   key: Positions Vacant
   order: 1
 
-subtitle: "We are currently looking for permanent &amp; casual educators"
+subtitle: "We are currently looking for permanent & casual educators"
 
 
 ---
