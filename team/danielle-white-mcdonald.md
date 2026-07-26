@@ -6,7 +6,7 @@ slug: danielle-white-mcdonald
 order: 27
 active: false
 categories: "Early Years Learning Centre (0-3 years), Yapii Room"
-image: "Danielle.jpg"
+image: 
 create_date: 2024-05-06
 modified_date: 2024-05-06
 

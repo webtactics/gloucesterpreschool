@@ -4,7 +4,7 @@ slug: calida-holstein
 order: 4
 active: true
 categories: "Administration Team"
-image: "Calida .jpg"
+image: "Calida.jpg"
 create_date: 2026-05-01
 modified_date: 2026-05-01
 

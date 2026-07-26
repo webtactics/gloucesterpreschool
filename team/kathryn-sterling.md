@@ -26,4 +26,4 @@ tags:
 ---
 
 <p>Bachelor's Degree in Early Childhood and Primary Education.</p>
-<p>Room Leader &amp; Early Childhood Teacher in the Dapin Room.</p>
+<p>Room Leader & Early Childhood Teacher in the Dapin Room.</p>
