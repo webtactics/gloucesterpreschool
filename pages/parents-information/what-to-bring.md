@@ -10,7 +10,7 @@ active: true
 secure: true
 create_date: 2022-03-31
 modified_date: 2022-08-19
-imageone: images/pages/parents/child-girl-eating-watermelon.jpg
+imageone: /static/img/pages/parent/child-girl-eating-watermelon.jpg
 
 
 permalink: /parents-information/what-to-bring/
@@ -18,9 +18,10 @@ eleventyNavigation:
   parent: Parents Information
   key: What to bring
   order: 3
+
+subtitle: "What to bring to Pre School each day"
 ---
 
-<h2>What to Bring Each Day</h2>
 <p><strong>Please clearly mark all your child's belongings with their name.</strong></p>
 <p><strong>Drinks:</strong> Your child will need a drink bottle with water in it each day they attend.</p>
 <p><strong>Sun Hat:</strong> All children need a sun hat when playing outside. Please also apply sunscreen before coming to preschool or use the sunscreen available on the sign in table.</p>
