@@ -143,6 +143,20 @@ eleventyConfig.addFilter("randomLimit", (arr, limit, currPage) => {
 
 
 
+  eleventyConfig.addFilter("sortByOrder", (arr) => {
+    if (!Array.isArray(arr)) return [];
+    return [...arr].sort((a, b) => {
+      // Fallback to a high number if 'order' is missing
+      const orderA = a.data.order ?? 999;
+      const orderB = b.data.order ?? 999;
+      return orderA - orderB;
+    });
+  });
+
+
+
+
+
   // Return sorted image file paths from a local folder (relative to project root)
   eleventyConfig.addFilter("getImagesFromFolder", function(folderPath) {
     const fs = require("fs");
