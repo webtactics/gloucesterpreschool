@@ -1,2 +1,2 @@
-<div>{% set postslist = collections['ancillary']  %} 
+<div>{% set postslist = collections['ancillary']  | sortAlphabetically("order") %}
 {% include "components/team/postslist-team-ancillary.njk" %}</div>
