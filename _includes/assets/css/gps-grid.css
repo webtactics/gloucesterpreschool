@@ -301,8 +301,8 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
   }
   
 .h2, h2 {
-  font-size: 2.5rem;
-  font-size: clamp(1.75rem, 2vw + 1.5rem, 2rem);
+  font-size: 2.2rem;
+  font-size: clamp(1.5rem, 2vw + 1.5rem, 2.2rem);
 
 }
 
