@@ -24,11 +24,11 @@ subtitle: Experienced and Qualified Staff
 
 <p><strong>Please note all teachers and educators at the Pre School are DoCS's Mandatory reporters.</strong></p>
 
-{% include "components/global/management.html" %}
-{% include "components/global/director.html" %}
-{% include "components/global/admin.html" %}
-{% include "components/global/preschool.html" %}
-{% include "components/global/early.html" %}
-{% include "components/global/additional.html" %}
-{% include "components/global/ancillary.html" %}
-{% include "components/global/mobile.html" %}
+{% include "components/team/management.html" %}
+{% include "components/team/director.html" %}
+{% include "components/team/admin.html" %}
+{% include "components/team/preschool.html" %}
+{% include "components/team/early.html" %}
+{% include "components/team/additional.html" %}
+{% include "components/team/ancillary.html" %}
+{% include "components/team/mobile.html" %}
