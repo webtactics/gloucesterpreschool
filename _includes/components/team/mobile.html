@@ -1,2 +1,2 @@
-<div>{% set postslist = collections['mobileplay']  %} 
+<div>{% set postslist = collections['mobileplay']  | sortByOrder %}
 {% include "components/team/postslist-team-mobile.njk" %}</div>
