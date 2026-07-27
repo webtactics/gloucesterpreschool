@@ -13,6 +13,8 @@ create_date: 2023-07-20
 modified_date: 2023-07-20
 
 permalink: /members/risk-assessment/
+
+subtitle: "A risk assessment plan is a structured document used to identify, evaluate, and minimise potential threats"
 ---
 
 <p>Below are some of our Pre School Risk Assessment Plans.</p>
