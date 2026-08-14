@@ -4,7 +4,7 @@ slug: amie-jacobs
 order: 12
 active: true
 categories: Ancillary Staff, Gawul Room
-image: /static/img/uploads/amie.jpg
+image: Amie.jpg
 create_date: 2022-05-05
 modified_date: 2025-02-27
 

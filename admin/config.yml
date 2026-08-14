@@ -142,7 +142,13 @@ collections:
       - { label: "Order", name: "order", widget: "number", required: false, value_type: "int" }
       - { label: "Active", name: "active", widget: "boolean", default: true }
       - { label: "Categories", name: "categories", widget: "string", required: false, hint: "Free-text room/category summary shown on the team page" }
-      - { label: "Photo", name: "image", widget: "image", required: false }
+      - label: "Photo"
+        name: "image"
+        widget: "image"
+        required: false
+        media_folder: "/static/img/pages/about/team"
+        public_folder: ""
+        hint: "Only the filename is saved (e.g. Amie.jpg) — the team photo template hardcodes this folder as an ImageKit path prefix, so the field must stay a bare filename"
       - { label: "Create Date", name: "create_date", widget: "date", required: false }
       - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
       - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
