@@ -152,7 +152,26 @@ collections:
       - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
       - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
       - { label: "Exclude From Collections", name: "eleventyExcludeFromCollections", widget: "boolean", required: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false, hint: "This is what actually assigns a person to a room, e.g. preschool, dapin — must match the collection names used by _includes/components/team/*.html" }
+      - label: "Rooms / Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        required: false
+        hint: "This is what actually assigns a person to a room and page listings — pick every group they belong to"
+        options:
+          - { label: "Dapin Room", value: "dapin" }
+          - { label: "Gawul Room", value: "gawul" }
+          - { label: "Banggu Room", value: "banggu" }
+          - { label: "Yapii Room", value: "yapii" }
+          - { label: "Mobile Playgroup", value: "mobileplay" }
+          - { label: "Additional Support", value: "additional" }
+          - { label: "Ancillary Staff", value: "ancillary" }
+          - { label: "Admin", value: "admin" }
+          - { label: "Director", value: "director" }
+          - { label: "Centre Manager", value: "centremanager" }
+          - { label: "Management Committee", value: "management-committee" }
+          - { label: "Preschool (general)", value: "preschool" }
+          - { label: "Early Years (general)", value: "earlyyears" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "video"
