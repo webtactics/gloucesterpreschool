@@ -13,8 +13,8 @@ display_url: https://gloucesterpreschool.com.au
 
 # New uploads (images picked via the media library / image widgets) are
 # committed straight into the repo as local, relative-path files.
-media_folder: "static/img/uploads"
-public_folder: "/static/img/uploads"
+media_folder: "static/img"
+public_folder: "/static/img"
 
 collections:
 
@@ -46,9 +46,11 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - label: "Image"
         name: "image"
-        widget: "string"
+        widget: "image"
         required: false
-        hint: "Full image URL (existing posts use an ImageKit CDN URL) or a local /static/img path"
+        media_folder: "/static/img/blog"
+        public_folder: ""
+        hint: "Only the filename is saved (e.g. 220802-toilet-training.jpg) — the blog templates hardcode this folder as an ImageKit path prefix, so the field must stay a bare filename"
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "events"
