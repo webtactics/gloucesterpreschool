@@ -5,7 +5,6 @@ title: "Jenny Robinson"
 slug: jenny-robinson
 order: 5
 active: false
-categories: "Pre School (3 to 5 years), Gawul Room"
 image: "Jenny.jpg"
 create_date: 2022-05-03
 modified_date: 2024-01-30

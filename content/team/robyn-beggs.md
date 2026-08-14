@@ -4,7 +4,6 @@ slug: robyn-beggs
 order: 3
 position: Director & Centre Manager
 active: true
-categories: "Director, Centre Manager & Nominated Supervisors, Administration Team"
 image: "Robyn.jpg"
 create_date: 2026-05-02
 modified_date: 2026-05-02

@@ -3,7 +3,6 @@ title: "Kathryn Sterling"
 slug: kathryn-sterling
 order: 8
 active: true
-categories: "Pre School (3 to 5 years), Dapin Room"
 image: "Kathryn.jpg"
 create_date: 2022-05-03
 modified_date: 2024-01-30

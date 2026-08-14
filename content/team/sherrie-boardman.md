@@ -3,7 +3,6 @@ title: "Sherrie Boardman"
 slug: sherrie-boardman
 order: 35
 active: true
-categories: "Additional Educators"
 image: "Sherrie.jpg"
 create_date: 2025-02-27
 modified_date: 2025-02-27

@@ -5,7 +5,6 @@ title: "Tyler Cook"
 slug: tyler-cook
 order: 7
 active: false
-categories: "Pre School (3 to 5 years), Dapin Room"
 image: "Tyler.jpg"
 create_date: 2022-05-05
 modified_date: 2024-05-06
