@@ -1,47 +1,292 @@
-# Netlify CMS Configuration File
+# Decap CMS configuration file
+# Docs: https://decapcms.org/docs/configuration-options/
 
-# The backend option specifies how to access the content for your site
 backend:
   name: git-gateway
   branch: master # The branch to update (optional; defaults to master)
 
-# Uncomment below to enable drafts https://www.netlifycms.org/docs/add-to-your-site/#editorial-workflow
+# Uncomment below to require review/approval before publishing changes
 # publish_mode: editorial_workflow
 
-# Uncomment below to enable a link to your published site in the header bar of Netlify CMS
-site_url: https://jamestaylorsolicitor.netlify.app/
+site_url: https://gloucesterpreschool.com.au
+display_url: https://gloucesterpreschool.com.au
 
-media_folder: "static/img" # Media files will be stored in the repo under images/uploads
+# New uploads (images picked via the media library / image widgets) are
+# committed straight into the repo as local, relative-path files.
+media_folder: "static/img/uploads"
+public_folder: "/static/img/uploads"
 
 collections:
-  # Our blog posts
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Post" # Used in the UI
-    folder: "posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Author", name: "author", widget: "string", default: "Anonymous" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Body", name: "body", widget: "markdown" }
-  # Our pages e.g. About
-  - name: "pages"
-    label: "Page"
-    folder: "pages"
-    create: true # Change to true to allow editors to create new pages
+
+  # ---------------------------------------------------------------------
+  # content/ — repeating, uniform content types
+  # ---------------------------------------------------------------------
+
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
     slug: "{{slug}}"
+    extension: "md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
-      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
+      - label: "Newsletter-style Date"
+        name: "newsdate"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - { label: "Day", name: "day", widget: "string" }
+          - { label: "Month", name: "month", widget: "string" }
+          - { label: "Year", name: "year", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - label: "Image"
+        name: "image"
+        widget: "string"
+        required: false
+        hint: "Full image URL (existing posts use an ImageKit CDN URL) or a local /static/img path"
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "events"
+    label: "Events & Important Dates"
+    folder: "content/events"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date", required: false }
+      - { label: "Active", name: "active", widget: "boolean", default: true, required: false }
+      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "newsletters"
+    label: "Newsletters"
+    folder: "content/newsletters"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "date", required: false }
+      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "External Link", name: "link", widget: "string", required: false, hint: "Used when the newsletter is hosted externally (e.g. Sway) instead of a PDF" }
+      - { label: "PDF Path", name: "pdf", widget: "string", required: false, hint: "Path under static/pdf/newsletters/, e.g. 2023/2301-Newsletter_January_2023.pdf" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "policies"
+    label: "Policies"
+    folder: "content/policies"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Active", name: "active", widget: "boolean", default: true }
+      - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
+      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - { label: "PDF Path", name: "pdf", widget: "string", hint: "Path under static/pdf/policies/" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "qip"
+    label: "Quality Improvement Plan"
+    folder: "content/qip"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "date", required: false }
+      - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
+      - { label: "Active", name: "active", widget: "boolean", default: true }
+      - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
+      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - { label: "PDF Path", name: "pdf", widget: "string", hint: "Path under static/pdf/qip/" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "risk"
+    label: "Risk Assessments"
+    folder: "content/risk"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
+      - { label: "Active", name: "active", widget: "boolean", default: true }
+      - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
+      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "PDF Path", name: "pdf", widget: "string", hint: "Path under static/pdf/risk/" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "team"
+    label: "Team Members"
+    folder: "content/team"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title (Name)", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Order", name: "order", widget: "number", required: false, value_type: "int" }
+      - { label: "Active", name: "active", widget: "boolean", default: true }
+      - { label: "Categories", name: "categories", widget: "string", required: false, hint: "Free-text room/category summary shown on the team page" }
+      - { label: "Photo", name: "image", widget: "image", required: false }
+      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
+      - { label: "Exclude From Collections", name: "eleventyExcludeFromCollections", widget: "boolean", required: false }
+      - { label: "Management Committee (legacy, unused — room membership is driven by Tags below)", name: "managementcommittee", widget: "boolean", default: false, required: false }
+      - { label: "Director (legacy, unused)", name: "director", widget: "boolean", default: false, required: false }
+      - { label: "Admin (legacy, unused)", name: "admin", widget: "boolean", default: false, required: false }
+      - { label: "Preschool (legacy, unused)", name: "preschool", widget: "boolean", default: false, required: false }
+      - { label: "Dapin (legacy, unused)", name: "dapin", widget: "boolean", default: false, required: false }
+      - { label: "Gawul (legacy, unused)", name: "gawul", widget: "boolean", default: false, required: false }
+      - { label: "Early Years (legacy, unused)", name: "earlyyears", widget: "boolean", default: false, required: false }
+      - { label: "Additional (legacy, unused)", name: "additional", widget: "boolean", default: false, required: false }
+      - { label: "Ancillary (legacy, unused)", name: "Ancillary", widget: "boolean", default: false, required: false }
+      - { label: "Mobile Play (legacy, unused)", name: "mobileplay", widget: "boolean", default: false, required: false }
+      - { label: "Banggu (legacy, unused)", name: "banggu", widget: "boolean", default: false, required: false }
+      - { label: "Centre Manager (legacy, unused)", name: "centremanager", widget: "boolean", default: false, required: false }
+      - { label: "Yapii (legacy, unused)", name: "yapii", widget: "boolean", default: false, required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false, hint: "This is what actually assigns a person to a room, e.g. preschool, dapin — must match the collection names used by _includes/components/team/*.html" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "video"
+    label: "Videos"
+    folder: "content/video"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
+      - { label: "Active", name: "active", widget: "boolean", default: true }
+      - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
+      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - { label: "YouTube Embed URL", name: "youtube", widget: "string", hint: "e.g. https://www.youtube.com/embed/XXXXXXXXXXX" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  # ---------------------------------------------------------------------
+  # pages/ — one-off, structural pages. Each page uses a different subset
+  # of a large shared field set (layout, nav, images, CTAs, etc). All
+  # fields below are declared so editing ANY page never silently drops
+  # frontmatter Decap doesn't know about. Split by subfolder to keep each
+  # list manageable — grouped the same way the pages/ folder already is.
+  # ---------------------------------------------------------------------
+
+  - name: "pages"
+    label: "Pages — Main"
+    folder: "pages"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields: &pageFields
+      # NOTE: every field below is a flat, top-level frontmatter key — do not
+      # wrap any of these in a widget:"object" grouping. Eleventy, its
+      # navigation plugin, and the layout/routing system all read layout,
+      # permalink, parent, eleventyNavigation, etc. as top-level frontmatter,
+      # so nesting them under a sub-object would silently break routing/nav
+      # the next time a page is saved through the CMS.
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "text", required: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Layout", name: "layout", widget: "string", required: false, hint: "Nunjucks layout template, e.g. layouts/grid-home.njk — leave as-is unless building a new page type" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Content Alias", name: "content_alias", widget: "string", required: false }
+      - { label: "Type", name: "type", widget: "string", required: false }
+      - { label: "Parent", name: "parent", widget: "string", required: false }
+      - { label: "Permalink", name: "permalink", widget: "string", required: false, hint: "Changing this changes the page's live URL" }
+      - { label: "URL", name: "url", widget: "string", required: false }
+      - { label: "Menu Text", name: "menu_text", widget: "string", required: false }
+      - { label: "Show In Menu", name: "show_in_menu", widget: "boolean", default: true, required: false }
+      - { label: "Active", name: "active", widget: "boolean", default: true, required: false }
+      - { label: "Secure", name: "secure", widget: "boolean", default: false, required: false }
+      - { label: "Protected", name: "protected", widget: "boolean", default: false, required: false }
+      - { label: "Exclude From Collections", name: "eleventyExcludeFromCollections", widget: "boolean", default: false, required: false }
+      - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
+      - { label: "CSS Class", name: "class", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "date", required: false }
+      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - label: "Navigation"
         name: "eleventyNavigation"
         widget: "object"
+        required: false
+        collapsed: true
+        hint: "Powers the site's nav menu — this one genuinely is a nested object in the source files"
         fields:
-          - { label: "Key", name: "key", widget: "string" }
-          - { label: "children", name: "children", widget: "string" }
-          - { label: "Order", name: "order", widget: "number", default: 0 }
-      - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Key", name: "key", widget: "string", required: false }
+          - { label: "Parent", name: "parent", widget: "string", required: false }
+          - { label: "Order", name: "order", widget: "number", required: false, value_type: "int" }
+      - { label: "Header Image", name: "header_image", widget: "string", required: false }
+      - { label: "Page Image", name: "page_image", widget: "string", required: false }
+      - { label: "Page Images", name: "page_images", widget: "list", required: false }
+      - { label: "Page Image (alt field)", name: "pageimage", widget: "string", required: false }
+      - { label: "Image One", name: "imageone", widget: "string", required: false }
+      - { label: "Image Two", name: "imagetwo", widget: "string", required: false }
+      - { label: "Image Three", name: "imagethree", widget: "string", required: false }
+      - { label: "Right Image", name: "rightimage", widget: "string", required: false }
+      - { label: "Gallery Images Folder", name: "galleryimages", widget: "string", required: false }
+      - { label: "Gallery Heading", name: "headinggalleryimages", widget: "string", required: false }
+      - { label: "CTA Image", name: "ctaimage", widget: "string", required: false }
+      - { label: "CTA Title", name: "ctatitle", widget: "string", required: false }
+      - { label: "CTA Text", name: "ctatext", widget: "string", required: false }
+      - { label: "CTA Link", name: "ctalink", widget: "string", required: false }
+      - { label: "Page Link", name: "pagelink", widget: "string", required: false }
+      - { label: "Privacy Policy Page", name: "privacypolicypage", widget: "string", required: false }
+      - { label: "Thank You Page", name: "thankyoupage", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "pages_about"
+    label: "Pages — About"
+    folder: "pages/about"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields: *pageFields
+
+  - name: "pages_contact"
+    label: "Pages — Contact"
+    folder: "pages/contact"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields: *pageFields
+
+  - name: "pages_learning_environments"
+    label: "Pages — Learning Environments"
+    folder: "pages/learning-environments"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields: *pageFields
+
+  - name: "pages_members"
+    label: "Pages — Members"
+    folder: "pages/members"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields: *pageFields
+
+  - name: "pages_parents_information"
+    label: "Pages — Parents Information"
+    folder: "pages/parents-information"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields: *pageFields
