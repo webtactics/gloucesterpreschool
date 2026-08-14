@@ -7,16 +7,7 @@ categories: Ancillary Staff, Gawul Room
 image: /static/img/uploads/amie.jpg
 create_date: 2022-05-05
 modified_date: 2025-02-27
-managementcommittee: null
-director: null
-admin: null
-preschool: true
-dapin: false
-gawul: true
-earlyyears: null
-additional: null
-Ancillary: null
-mobileplay: null
+
 tags:
   - preschool
   - gawul
