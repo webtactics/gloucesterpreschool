@@ -9,17 +9,6 @@ image: "Alison.jpg"
 create_date: 2024-07-29
 modified_date: 2024-08-01
 
-managementcommittee:
-director:
-admin:
-preschool: true
-dapin:
-gawul: true
-earlyyears:
-additional:
-Ancillary:
-mobileplay:
-
 
 tags:
 - preschool

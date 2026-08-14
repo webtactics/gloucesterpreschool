@@ -153,19 +153,6 @@ collections:
       - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
       - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
       - { label: "Exclude From Collections", name: "eleventyExcludeFromCollections", widget: "boolean", required: false }
-      - { label: "Management Committee (legacy, unused — room membership is driven by Tags below)", name: "managementcommittee", widget: "boolean", default: false, required: false }
-      - { label: "Director (legacy, unused)", name: "director", widget: "boolean", default: false, required: false }
-      - { label: "Admin (legacy, unused)", name: "admin", widget: "boolean", default: false, required: false }
-      - { label: "Preschool (legacy, unused)", name: "preschool", widget: "boolean", default: false, required: false }
-      - { label: "Dapin (legacy, unused)", name: "dapin", widget: "boolean", default: false, required: false }
-      - { label: "Gawul (legacy, unused)", name: "gawul", widget: "boolean", default: false, required: false }
-      - { label: "Early Years (legacy, unused)", name: "earlyyears", widget: "boolean", default: false, required: false }
-      - { label: "Additional (legacy, unused)", name: "additional", widget: "boolean", default: false, required: false }
-      - { label: "Ancillary (legacy, unused)", name: "Ancillary", widget: "boolean", default: false, required: false }
-      - { label: "Mobile Play (legacy, unused)", name: "mobileplay", widget: "boolean", default: false, required: false }
-      - { label: "Banggu (legacy, unused)", name: "banggu", widget: "boolean", default: false, required: false }
-      - { label: "Centre Manager (legacy, unused)", name: "centremanager", widget: "boolean", default: false, required: false }
-      - { label: "Yapii (legacy, unused)", name: "yapii", widget: "boolean", default: false, required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false, hint: "This is what actually assigns a person to a room, e.g. preschool, dapin — must match the collection names used by _includes/components/team/*.html" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 

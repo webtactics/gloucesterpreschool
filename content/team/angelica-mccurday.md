@@ -10,16 +10,7 @@ image: "Angelica.JPG"
 create_date: 2023-07-11
 modified_date: 2024-01-30
 
-managementcommittee:
-director:
-admin:
-preschool: true
-dapin: true
-gawul:
-earlyyears:
-additional:
-Ancillary:
-mobileplay:
+
 
 tags:
 - preschool
