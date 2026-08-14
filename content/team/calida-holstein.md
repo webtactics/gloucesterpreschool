@@ -8,17 +8,6 @@ image: "Calida.jpg"
 create_date: 2026-05-01
 modified_date: 2026-05-01
 
-managementcommittee:
-director:
-admin: true
-preschool:
-dapin:
-gawul:
-earlyyears:
-additional:
-Ancillary:
-mobileplay:
-
 tags:
 - admin
 

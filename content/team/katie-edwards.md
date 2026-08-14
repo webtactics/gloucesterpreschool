@@ -8,17 +8,6 @@ image: "KatieEdwardsAug2024.jpg"
 create_date: 2024-08-26
 modified_date: 2025-02-27
 
-managementcommittee:
-director:
-admin:
-preschool: true
-dapin:
-gawul: true
-earlyyears:
-additional:
-Ancillary:
-mobileplay:
-
 tags:
 - preschool
 - gawul

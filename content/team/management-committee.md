@@ -7,17 +7,6 @@ categories: "Committee"
 create_date: 2022-08-01
 modified_date: 2025-02-27
 
-managementcommittee: true
-director:
-admin:
-preschool:
-dapin:
-gawul:
-earlyyears:
-additional:
-Ancillary:
-mobileplay:
-
 tags:
 - management-committee
 

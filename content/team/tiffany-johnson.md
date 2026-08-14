@@ -8,17 +8,6 @@ image: "Tiff.jpg"
 create_date: 2024-01-30
 modified_date: 2025-02-27
 
-managementcommittee:
-director:
-admin:
-preschool: true
-dapin: true
-gawul:
-earlyyears:
-additional:
-Ancillary:
-mobileplay:
-
 tags:
 - preschool
 - yapii

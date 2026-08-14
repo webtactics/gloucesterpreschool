@@ -8,19 +8,6 @@ image:
 create_date: 2024-05-06
 modified_date: 2024-07-29
 
-managementcommittee:
-director:
-admin:
-preschool:
-dapin:
-gawul:
-earlyyears: true
-banggu: true
-yapii:
-additional:
-Ancillary:
-mobileplay: true
-
 tags:
 - earlyyears
 - banggu

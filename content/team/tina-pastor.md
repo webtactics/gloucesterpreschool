@@ -10,17 +10,6 @@ image: "Tina1.jpg"
 create_date: 2024-01-30
 modified_date: 2024-01-31
 
-managementcommittee:
-director:
-admin:
-preschool:
-dapin:
-gawul:
-earlyyears:
-additional:
-Ancillary: true
-mobileplay:
-
 tags:
 - ancillary
 

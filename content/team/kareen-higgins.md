@@ -9,18 +9,6 @@ image: "Kareen.jpg"
 create_date: 2026-05-01
 modified_date: 2026-05-01
 
-managementcommittee:
-director: true
-centremanager: true
-admin:
-preschool:
-dapin:
-gawul:
-earlyyears:
-additional:
-Ancillary:
-mobileplay:
-
 tags:
 - director
 - centremanager

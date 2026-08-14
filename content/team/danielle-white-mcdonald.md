@@ -10,19 +10,6 @@ image:
 create_date: 2024-05-06
 modified_date: 2024-05-06
 
-managementcommittee:
-director:
-admin:
-preschool:
-dapin:
-gawul:
-earlyyears: true
-banggu:
-yapii: true
-additional:
-Ancillary:
-mobileplay:
-
 tags:
 - earlyyears
 - yapii

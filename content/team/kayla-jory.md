@@ -10,19 +10,6 @@ image: "Kayla-Jory.jpg"
 create_date: 2026-05-26
 modified_date: 2026-05-26
 
-managementcommittee:
-director:
-admin:
-preschool:
-dapin:
-gawul:
-earlyyears: true
-banggu: true
-yapii:
-additional:
-Ancillary:
-mobileplay: 
-
 tags:
 - earlyyears
 - banggu

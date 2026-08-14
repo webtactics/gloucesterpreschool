@@ -10,19 +10,6 @@ image: "Hailey-Jo.jpg"
 create_date: 2023-02-01
 modified_date: 2025-02-27
 
-managementcommittee:
-director:
-admin:
-preschool:
-dapin: true
-gawul:
-earlyyears: true
-banggu:
-yapii: true
-additional:
-Ancillary:
-mobileplay:
-
 tags:
 - preschool
 - dapin

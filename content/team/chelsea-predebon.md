@@ -8,19 +8,6 @@ image: "Chelsea-2024.jpg"
 create_date: 2024-07-29
 modified_date: 2025-02-27
 
-managementcommittee:
-director:
-admin:
-preschool:
-dapin:
-gawul:
-earlyyears: true
-banggu:
-yapii: true
-additional:
-Ancillary:
-mobileplay:
-
 tags:
 - earlyyears
 - yapii

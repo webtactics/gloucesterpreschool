@@ -10,17 +10,6 @@ image: "Jenny.jpg"
 create_date: 2022-05-03
 modified_date: 2024-01-30
 
-managementcommittee:
-director:
-admin:
-preschool: true
-dapin:
-gawul: true
-earlyyears:
-additional:
-Ancillary:
-mobileplay:
-
 tags:
 - preschool
 - gawul
