@@ -4,7 +4,15 @@
 
 
 <div class="bordertopsumimage">
+{% if post.url.indexOf("/blog/") == 0 %}
+<a href="{{ post.url | url }}" ><img src="https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/blog/{{ post.data.image }}/tr:w-800,h-600" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="800px" height="auto" class="postlistimg"></a>
+{% elif post.url.indexOf("/content/team/") == 0 and post.data.image %}
+<a href="{{ post.url | url }}" ><img src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-800,h-600,q-60/static/img/pages/about/team/{{ post.data.image }}" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="800px" height="auto" class="postlistimg"></a>
+{% elif post.url.indexOf("/content/team/") == 0 %}
+<a href="{{ post.url | url }}" ><img src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-800,h-600,q-60/static/img/assets/person-icon-circle.png" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="800px" height="auto" class="postlistimg"></a>
+{% else %}
 <a href="{{ post.url | url }}" ><img src="{{ post.data.image }}/tr:w-800,h-600" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="800px" height="auto" class="postlistimg"></a>
+{% endif %}
 </div>
 
 
