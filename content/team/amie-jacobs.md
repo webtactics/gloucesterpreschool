@@ -11,7 +11,7 @@ managementcommittee: null
 director: null
 admin: null
 preschool: true
-dapin: true
+dapin: false
 gawul: true
 earlyyears: null
 additional: null
@@ -20,6 +20,7 @@ mobileplay: null
 tags:
   - preschool
   - gawul
+  - daupin
 ---
 
 <p>Certificate III in Early Childhood Education and Care. Educator in the Service. Cook in the Kitchen and Educator in the Gawul room.</p>
