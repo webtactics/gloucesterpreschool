@@ -12,7 +12,7 @@ newsdate:
 tags:
   - Toilet Training
 
-image: "https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/blog/220802-toilet-training.jpg"
+image: "220802-toilet-training.jpg"
 
 ---
 

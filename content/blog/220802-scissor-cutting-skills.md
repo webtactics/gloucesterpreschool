@@ -14,7 +14,7 @@ tags:
 
 author: Elizabeth
 
-image: "https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/blog/220802-scissor-skills-fine-motor-proprioception-1274x800.jpg"
+image: "220802-scissor-skills-fine-motor-proprioception-1274x800.jpg"
 
 ---
 

@@ -14,7 +14,7 @@ tags:
 
 author: Robyn
 
-image: "https://ik.imagekit.io/webtactics/gloucester-pre-school/static/img/blog/summer-heat.jpg"
+image: "summer-heat.jpg"
 
 ---
 
