@@ -1,6 +1,6 @@
 ---
-title: "Important Dates & Events"
-description: "Calendar of important dates for Gloucester Pre School"
+title: Important Dates & Events
+description: Calendar of important dates for Gloucester Pre School
 ---
 
 | # | Event | Date |
@@ -14,7 +14,7 @@ description: "Calendar of important dates for Gloucester Pre School"
 | 7 | Public Holiday - service closed | 03-10-2022 |
 | 8 | Preschool resumes for Term 4 | 10-10-2022 |
 | 9 | Preschool Term 4 - last day | 19-12-2022 |
-| 10 | Preschool Term 1 finishes | 06-04-2023 |
+| 10 | Preschool Term 1 finishes | 06-04-2024 |
 | 11 | Service Closed Good Friday and Easter Monday | 07-04-2023 |
 | 12 | Service Closed Anzac Day | 25-04-2023 |
 | 13 | Preschool Term 1 resumes | 24-04-2023 |
