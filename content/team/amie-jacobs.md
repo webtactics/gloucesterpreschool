@@ -1,28 +1,25 @@
-﻿---
-title: "Amie Jacobs"
+---
+title: Amie Jacobs
 slug: amie-jacobs
 order: 12
 active: true
-categories: "Ancillary Staff, Gawul Room"
-image: "Amie.jpg"
+categories: Ancillary Staff, Gawul Room
+image: /static/img/uploads/amie.jpg
 create_date: 2022-05-05
 modified_date: 2025-02-27
-
-managementcommittee:
-director:
-admin:
+managementcommittee: null
+director: null
+admin: null
 preschool: true
-dapin:
+dapin: true
 gawul: true
-earlyyears:
-additional:
-Ancillary:
-mobileplay:
-
+earlyyears: null
+additional: null
+Ancillary: null
+mobileplay: null
 tags:
-- preschool
-- gawul
-
+  - preschool
+  - gawul
 ---
 
 <p>Certificate III in Early Childhood Education and Care. Educator in the Service. Cook in the Kitchen and Educator in the Gawul room.</p>
