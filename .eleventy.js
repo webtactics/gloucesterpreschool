@@ -143,6 +143,12 @@ eleventyConfig.addFilter("randomLimit", (arr, limit, currPage) => {
 
 
 
+  // Drop entries switched off in the CMS ("Active" toggle -> active: false).
+  // Entries with no active field count as active.
+  eleventyConfig.addFilter("activeOnly", (arr) =>
+    Array.isArray(arr) ? arr.filter(item => item.data.active !== false) : []
+  );
+
   eleventyConfig.addFilter("sortByOrder", (arr) => {
     if (!Array.isArray(arr)) return [];
     return [...arr].sort((a, b) => {

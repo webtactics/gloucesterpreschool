@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: false
 
 title: "Hailey-Jo Gruisinga"
 slug: hailey-jo-gruisinga

@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: false
 
 title: "Spencer Muddle"
 slug: spencer-muddle

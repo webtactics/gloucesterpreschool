@@ -1,10 +1,9 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Lucy Byron"
 slug: lucy-byron
 order: 9
-active: true
+active: false
 image: "Lucy.jpg"
 create_date: 2022-05-05
 modified_date: 2025-02-27

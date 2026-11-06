@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Rachael Sommerville"
 slug: rachael-sommerville

@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: false
 
 title: "Alyssa Redman"
 slug: alyssa-redman

@@ -1,10 +1,9 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Riley Hunt"
 slug: riley-hunt
 order: 26
-active: true
+active: false
 image: "Riley.jpg"
 create_date: 2024-05-06
 modified_date: 2025-02-27

@@ -1,10 +1,9 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Angelica McCurday"
 slug: angelica-mccurday
 order: 19
-active: true
+active: false
 image: "Angelica.JPG"
 create_date: 2023-07-11
 modified_date: 2024-01-30

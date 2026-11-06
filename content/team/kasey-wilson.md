@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Kasey Wilson"
 slug: kasey-wilson

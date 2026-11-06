@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: false
 
 title: "Alannah Edwards"
 slug: alannah-edwards

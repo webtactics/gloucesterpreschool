@@ -19,7 +19,7 @@ eleventyComputed:
 
 
 
-{% set postslist = collections[tag] | reverse %}
+{% set postslist = collections[tag] | activeOnly | reverse %}
 {% include "components/postslist-tagged.njk" %}
 
 

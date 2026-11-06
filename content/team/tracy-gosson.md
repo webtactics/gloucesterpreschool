@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: false
 
 title: "Tracy Gosson"
 slug: tracy-gosson

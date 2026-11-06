@@ -145,7 +145,7 @@ collections:
       - { label: "Title (Name)", name: "title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string", required: false }
       - { label: "Order", name: "order", widget: "number", required: false, value_type: "int" }
-      - { label: "Active", name: "active", widget: "boolean", default: true }
+      - { label: "Active", name: "active", widget: "boolean", default: true, hint: "Turn off to hide this person from the website without deleting them" }
       - label: "Photo"
         name: "image"
         widget: "image"
@@ -156,7 +156,6 @@ collections:
       - { label: "Create Date", name: "create_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "Modified Date", name: "modified_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
-      - { label: "Exclude From Collections", name: "eleventyExcludeFromCollections", widget: "boolean", required: false }
       - label: "Rooms / Tags"
         name: "tags"
         widget: "select"

@@ -1,2 +1,2 @@
-<div>{% set postslist = collections['mobileplay']  | sortByOrder %}
+<div>{% set postslist = collections['mobileplay'] | activeOnly | sortByOrder %}
 {% include "components/team/postslist-team-mobile.njk" %}</div>

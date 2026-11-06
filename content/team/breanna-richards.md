@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Breanna Richards"
 slug: breanna-richards

@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Danielle White-McDonald"
 slug: danielle-white-mcdonald

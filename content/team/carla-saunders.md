@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Carla Saunders"
 slug: carla-saunders

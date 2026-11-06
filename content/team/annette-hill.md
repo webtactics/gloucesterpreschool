@@ -1,10 +1,9 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Annette Hill"
 slug: annette-hill
 order: 34
-active: true
+active: false
 image: "Annette.jpg"
 create_date: 2025-02-27
 modified_date: 2025-02-27

@@ -1,2 +1,2 @@
-<div>{% set postslist = collections['additional'] | sortByOrder %}
+<div>{% set postslist = collections['additional'] | activeOnly | sortByOrder %}
 {% include "components/team/postslist-team-additional.njk" %}</div>

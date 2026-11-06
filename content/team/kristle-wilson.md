@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Kristle Wilson"
 slug: kristle-wilson

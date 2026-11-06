@@ -1,5 +1,4 @@
 ﻿---
-eleventyExcludeFromCollections: true
 
 title: "Jenny Robinson"
 slug: jenny-robinson
