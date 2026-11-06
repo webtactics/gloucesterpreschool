@@ -1,29 +1,24 @@
 ---
-title: "About Gloucester Pre School & Early Years Learning Centre"
+title: About Gloucester Pre School & Early Years Learning Centre
+subtitle: Gloucester Pre School and Early Years Learning Centre is a non-profit
+  community-based organisation, established in 1972.
 slug: about-us
 content_alias: about-us
 type: content
 parent: root
+permalink: /about-us/
 menu_text: About Us
 show_in_menu: true
 active: true
 create_date: 2022-03-23
 modified_date: 2023-07-20
-header_image: GPS-early-learning.jpg
-page_image: about/gloucester-pre-school-backyard.jpg
-imageone: images/Gallery/EYLC_garden-walk.jpg
-
-permalink: /about-us/
 eleventyNavigation:
   key: About Us
   order: 1
-
-subtitle: "Gloucester Pre School and Early Years Learning Centre is a non-profit community-based organisation, established in 1972."
-
-
+header_image: GPS-early-learning.jpg
+page_image: about/gloucester-pre-school-backyard.jpg
+imageone: images/Gallery/EYLC_garden-walk.jpg
 ---
-
-
 <p>We operate the following services:</p>
 <ul>
 <li>Pre School for children 3 to 5 years of age</li>
@@ -33,8 +28,8 @@ subtitle: "Gloucester Pre School and Early Years Learning Centre is a non-profit
 <p><strong>The service is assessed through the National Quality Standards and is rated as Exceeding</strong></p>
 <p>Our service has been recognised for its ongoing commitment to leading the profession through the following awards.</p>
 <p>2018 Winner of the National PlaySafe Design Awards for the Education & Care Services</p>
-<p>2022 Winner of the National Hesta Leadership Award for Early Childhood education & Care Services</p>
-<p>The service is run by a parent management committee and we value parents' contributions and support parenting with information, advice, resources and the opportunity to establish new networks.</p>
+<p>2022 Winner of the National Hesta Leadership Award for Early Childhood Education & Care Services</p>
+<p>The service is run by a parent management committee, and we value parents' contributions and support parenting with information, advice, resources and the opportunity to establish new networks.</p>
 
 <figure><div class="page_img pad30"><img title="About Gloucester Pre School & Early Years Learning Centre" alt="About Gloucester Pre School & Early Years Learning Centre" src="https://ik.imagekit.io/webtactics/gloucester-pre-school/tr:w-900,h-500,q-80/static/img/pages/about/EYLC_garden-walk.jpg"></div></figure>
 
