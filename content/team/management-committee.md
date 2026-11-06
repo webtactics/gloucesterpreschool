@@ -1,7 +1,7 @@
 ﻿---
 title: "Management Committee"
 slug: management-committee
-order: 0
+order: 1
 active: true
 create_date: 2022-08-01
 modified_date: 2025-02-27
