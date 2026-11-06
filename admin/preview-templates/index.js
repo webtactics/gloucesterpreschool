@@ -8,8 +8,9 @@ CMS.registerPreviewTemplate("blog", Post);
 ["pages", "pages_about", "pages_contact", "pages_learning_environments", "pages_members", "pages_parents_information"]
   .forEach(name => CMS.registerPreviewTemplate(name, Page));
 
-CMS.registerPreviewStyle("/_includes/assets/css/inline.css");
-// Register any CSS file on the home page as a preview style
+// The site inlines its CSS into <style> blocks (there is no standalone
+// stylesheet URL), so pull both linked stylesheets and inline <style> blocks
+// off the home page and hand them to the preview pane.
 fetch("/")
   .then(response => response.text())
   .then(html => {
@@ -18,6 +19,11 @@ fetch("/")
     Array.from(f.getElementsByTagName("link")).forEach(tag => {
       if (tag.rel == "stylesheet" && !tag.media) {
         CMS.registerPreviewStyle(tag.href);
+      }
+    });
+    Array.from(f.getElementsByTagName("style")).forEach(tag => {
+      if (tag.textContent.trim()) {
+        CMS.registerPreviewStyle(tag.textContent, { raw: true });
       }
     });
   });

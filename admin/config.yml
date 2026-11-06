@@ -8,8 +8,8 @@ backend:
 # Uncomment below to require review/approval before publishing changes
 # publish_mode: editorial_workflow
 
-site_url: https://gloucesterpreschool.com.au
-display_url: https://gloucesterpreschool.com.au
+site_url: https://www.gloucesterpreschool.com.au
+display_url: https://www.gloucesterpreschool.com.au
 
 # New uploads (images picked via the media library / image widgets) are
 # committed straight into the repo as local, relative-path files.
@@ -30,7 +30,7 @@ collections:
     extension: "md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
       - { label: "Author", name: "author", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
@@ -61,9 +61,10 @@ collections:
     extension: "md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "date", required: false }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "Active", name: "active", widget: "boolean", default: true, required: false }
-      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "Create Date", name: "create_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "Description", name: "description", widget: "text", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
@@ -76,10 +77,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string", required: false }
-      - { label: "Date", name: "date", widget: "date", required: false }
-      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
+      - { label: "Create Date", name: "create_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "External Link", name: "link", widget: "string", required: false, hint: "Used when the newsletter is hosted externally (e.g. Sway) instead of a PDF" }
       - { label: "PDF Path", name: "pdf", widget: "string", required: false, hint: "Path under static/pdf/newsletters/, e.g. 2023/2301-Newsletter_January_2023.pdf" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Exclude From Collections", name: "eleventyExcludeFromCollections", widget: "boolean", required: false, hint: "Only used by the newsletters index page" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "policies"
@@ -93,8 +96,8 @@ collections:
       - { label: "Slug", name: "slug", widget: "string", required: false }
       - { label: "Active", name: "active", widget: "boolean", default: true }
       - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
-      - { label: "Create Date", name: "create_date", widget: "date", required: false }
-      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - { label: "Create Date", name: "create_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "PDF Path", name: "pdf", widget: "string", hint: "Path under static/pdf/policies/" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
@@ -107,12 +110,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string", required: false }
-      - { label: "Date", name: "date", widget: "date", required: false }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
       - { label: "Active", name: "active", widget: "boolean", default: true }
       - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
-      - { label: "Create Date", name: "create_date", widget: "date", required: false }
-      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - { label: "Create Date", name: "create_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "PDF Path", name: "pdf", widget: "string", hint: "Path under static/pdf/qip/" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
@@ -128,7 +131,7 @@ collections:
       - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
       - { label: "Active", name: "active", widget: "boolean", default: true }
       - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
-      - { label: "Create Date", name: "create_date", widget: "date", required: false }
+      - { label: "Create Date", name: "create_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "PDF Path", name: "pdf", widget: "string", hint: "Path under static/pdf/risk/" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
@@ -150,8 +153,8 @@ collections:
         media_folder: "/static/img/pages/about/team"
         public_folder: ""
         hint: "Only the filename is saved (e.g. Amie.jpg) — the team photo template hardcodes this folder as an ImageKit path prefix, so the field must stay a bare filename"
-      - { label: "Create Date", name: "create_date", widget: "date", required: false }
-      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - { label: "Create Date", name: "create_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
       - { label: "Exclude From Collections", name: "eleventyExcludeFromCollections", widget: "boolean", required: false }
       - label: "Rooms / Tags"
@@ -188,8 +191,8 @@ collections:
       - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
       - { label: "Active", name: "active", widget: "boolean", default: true }
       - { label: "Members Only", name: "members_only", widget: "boolean", default: true }
-      - { label: "Create Date", name: "create_date", widget: "date", required: false }
-      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - { label: "Create Date", name: "create_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - { label: "YouTube Embed URL", name: "youtube", widget: "string", hint: "e.g. https://www.youtube.com/embed/XXXXXXXXXXX" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
@@ -232,9 +235,9 @@ collections:
       - { label: "Exclude From Collections", name: "eleventyExcludeFromCollections", widget: "boolean", default: false, required: false }
       - { label: "Position", name: "position", widget: "number", required: false, value_type: "int" }
       - { label: "CSS Class", name: "class", widget: "string", required: false }
-      - { label: "Date", name: "date", widget: "date", required: false }
-      - { label: "Create Date", name: "create_date", widget: "date", required: false }
-      - { label: "Modified Date", name: "modified_date", widget: "date", required: false }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
+      - { label: "Create Date", name: "create_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
+      - { label: "Modified Date", name: "modified_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
       - label: "Navigation"
         name: "eleventyNavigation"
         widget: "object"
@@ -245,6 +248,7 @@ collections:
           - { label: "Key", name: "key", widget: "string", required: false }
           - { label: "Parent", name: "parent", widget: "string", required: false }
           - { label: "Order", name: "order", widget: "number", required: false, value_type: "int" }
+      - { label: "Hero / Social Image", name: "image", widget: "string", required: false, hint: "Full ImageKit URL — used for the hero banner and og:image" }
       - { label: "Header Image", name: "header_image", widget: "string", required: false }
       - { label: "Page Image", name: "page_image", widget: "string", required: false }
       - { label: "Page Images", name: "page_images", widget: "list", required: false }
